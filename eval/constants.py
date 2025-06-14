@@ -24,9 +24,9 @@ APIKEY = ""
 # instructBLIP-vicuna-13B
 # instructBLIP-flan-t5-xl
 # instructBLIP-flan-t5-xxl
-MODEL = "instructBLIP-vicuna-13B"
+MODEL = "GPT4"
 
 # file paths for where MLLM answers are stored and where accuracy result files are stored
 ANSWERS_PATH = "answers/" + MODEL + "-answers.json"
 RESULTS_PATH = "results/" + MODEL + "-accuracy-results.csv"
-DATASET_PATH = "/home/edwardsun/Documents/Code/ScAI/MLLM/MLR_dataset/"
+DATASET_PATH = "C:/EI/IS/MLLM_Final_Project/LogicVista/data/"
