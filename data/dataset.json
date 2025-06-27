@@ -8063,5 +8063,17 @@
         "imagesource": "assessmentday",
         "sourcelink": "https://www.assessmentday.com/mechanical-reasoning.htm",
         "liscenced": "true"
+    },
+    "v1_448": {
+        "imagename": "iq_test.jpeg",
+        "question": "Which letter (A–F) completes the visual logic puzzle?",
+        "answer": "E",
+        "reasoning": "The pattern involves arranging circles and squares above and below the line. In each row, the arrangement shifts consistently. The missing piece should follow this logic, ensuring the squares switch places while circles stay in their row's pattern.",
+        "skill": ["inductive"],
+        "broad_capability": ["diagram"],
+        "specific_capability": ["pattern"],
+        "imagesource": "reddit",
+        "sourcelink": "https://www.reddit.com/r/whatisit/comments/1ic9qpe/what_is_the_answer_to_this_question_on_my_iq_test/",
+        "liscenced": "false"
     }
 }

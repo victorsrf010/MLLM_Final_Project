@@ -40,7 +40,7 @@ temperature = 0.2
 # output structure
 
 # llm for
-llm = ChatOpenAI(model="gpt-4", temperature=temperature)
+llm = ChatOpenAI(model="gpt-4o", temperature=temperature)
 
 parser = PydanticOutputParser(pydantic_object=Answer)
 format_instructions = parser.get_format_instructions()
@@ -130,7 +130,9 @@ for i in tqdm(range(0, len(data))):
                     except Exception:
                         try:
                             retry_parser = RetryWithErrorOutputParser.from_llm(parser=parser, llm=OpenAI(temperature=0.7))
-                            prompt_value = prompt.format_prompt(text=entry)
+                            prompt_value = PromptTemplate.from_template(template).format_prompt(
+                                question=question, entry=entry, format_instructions=format_instructions
+                            )
                             output_choices = retry_parser.parse_with_prompt(output, prompt_value)
                         except Exception:
                             continue
@@ -158,7 +160,7 @@ for i in tqdm(range(0, len(data))):
         {
             "id": [id],
             "reasoning skill": [ground_truth[id]["skill"]],
-            "capability": [ground_truth[id]["capability"]],
+            "capability": [ground_truth[id].get("broad_capability", ["unknown"])[0]],
             "true answer": [truth_answers],
             (constants.MODEL + " answer extracted"): [MLLM_answers],
             (constants.MODEL + " answer raw"): [entry],

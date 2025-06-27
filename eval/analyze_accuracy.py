@@ -104,9 +104,9 @@ print(
 
 print(Fore.GREEN + "Capability Acc:" + Fore.WHITE)
 for i in cat:
-    curr = df[df["capability"].str.contains(i.replace(" ", ""))]
+    curr = df[df["capability"].astype(str) == i]
     correct = curr["match?"].sum()
-    acc = (correct / curr.shape[0]) * 100
+    acc = (correct / curr.shape[0]) * 100 if curr.shape[0] > 0 else float('nan')
     print(
         f"{i}: "
         + str(acc)
