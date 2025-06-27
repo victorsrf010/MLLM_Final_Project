@@ -8065,7 +8065,7 @@
         "liscenced": "true"
     },
     "v1_448": {
-        "imagename": "iq_test.jpeg",
+        "imagename": "v1_447.png",
         "question": "Which letter (A–F) completes the visual logic puzzle?",
         "answer": "E",
         "reasoning": "The pattern involves arranging circles and squares above and below the line. In each row, the arrangement shifts consistently. The missing piece should follow this logic, ensuring the squares switch places while circles stay in their row's pattern.",

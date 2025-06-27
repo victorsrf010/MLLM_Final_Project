@@ -1,0 +1,1349 @@
+{
+  "v1_0": {
+    "answer": "The pattern involves alternating the positions of the square and the circle diagonally. The top row alternates positions diagonally from bottom-left to top-right. The second row alternates from top-right to bottom-left. Therefore, the missing square must go to the bottom-left to continue the alternating pattern from the top to the bottom.\n\nC"
+  },
+  "v1_1": {
+    "answer": "The green category tiles have four numbers arranged in a diagonal line. \n\nThe choice that belongs to the green category is: **B**."
+  },
+  "v1_2": {
+    "answer": "The symbol \"X\" in the initial diagram transforms the empty square into a half-filled square, and the diamond shape maintains the transformation style but changes the shape element. Thus, applying \"X\" to the circle results in it being half-filled, leading to option D. Option B completes the bottom sequence in a similar manner by maintaining the filled section.\n\nD, B"
+  },
+  "v1_3": {
+    "answer": "The pattern involves a hexagon with two symbols: a circle and an arrow. The circle moves one vertex clockwise in each step, while the arrow moves one vertex counterclockwise. Following this pattern, the circle should be on the bottom right and the arrow on the top left in the next image.\n\nThe correct choice is **E**."
+  },
+  "v1_4": {
+    "answer": "G is the odd one out because it is a square, while all the other shapes are diamonds.\n\nG"
+  },
+  "v1_5": {
+    "answer": "The rule in the given grids appears to be that the top row contains a green square, a purple circle, and a red cross in that exact order from left to right. Options A and D follow this same rule.\n\nA, D"
+  },
+  "v1_6": {
+    "answer": "The pattern alternates between a large blue square and a small blue square, with the small blue square being followed by a downward-pointing triangle and the large blue square being followed by an upward-pointing triangle. The next in the sequence should be a small blue square with an upward-pointing triangle.\n\nThe answer is C."
+  },
+  "v1_7": {
+    "answer": "In the sequence, the direction of the arrows determines which column changes: left arrow changes the left column, right arrow changes the right column, and two arrows change both columns. The central column alternates in color. For the box with the question mark, the left arrow indicates the left column needs to change (from white to black filled squares), and the middle column remains black.\n\nThe correct answer is **F**."
+  },
+  "v1_8": {
+    "answer": "The sequence alternates between the direction of the arrows (up, down, right, left) and increases the number of dots by one each time. The next arrow should point left, and there should be four dots. Therefore, the next box is E.\n\nAnswer: E"
+  },
+  "v1_9": {
+    "answer": "The sequence alternates between a triangle and a right-pointing arrow, with the circle moving to a different position each time. The next shape should be a right-pointing arrow with the circle in the top right corner.\n\nThe correct answer is C."
+  },
+  "v1_10": {
+    "answer": "The sequence alternates between diagonal lines and vertical lines with a square moving clockwise around the corners of the box. Following this pattern, the next box should have a vertical line and the square in the bottom left corner.\n\nThe answer is E."
+  },
+  "v1_11": {
+    "answer": "The sequence alternates between a filled and an unfilled triangle, with each moving clockwise by 90 degrees. The next in the sequence should be an unfilled triangle pointing to the top. Therefore, the answer is E."
+  },
+  "v1_12": {
+    "answer": "The sequence involves the circle moving counterclockwise around the triangle each step, and the black triangle moving upwards. The next position for the circle is the bottom left corner, and the triangle should be in the middle. The correct answer is D."
+  },
+  "v1_13": {
+    "answer": "The sequence alternates between circles and squares. The pattern also switches the position of the shapes from top-to-bottom in consecutive terms. Since the last box has circles in the center, the next should be squares in the center, as in option D.\n\nD"
+  },
+  "v1_14": {
+    "answer": "The sequence involves three shapes: a large black circle with a wedge removed, a small black half-circle, and a white square. Each step moves the white square clockwise around the corners of the box. Therefore, the next box should have the white square in the lower right corner, matching option C.\n\nC"
+  },
+  "v1_15": {
+    "answer": "The sequence alternates between configurations of shapes, rotating through corners, while consistently including three black squares, one black circle, and two white diamonds. The missing box should maintain this pattern, and \"B\" matches this description.\n\nB"
+  },
+  "v1_16": {
+    "answer": "The pattern alternates between the black shapes rotating counterclockwise and the oval moving in a stepping pattern around the quadrant. The next box in the sequence should feature the small triangle from the top right in a counterclockwise bottom position and the oval in the bottom right corner.\n\nThe answer is B."
+  },
+  "v1_17": {
+    "answer": "The sequence alternates between filled and unfilled squares while the position of the black ovals rotates clockwise. Following this pattern, the next shape should be a white unfilled square with the black ovals in the rotated positions similar to option C.\n\nC"
+  },
+  "v1_18": {
+    "answer": "The sequence alternates between two patterns: black square and triangle in one corner facing diagonally, and a smaller black or white square on white background splitting positions. The next box should have a large black square and triangle, fitting option A.\n\nA"
+  },
+  "v1_19": {
+    "answer": "The pattern increases by 2 triangles for each subsequent shape. The 1st shape has 4 triangles, the 2nd has 6, and the 3rd has 8. Therefore, the 6th shape will have \\(4 + 2 \\times 5 = 14\\) triangles.\n\nC) 14"
+  },
+  "v1_20": {
+    "answer": "The correct answer is 3. According to the given statements, all famous sports players are footballers, and all footballers are fit and healthy, leading to the conclusion that all famous sports players are fit and healthy.\n\n3"
+  },
+  "v1_21": {
+    "answer": "The grid follows a pattern where each row contains three distinct shapes, and each column repeats the sequence once in a stacked manner. The missing box must continue this pattern with shapes matching those seen in similar positional logic, thus choice F completes the grid correctly.\n\nF"
+  },
+  "v1_22": {
+    "answer": "The sequence alternates between two different arrangements of three shapes. The first arrangement is squares, circles, and triangles. Therefore, the next box should match the first pattern. The correct choice is D.\n\nD"
+  },
+  "v1_23": {
+    "answer": "The statement indicates that most swallows are blue, which logically implies that at least one blue swallow exists. Therefore, the most logical conclusion is option C.\n\nC."
+  },
+  "v1_24": {
+    "answer": "To conclude that all rabbits can swim, we need to establish a link between rabbits and the ability to swim. Since all rabbits are dogs, if all dogs can swim, then all rabbits, being dogs, can swim.\n\nD."
+  },
+  "v1_25": {
+    "answer": "If two sisters answered \"Annie\", Annie must be older than both of them. Therefore, Annie cannot be the youngest sister.\n\nC. Annie is the younger sister."
+  },
+  "v1_26": {
+    "answer": "The pattern alternates between two shapes. The first shape (in positions 1 and 3) has four protruding lines; the latter (in positions 2 and 4) resembles a spinning motif with small circles inside. The missing shape (position 5) should resemble the shape in positions 1 and 3. \n\nThe correct option is D."
+  },
+  "v1_27": {
+    "answer": "The pattern alternates the direction and shading of the arrows. The sequence is: black right, grey left, white right, black left. Following this pattern, the next should be grey and pointing right.\n\nC"
+  },
+  "v1_28": {
+    "answer": "The pattern involves rotating the shape 90 degrees clockwise in each step. The first image points down, then left, up, and finally right. Following this pattern, the next rotation should point down. Option C fits this criterion.\n\nC"
+  },
+  "v1_29": {
+    "answer": "The pattern involves rotating the object progressively through each step. Observing the shapes, each step follows a counter-clockwise rotation. Therefore, the next shape in the sequence is a counter-clockwise rotation of the fourth shape.\n\nThe answer is D."
+  },
+  "v1_30": {
+    "answer": "The pattern alternates between a full shape and a half shape. The sequence is semi-circle facing downward, empty circle, semi-circle facing right, and continues. Following this alternation, the missing shape should be a semi-circle facing left.\n\nE"
+  },
+  "v1_31": {
+    "answer": "Each shape has one side bolded, and the number of sides decreases by one each time. Starting from a pentagon to a four-sided square, three-sided triangle and the two-sided angle, the next logical shape is a one-sided line. Thus, option E is the correct choice.\n\nE"
+  },
+  "v1_32": {
+    "answer": "The pattern involves alternating orientations of a divided rectangle. The shading moves downwards in a vertical bar with each pattern. Therefore, the next in the series should be an arrangement where the bar is on the right side with a lower right quadrant highlighted.\n\nThe answer is B."
+  },
+  "v1_33": {
+    "answer": "The pattern alternates between two circles with a striped circle in the middle and two circles with one striped circle at the bottom. The next in the sequence should have a striped circle in the middle. \n\nB"
+  },
+  "v1_34": {
+    "answer": "The pattern alternates between a triangle on the left and a shaded rectangle on the right. After the triangle in the sequence, a rectangle with shading at a different angle follows. Since the last shape was a shaded rectangle, the next should be a triangle on the left and an empty circle on the right, like option A.\n\nA"
+  },
+  "v1_35": {
+    "answer": "The pattern alternates between a circle with no fill and a quarter-circle with fill, with the quarter segment rotating clockwise by 90 degrees each time. Following the sequence, the next shape should be a no-fill circle again. \n\nThe answer is E."
+  },
+  "v1_36": {
+    "answer": "The pattern involves a blank circle moving from one corner to the next in a clockwise direction, starting from the top left. The next position should be the bottom right corner. Option D matches this pattern.\n\nD"
+  },
+  "v1_37": {
+    "answer": "The pattern alternates between diagonal lines forming an \"X\" pattern and horizontal lines, increasing by one line in each step. Following this sequence, the next pattern should have both horizontal and diagonal lines, as seen in option E.\n\nE"
+  },
+  "v1_38": {
+    "answer": "The pattern alternates between half-colored and fully-colored diamonds. The next shape should be a fully-colored diamond. Thus, the answer is option C.\n\nC"
+  },
+  "v1_39": {
+    "answer": "The pattern alternates between shapes with a dot and shapes without a dot. Following this pattern, the next shape in the sequence should have a dot in it. Among the options, D has a dot and matches the alternating sequence.\n\nD"
+  },
+  "v1_40": {
+    "answer": "The pattern alternates between orientations of black triangles in the first, second, and third columns. Options demonstrate alternating patterns that relate to this. The correct answer is option B, as it completes the alternating pattern between triangle orientations and placements.\n\nB"
+  },
+  "v1_41": {
+    "answer": "The Large Silver Watch shows 15:50. The Gold Watch, 10 minutes slower, shows 15:40. The Small Silver Watch shows the same time as the Gold Watch, which is 15:40, not 16:00.\n\nB"
+  },
+  "v1_42": {
+    "answer": "The Large Silver Watch shows 15:50. The Gold Watch is ten minutes slower, so it displays 15:40, which matches the time in the statement.\n\nA"
+  },
+  "v1_43": {
+    "answer": "The information given indicates that the Bronze Watch is small in size, but it doesn't specify the size of the Silver Watch. Therefore, the information is insufficient to determine if the Bronze and Silver Watches are the same size.\n\nC"
+  },
+  "v1_44": {
+    "answer": "The Large Silver Watch shows 15:50. The Gold Watch, being 10 minutes slower, shows 15:40. The Small Silver Watch also shows 15:40 as it displays the same time as the Gold Watch. The Bronze Watch is 5 minutes faster than the Small Silver Watch, showing 15:45. Thus, the Gold Watch and the Bronze Watch do not show the same time.\n\nB"
+  },
+  "v1_45": {
+    "answer": "First, sort the paintings by genre: Abstract (Painting I, Painting III), Classical (Painting II, Painting V), Modern (Painting IV). Then, within each genre, sort by title alphabetically: Abstract (Remix, Morphism), Classical (Desecrate, Fugue), Modern (Instant). The fourth painting is the first in the Modern genre.\n\nD"
+  },
+  "v1_46": {
+    "answer": "Kim Ramirez sold her painting titled \"Remix\" for £6,000 and used £4,500 to purchase \"Instant.\" The remaining amount is £1,500, which matches the price of Painting II, \"Desecrate.\"\n\nAnswer: B"
+  },
+  "v1_47": {
+    "answer": "To determine if taking Medicine B reduces the duration of Ailment C by twelve days, we need to know the original duration of Ailment C. Since the text states that Medicine B halves the duration of Ailment C, the duration of the ailment before and after the medication is not specified, we cannot confirm a reduction of twelve days specifically. \n\nC) Insufficient Information"
+  },
+  "v1_48": {
+    "answer": "To solve this, let's use the given information to find the durations:\n\n1. Ailment A and B last for eight days: \\( A = 8 \\), \\( B = 8 \\).\n2. Ailment B lasts half the duration of Ailment D: \\( B = \\frac{D}{2} \\), so \\( D = 16 \\).\n3. Ailment C lasts twice as long as Ailment D: \\( C = 2D ="
+  },
+  "v1_49": {
+    "answer": "Ailment D is twice the duration of Ailment B. Since Ailment B lasts for 8 days, Ailment D lasts 16 days. With Medicine C reducing Ailment D by five days, the duration becomes 11 days.\n\n(A) True"
+  },
+  "v1_50": {
+    "answer": "Ailment D is twice the duration of Ailment B, which lasts 8 days, so D lasts 16 days. While Medicine C reduces D by 5 days (16 - 5 = 11 days), there is no information about the effect of \"appropriate Medicine\" on Ailment A.\n\nC) Insufficient Information"
+  },
+  "v1_51": {
+    "answer": "The statement that must be demonstrably false is (C) because the passage states that MDBs lend money as very long-term loans, not short-term loans.\n\nC"
+  },
+  "v1_52": {
+    "answer": "To find the share with the largest price difference, calculate the difference between the max and min prices for each:\n\n- Huver Co.: 1,360 - 860 = 500\n- Drebs Ltd: 22 - 11 = 11\n- Fevs Plc: 1,955 - 1,242 = 713\n- Fauvers: 724 - 464 = 260\n- Steapars: 2,630 - 2,216 = 414"
+  },
+  "v1_53": {
+    "answer": "To find the previous share price of Drebs Ltd, let the price one month ago be \\( x \\). Given today's price is €18, and it's a 40% increase:\n\n\\( x \\times 1.40 = 18 \\).\n\nSolve for \\( x \\): \n\n\\( x = \\frac{18}{1.40} = 12.86 \\).\n\nThe share price a month ago was €12.86.\n\n**E**"
+  },
+  "v1_54": {
+    "answer": "The Xtam car's motorway fuel consumption is roughly 36 miles per gallon. Traveling 4,250 miles per month results in 51,000 miles per year. The predicted annual fuel consumption is 51,000 miles / 36 miles per gallon ≈ 1,417 gallons, so the closest option is (E) 1,250 gallons.\n\nE"
+  },
+  "v1_55": {
+    "answer": "To find the largest number of each car type that can be ordered, first calculate the combined cost for one Taber and one Ursa car, which is £12,500 + £15,250 = £27,750. Next, divide the total budget by the combined cost: £600,000 / £27,750 ≈ 21.63. Thus, the largest whole number of each type is 21.\n\nThe answer is D."
+  },
+  "v1_56": {
+    "answer": "In Year 4, legal sector spending was approximately £30 million on IT Hardware, £15 million on IT Software, and £15 million on IT Consulting. In Year 5, spending increased to about £40 million, £20 million, and £20 million, respectively. The total increase was £15 million. Adding this to Year 5's total of £80 million gives £95 million for Year 6.\n\n(C) £95 million"
+  },
+  "v1_57": {
+    "answer": "IT consulting in Year 4 is about 15 million and is projected to be 20 million in Year 5, so A is true. IT consulting in Year 2 is about 20 million, which matches Year 5, so B is true. IT software is projected at about 25 million, exceeding IT consulting's 20 million, so C is true. IT hardware is projected to increase, not decline, so D is false.\n\n**D**"
+  },
+  "v1_58": {
+    "answer": "IKE Computers needs a 1.5% increase in January's gross profit of £36,521, which means a target gross profit of £37,069. If costs remain constant, then net turnover needs to be £239,069. Accounting for a 14% sales tax with the formula \\(\\text{Net Turnover} = \\text{Sales Turnover} - \\text{Sales Turnover} \\times 0.14\\), the required sales turnover is £277,"
+  },
+  "v1_59": {
+    "answer": "Replacing twenty permanent employees with interim staff at £3,000 each would result in a new labour cost of \\(166,000 - 20 \\times \\left(\\frac{166,000}{80}\\right) + 20 \\times 3,000\\). The calculation shows no change in total cost. Therefore, the answer is (A) Cannot tell."
+  },
+  "v1_60": {
+    "answer": "The Pacific Rim profit from government contracts is £3.6 million. Given the profit to turnover ratio of 2:15, we calculate the turnover as \\((3.6/2) \\times 15 = 27\\) in £ million, which is 270 in £100,000s.\n\nC"
+  },
+  "v1_61": {
+    "answer": "To find how much the Leisure profits missed the target, calculate the total profits first: \\(4.6 + 7.4 + 5.2 + 6.3 + 7.2 + 5.0 + 3.8 + 5.8 + 4.4 + 3.6 + 5.9 + 4.5 + 6.2 + 5.1 + 3.5 = 74.5\\) million."
+  },
+  "v1_62": {
+    "answer": "To find the difference, subtract the total telesales (£72 million) from the total direct sales (£84 million) across the five teams: £84 million - £72 million = £12 million.\n\n(C) £12 million"
+  },
+  "v1_63": {
+    "answer": "To find the total sales for all regions, first determine the total sales for the Eastern Region. Adding the direct and telesales from the graph: Team A (15+12), Team B (16+11), Team C (17+13), Team D (14+16), and Team E (15+18) results in 147 million. Since this represents 26% of the total sales, divide 147 by 0.26 to get approximately 565 million. The closest option"
+  },
+  "v1_64": {
+    "answer": "Company B's current profit per employee is £3,250 (£26,000/8). To achieve £39,000 profit, they need 12 employees (£39,000/£3,250). Thus, they need 4 more employees (12 - 8 = 4).\n\nD"
+  },
+  "v1_65": {
+    "answer": "The PC Room experienced the smallest reduction in kWh used, increasing from 20% to 21% of the total, which corresponds to a reduction of only 300 kWh compared to larger decreases in other spaces.\n\nD"
+  },
+  "v1_66": {
+    "answer": "To find the percentage of unemployed people, add the number of unemployed males (52,000) and females (43,000) to get 95,000. The total number of people sampled is 1,343,000 (males) + 1,031,000 (females) = 2,374,000. The percentage of unemployed people is (95,000 / 2,374,000) × 100%, which is approximately 4%.\n\nAnswer:"
+  },
+  "v1_67": {
+    "answer": "For September, calculate the total accident costs for each town and divide by the total number of vehicles across all towns. Total cost: Ribley (£11,400), Wartop (£57,600), Surren (£21,000). Total vehicles: 281,000. Average cost per vehicle = (£90,000 / 281,000) = £0.32.\n\nB"
+  },
+  "v1_68": {
+    "answer": "In 1996, coal made up 35% of 200 TWh, so coal's output was 70 TWh. Therefore, the 2006 nuclear output, which is twice the 1996 coal output, is 140 TWh.\n\nA"
+  },
+  "v1_69": {
+    "answer": "To determine which figure is a rotation of the object, observe the orientation and placement of the dark square. Figure D is a rotation of the object with the dark square on the top left.\n\nD"
+  },
+  "v1_70": {
+    "answer": "The original figure can be rotated to match option D. Both have the dark face on the vertical edge of the short segment.\n\nD"
+  },
+  "v1_71": {
+    "answer": "The correct figure is C. Figure C is a 90-degree clockwise rotation of the first figure, with all elements maintaining their relative positions.\n\nC"
+  },
+  "v1_72": {
+    "answer": "The solid in the image is a cube with a pattern of stripes on three adjacent faces. The correct piece must show this pattern, which is consistent with net B.\n\nB"
+  },
+  "v1_73": {
+    "answer": "The solid has a distinct profile on one face with a step-like extension, which matches the form in option D. The dimensions and configuration of the shapes in the solid are represented accurately in D.\n\nD"
+  },
+  "v1_74": {
+    "answer": "The given shape is a 2D net of cubes that, when folded, forms a three-dimensional figure similar to figure B with three cubes stacked vertically and offset.\n\nB"
+  },
+  "v1_75": {
+    "answer": "The shapes can be arranged by rotating them 2D to form figure (C).\n\nC"
+  },
+  "v1_76": {
+    "answer": "The pieces fit together as shown in figure B. The square and the rectangular pieces align to form a continuous base, while the triangular piece fits on top to complete the shape.\n\nB"
+  },
+  "v1_77": {
+    "answer": "The top view shows a square with an L-shaped section and a circle. This matches object B, which has these components visible from the top.\n\nThe letter is: B"
+  },
+  "v1_78": {
+    "answer": "A vertical reflection across the x-axis inverts the direction of the arrows while keeping their positions horizontally aligned. Figure B illustrates this transformation correctly, as the arrows are inverted accordingly.\n\nB"
+  },
+  "v1_79": {
+    "answer": "The cube can be formed by folding the shape so that the adjacent sides align. The positions of the lines and dots should match in the folded cube. Cube B matches these positions.\n\nB"
+  },
+  "v1_80": {
+    "answer": "The top view of the given object would be a square divided into four smaller squares. Image D matches this description.\n\nD"
+  },
+  "v1_81": {
+    "answer": "The figure fits into Set A. In Set A, the black stars are positioned on the middle and bottom rows. In Set B, black stars are in the top and middle rows. The figure aligns with the pattern in Set A.\n\n(A) Set A"
+  },
+  "v1_82": {
+    "answer": "The Figure belongs to Set B, as it shares the characteristic of having a black triangle with a white star inside, similar to one of the figures in Set B.\n\n(B) Set B"
+  },
+  "v1_83": {
+    "answer": "The Figure belongs to Set A. Both the Figure and Set A contain circles and angular, interconnected lines.\n\nC"
+  },
+  "v1_84": {
+    "answer": "The Figure belongs to Set A. In Set A, each configuration contains the same number of shaded, unshaded, and cross-hatched circles (two of each type). The Figure also has two shaded, two unshaded, and two cross-hatched circles.\n\nA"
+  },
+  "v1_85": {
+    "answer": "The Figure includes elements like \"@\", \"+\", and \"□\", which are from both sets' symbols, but mainly align with Set B, which contains shapes and simple symbols. Set A contains more distinct special characters. \n\nB"
+  },
+  "v1_86": {
+    "answer": "The Figure belongs to Set B. Both the Figure and the patterns in Set B have more stars than circles in the center.\n\n(C)"
+  },
+  "v1_87": {
+    "answer": "The Figure belongs to Set B because it consists of triangles with internal lines or patterns similar to those in Set B.\n\n(B) Set B"
+  },
+  "v1_88": {
+    "answer": "The figure belongs to Set B, as it contains four different shapes (star, triangle, square, and circle) with a mix of filled and unfilled elements, matching the pattern in Set B.\n\n(B) Set B"
+  },
+  "v1_89": {
+    "answer": "The Figure belongs to Set B as it shares the pattern of having two chimneys, two windows on top, and a door with two windows at the bottom, which is consistent with the features of Set B.\n\n(B) Set B"
+  },
+  "v1_90": {
+    "answer": "The Figure belongs to Set B. Both Set B and the Figure have two squares with horizontal lines and one black square.\n\n(B) Set B"
+  },
+  "v1_91": {
+    "answer": "The figure belongs to Set A. In Set A, the outer shape is the same as the innermost shape, whereas in Set B, the outer shape and innermost shape differ. The figure has a square as both the outer and innermost shape.\n\nC."
+  },
+  "v1_92": {
+    "answer": "The figure belongs to Set B. Set B includes groups of stars with differing sizes, similar to the arrangement shown in the figure with both large and small stars.\n\n(B) Set B"
+  },
+  "v1_93": {
+    "answer": "The figure belongs to Set B. Both the figure and Set B feature a combination of five different shapes that include a mix of filled and unfilled shapes, similar to existing patterns in Set B.\n\n(C) Neither set A nor set B"
+  },
+  "v1_94": {
+    "answer": "The Figure belongs to Set A. Set A features three black shapes in contrasting directions, whereas Set B doesn't have these characteristics.\n\nA"
+  },
+  "v1_95": {
+    "answer": "The Figure belongs to Set B. Set B's pattern involves alternating or symmetric black and white shapes, which matches the alternating black and white pattern of diamonds in the Figure.\n\n(C) Neither set A nor set B"
+  },
+  "v1_96": {
+    "answer": "The figure belongs to Set B as it follows the pattern of alternating black and white petals starting with black on the left. \n\n(B) Set B"
+  },
+  "v1_97": {
+    "answer": "The figure belongs to Set A. Both the figure and Set A have a similar arrangement of shapes with stars inside the dashed circle and other shapes surrounding it.\n\n(B) Set A"
+  },
+  "v1_98": {
+    "answer": "The figure belongs to Set B. In Set B, each figure has four circles in the corners, with three black and one white, which matches the pattern in the given figure.\n\nB"
+  },
+  "v1_99": {
+    "answer": "The figure belongs to Set B. In Set B, the shapes have parallel lines that are all vertical. The figure has vertical lines inside a diamond shape, matching Set B's pattern.\n\n(C) Neither set A nor set B"
+  },
+  "v1_100": {
+    "answer": "The Figure belongs to Set A. In Set A, all figures have a pattern with two rows of black circles and two rows of white circles. The Figure follows this pattern.\n\n(A) Set A"
+  },
+  "v1_101": {
+    "answer": "The Figure belongs to neither set A nor set B because it contains concentric squares, which do not appear in either set A or set B.\n\n(C) Neither set A nor set B"
+  },
+  "v1_102": {
+    "answer": "The figure belongs to Set B because it has two stars, one of which is black, which follows the characteristic rule of Set B.\n\n(B) Set B"
+  },
+  "v1_103": {
+    "answer": "The figure belongs to Set B. Each figure in Set B has exactly one half-black, half-white circle, which the given figure also has.\n\n(C) Neither set A nor set B"
+  },
+  "v1_104": {
+    "answer": "The Figure aligns with Set A's pattern of containing both black and white shapes of the same type, arranged symmetrically. Set B lacks this symmetry. Therefore, the Figure belongs to Set A.\n\n(A) Set A"
+  },
+  "v1_105": {
+    "answer": "The Figure belongs to Set A; both the Figure and Set A have a horizontal line above a vertical line. \n\nAnswer: A"
+  },
+  "v1_106": {
+    "answer": "The figure belongs to Set B. It has 5 blocks, similar to the figures in Set B, while Set A figures all have 4 blocks.\n\nC) Neither set A nor set B"
+  },
+  "v1_107": {
+    "answer": "The Figure belongs to Set A, where lines form angular and simple geometrical shapes without crossing. In Set B, lines mostly cross each other or form an addition-like sign.\n\nA"
+  },
+  "v1_108": {
+    "answer": "The Figure belongs to Set B. Both the Figure and Set B contain patterns that include black and white squares with similar arrangements of filled and unfilled areas.\n\nB"
+  },
+  "v1_109": {
+    "answer": "The figure belongs to Set B. Set B has two shapes with black diamonds, the same as the figure.\n\n(B) Set B"
+  },
+  "v1_110": {
+    "answer": "The figure belongs to Set A. It matches the pattern of having a square in the center with alternating black and white circles around it.\n\nA"
+  },
+  "v1_111": {
+    "answer": "The transformation applied is \"Each symbol moves one place to the right.\" Applying this to the second box of symbols results in the symbols from the second box: ⊙≫, moving to form ⊙≫ as the answer. \n\nD"
+  },
+  "v1_112": {
+    "answer": "The transformation shows that the activation of the green circle causes the three symbols to move one place to the left. This means the square will be first, the circle in the middle, and the triangle last. The shading of the full-sized symbols (either the circle or triangle) is also changed. \n\nThe answer is C."
+  },
+  "v1_113": {
+    "answer": "The transformation shown involves replacing circles with triangles. Given the initial sequence and the resulting diagram, the one that fits the transformation logic is (D), where circles are replaced by triangles.\n\nD"
+  },
+  "v1_114": {
+    "answer": "The diagram replaces the second and third symbols with their 90° clockwise rotations. Therefore, the correct answer is D."
+  },
+  "v1_115": {
+    "answer": "The transformation process involves replacing all squares with stars. In the given sequence, the black square will be replaced by a black star, resulting in a circle, star, and new black star configuration.\n\nThe answer is **B**."
+  },
+  "v1_116": {
+    "answer": "The transformation applied is a rotation of all symbols 90° clockwise, as indicated by the symbol in choice D.\n\nD"
+  },
+  "v1_117": {
+    "answer": "In the given sequence, the first transformation changes the shading of the symbols with a round edge and the second transformation replaces all squares with stars. Applying these transformations, option C is correct.\n\nC"
+  },
+  "v1_118": {
+    "answer": "The left diagram is transformed to the right one by rotating all symbols 90° clockwise. Applying this transformation, the diagram that replaces the question mark is A.\n\nA"
+  },
+  "v1_119": {
+    "answer": "The pattern shows that circles are replaced with triangles. Applying this rule to the middle pair of circles, the diagram with two white triangles, matching option C, replaces the circles in the sequence.\n\nC"
+  },
+  "v1_120": {
+    "answer": "The first diagram reflects all symbols in the Y axis and arrows indicate each transformation step by step. In the given sequence, the pattern reflects symbols next, so the missing diagram is D.\n\nD"
+  },
+  "v1_121": {
+    "answer": "The second diagram in the sequence reflects all symbols in the X axis, according to the logic from the top row. Thus, the correct replacement diagram is (B), which reflects the symbols horizontally.\n\nB"
+  },
+  "v1_122": {
+    "answer": "The operation shown changes the size of the 1st and 3rd symbols, making them larger. Applying this logic, option B is the correct choice because it maintains the sequence of a small triangle, large circle, and another smaller triangle.\n\nB"
+  },
+  "v1_123": {
+    "answer": "To solve the problem, apply the rule corresponding to the symbol in the middle. The middle symbol (green with two humps) corresponds to replacing all squares with stars. Thus, the pattern should have three stars.\n\nAnswer: C"
+  },
+  "v1_124": {
+    "answer": "The transformation changes the size of the first and third symbols, as described in the rule. This matches with diagram B.\n\nB"
+  },
+  "v1_125": {
+    "answer": "The diagram transforms by reflecting all symbols in the X axis. Therefore, the correct answer is the option that reflects the initial symbols horizontally.\n\nB"
+  },
+  "v1_126": {
+    "answer": "The diagram follows the combined rule shown at the top where the first circle is replaced with a triangle using the triangle icon. Therefore, the correct replacement is the diagram with a triangle, circle, triangle.\n\nThe answer is B."
+  },
+  "v1_127": {
+    "answer": "The transformation involves changing the shading on the full-sized symbol in the sequence. So, the correct replacement diagram should match the pattern of altering just the full-sized circle's shading.\n\nThe correct answer is **A**."
+  },
+  "v1_128": {
+    "answer": "The diagram rule replaces circles with triangles. Therefore, the sequence of symbols should start with circles. The diagram that fits this criterion is B.\n\nB"
+  },
+  "v1_129": {
+    "answer": "The diagram with the arrows in the question indicates that each symbol moves one place to the right. Starting with the last configuration shown, if each symbol moves one place to the right again, the configuration before the change should match option B.\n\nB"
+  },
+  "v1_130": {
+    "answer": "The green symbols in the sequence first change the shading on symbols, then change the shading of symbols with a round edge. Thus, the white U becomes black, and the black circle turns white. The result matches option A.\n\nA"
+  },
+  "v1_131": {
+    "answer": "As the air escapes, the water replaces the air in the tank, making the tank heavier and increasing its overall density, causing it to sink further. \n\nD"
+  },
+  "v1_132": {
+    "answer": "The middle of the bridge will undergo the most deflection because it is furthest from the supports and experiences the maximum bending moment under uniform loading conditions.\n\n(C) Middle of the bridge"
+  },
+  "v1_133": {
+    "answer": "Convex mirrors provide a wider field of view, which helps reduce blind spots. This makes them ideal for rear-view mirrors in vehicles. \n\n(C) The wider angle of view reduces blind spots."
+  },
+  "v1_134": {
+    "answer": "Cold air is denser than warm air, so when the front door is opened, the cold air will flow in towards the floor.\n\nA"
+  },
+  "v1_135": {
+    "answer": "As the water level goes down, the pressure at the hole decreases, leading to a decrease in the speed of the water coming out. This is due to the dependence of flow speed on the hydrostatic pressure, which is lower with less water. \n\n(C)"
+  },
+  "v1_136": {
+    "answer": "The candle in a small sealed jar (A) will extinguish first because it has the least amount of oxygen available. The holes in the jar for C allow some air exchange, and the larger jar B provides more oxygen initially.\n\nA"
+  },
+  "v1_137": {
+    "answer": "Thicker springs generally have more stiffness and force, allowing the door to close faster due to the increased tension. Thus, the door will close faster.\n\nD"
+  },
+  "v1_138": {
+    "answer": "The design with longer handles provides greater mechanical advantage, making it easier to apply sufficient force to cut through thick bolts. \n\nB"
+  },
+  "v1_139": {
+    "answer": "Since the distance between the car and the fire engine is not changing, both vehicles must be traveling at the same speed. Therefore, the car's speed is 60 mph.\n\n(C) 60 mph"
+  },
+  "v1_140": {
+    "answer": "A halligan with a longer handle provides more leverage, requiring less effort to open a door. Therefore, option D, with the longest handle, would require the least effort.\n\n(D) D"
+  },
+  "v1_141": {
+    "answer": "The turquoise gears rotate in opposite directions. Therefore, the orange gear rotates in the same direction as the rightmost turquoise gear, which is clockwise.\n\nA"
+  },
+  "v1_142": {
+    "answer": "In this gear train, adjacent gears rotate in opposite directions. If the large blue gear rotates clockwise, the small blue gear next to it rotates counterclockwise. This alternates direction back to the orange gear, which will rotate clockwise.\n\n(A) Clockwise"
+  },
+  "v1_143": {
+    "answer": "The orange gear will rotate clockwise. As the large blue gear rotates counterclockwise, the small blue gear connected by a belt will rotate in the same direction. This causes the orange gear to rotate in the opposite direction of the small blue gear, which is clockwise.\n\nA"
+  },
+  "v1_144": {
+    "answer": "For the scale to be balanced, the moments around the fulcrum must be equal. This means \\(5 \\text{ lb} \\times 2 \\text{ ft} = ? \\text{ lb} \\times 5 \\text{ ft}\\). Solving for ?, we get \\(? = 2 \\text{ lb}\\). \n\nB"
+  },
+  "v1_145": {
+    "answer": "To balance the moments, calculate the moment on the left: \\( (20 \\, \\text{lb} \\times 6 \\, \\text{ft}) + (30 \\, \\text{lb} \\times 3 \\, \\text{ft}) = 120 \\, \\text{lb} \\cdot \\text{ft} + 90 \\, \\text{lb} \\cdot \\text{ft} = 210 \\, \\text{lb}"
+  },
+  "v1_146": {
+    "answer": "To find the effort required, use the formula for mechanical advantage of an inclined plane: effort = weight × (height of platform / length of ramp). The effort is \\(180 \\, \\text{lb} \\times (15/45) = 60 \\, \\text{lb}\\).\n\n**C**"
+  },
+  "v1_147": {
+    "answer": "The weight pushing down on the orange pole is highest in situation B, as the angle of the weight is more vertical, applying a greater direct force onto the pole.\n\nB"
+  },
+  "v1_148": {
+    "answer": "The weight pushing down on the orange pole is highest in Situation A because the larger pulley in Situation B distributes the weight more effectively, reducing the force on the pole.\n\n(A) Situation A"
+  },
+  "v1_149": {
+    "answer": "A device used to store electrical energy is known as a capacitor. Capacitors store energy in an electric field, and although \"capacitator\" is a misspelling, option C is intended to represent a capacitor. \n\nC"
+  },
+  "v1_150": {
+    "answer": "The resistors R1 and R2 are in series, so the total resistance is the sum of the resistances: R1 + R2 = 4 ohm + 6 ohm = 10 ohm.\n\nB"
+  },
+  "v1_151": {
+    "answer": "In a two-stroke engine, the intake and compression strokes occur simultaneously as the piston moves to the top, drawing in air-fuel mixture while compressing the previously drawn mixture. \n\nC"
+  },
+  "v1_152": {
+    "answer": "A processor executes logical commands and performs calculations needed to control sensors and actuators, as it is responsible for processing instructions. \n\nA"
+  },
+  "v1_153": {
+    "answer": "The pendulum inside the wagon deflects in the opposite direction of acceleration due to inertia. Since the pendulum is leaning towards A, the wagon is accelerating towards B.\n\n(B) B"
+  },
+  "v1_154": {
+    "answer": "Both balls A and B will reach the floor at the same time because they are dropped simultaneously from the same height, with gravity being the only force acting on them vertically.\n\n(C) C"
+  },
+  "v1_155": {
+    "answer": "Bird A will experience less resistance flying because its streamlined body and wings are aligned with the wind, reducing drag. \n\nA"
+  },
+  "v1_156": {
+    "answer": "Granary A consists of four cylinders, each with a height of 10 ft, so the total volume is \\(4 \\times \\pi \\times (5)^2 \\times 10\\). Granary B is a single cylinder with a height of 40 ft, with volume \\(\\pi \\times (5)^2 \\times 40\\). Both have the same total volume; hence, the answer is C.\n\nC"
+  },
+  "v1_157": {
+    "answer": "The correct diagram is B. The elastic partition should be positioned in a way that allows the connecting pipe to access both columns of liquid under the influence of the black arrow forces, representing the movement needed.\n\nB"
+  },
+  "v1_158": {
+    "answer": "The fully inflated balloon, Balloon A, has more air pressure inside compared to the half-inflated Balloon B because it is stretched more and contains more air in a confined space.\n\nA"
+  },
+  "v1_159": {
+    "answer": "A will need to apply more force to lift the weight because he is using a single pulley system, whereas B is using a compound pulley system which reduces the required force. \n\n(A) A"
+  },
+  "v1_160": {
+    "answer": "The small wheel turning counterclockwise will cause the first large wheel to rotate clockwise, which in turn will make the second large wheel rotate counterclockwise. This will make the middle small wheel attached directly to the shaft turn clockwise, leading to the marked wheel rotating in direction B.\n\nB"
+  },
+  "v1_161": {
+    "answer": "The grey wheel will turn in direction B. When the orange wheel turns clockwise, it moves the rack left, causing the grey wheel to turn counter-clockwise.\n\nB"
+  },
+  "v1_162": {
+    "answer": "To balance the seesaw, the acrobat should move in direction A. This will shift the weight toward the box, which is needed to balance the seesaw.\n\nA"
+  },
+  "v1_163": {
+    "answer": "The swing speed of a pendulum depends on its length, not its mass. Assuming both pendulums have the same length, they will swing at the same rate. \n\nC"
+  },
+  "v1_164": {
+    "answer": "If the wood is already smoking at 15 inches, this distance is likely optimal for concentrating sunlight to ignite the fire. Moving farther or closer might defocus the light.\n\nC"
+  },
+  "v1_165": {
+    "answer": "When the string tears, the stone will fly off in the direction of its instantaneous velocity, which is tangent to the circle. This direction is perpendicular to the circle's radius at the point of release.\n\n**C**"
+  },
+  "v1_166": {
+    "answer": "To balance the lever, the moments around the fulcrum must be equal. For a 4 kg and 8 kg weight, the fulcrum should be placed closer to the heavier weight. The moment arm ratio should equal the inverse of their weight ratio, so \\( x : (15-x) = 1:2 \\), giving \\( x = 5 \\).\n\nThe correct answer is: (B) 5 cm."
+  },
+  "v1_167": {
+    "answer": "In the left image, the weight is inclined towards Pole 1, increasing the force on it due to leverage. In the right image, the weight is directly above Pole 2, distributing the weight equally. Therefore, Pole 1 in the first image experiences more pressure.\n\nA"
+  },
+  "v1_168": {
+    "answer": "When the piston moves from position A to B, the volume of the gas is reduced to one-third. According to Boyle’s Law, if the volume decreases by a factor of three, the pressure increases by a factor of three.\n\nA"
+  },
+  "v1_169": {
+    "answer": "As the rack moves left, it causes the top cogwheel to rotate counterclockwise and the bottom cogwheel to rotate clockwise. The different sizes of the cogwheels can lead to different rotational velocities.\n\n(D) Different directions, different velocities"
+  },
+  "v1_170": {
+    "answer": "In the circuit, the resistors \\( R_1 = 240 \\, \\Omega \\), \\( R_2 = 40 \\, \\Omega \\), and \\( R_3 = 80 \\, \\Omega \\) are in parallel. The total resistance \\( R_t \\) for parallel resistors is given by:\n\n\\[\n\\frac{1}{R_t} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac"
+  },
+  "v1_171": {
+    "answer": "The marked box has six possible places where other boxes can touch it: top, bottom, front, back, left, and right. All these positions are occupied by other boxes, so it is touched by six boxes.\n\n(C) 6"
+  },
+  "v1_172": {
+    "answer": "Option D represents the cube in its folded form. When folding the net, the shaded corners align on adjacent faces as shown in option D.\n\nD"
+  },
+  "v1_173": {
+    "answer": "The combination that is a rotation of the top one is option B. The shapes match in structure and relative positions, confirming it as a rotated version of the top combination.\n\n(B) B"
+  },
+  "v1_174": {
+    "answer": "Wheels A, D, and F turn counter-clockwise. The wire moves to the left at A, and each wheel alternates direction as the wire wraps around them.\n\nThe correct answer is (B) A, B, D, F."
+  },
+  "v1_175": {
+    "answer": "Based on Hooke's Law, the stretch in the spring is directly proportional to the weight. If a 10-pound weight stretches the spring by 0.5 inches, a 15-pound weight (which is 1.5 times greater) will stretch the spring by 0.75 inches (which is 1.5 times 0.5 inches).\n\nD"
+  },
+  "v1_176": {
+    "answer": "Without information about the material or density of the balls, we cannot determine which one is the heaviest based on size alone.\n\n(D) CAN NOT SAY"
+  },
+  "v1_177": {
+    "answer": "Scissors have a higher density than water, causing them to sink. \n\nB"
+  },
+  "v1_178": {
+    "answer": "All factors can directly affect a vehicle's rate of acceleration: A) more weight requires more force to accelerate; B) higher power output provides greater acceleration potential; and C) a lower drag coefficient reduces aerodynamic resistance.\n\nD"
+  },
+  "v1_179": {
+    "answer": "The formation of frost on cooling coils acts as an insulating layer, reducing the efficiency of heat transfer and causing the refrigerator to work harder, thus increasing power consumption.\n\n(B)"
+  },
+  "v1_180": {
+    "answer": "LED stands for \"light emitting diode,\" which is a semiconductor device that emits light when an electric current passes through it. \n\nC"
+  },
+  "v1_181": {
+    "answer": "A fuse functions to provide overcurrent protection by breaking the circuit when the current exceeds a safe level, preventing damage to electrical devices and reducing the risk of fire. \n\nThe correct answer is: C"
+  },
+  "v1_182": {
+    "answer": "To form a complete shape, the piece marked with X must connect to another X, and the piece marked with Y must connect to another Y. When aligned properly, these conditions are satisfied by shape B.\n\nB"
+  },
+  "v1_183": {
+    "answer": "The correct answer is (B) B. The shaded triangles should be opposite each other when folded, matching the layout of the net when the face opposite the shaded triangles is on top."
+  },
+  "v1_184": {
+    "answer": "When the pieces are placed together, matching side X to X and side Y to Y, they fit into shape C.\n\nC"
+  },
+  "v1_185": {
+    "answer": "Match the puzzle pieces as follows: piece with A fits with A, piece with B and B, piece with C and C. When arranged correctly, it resembles shape 3.\n\nC"
+  },
+  "v1_186": {
+    "answer": "The object above has a specific arrangement of blocks, including three vertical blocks at one end and a more extended horizontal section. Image C matches this structure in its arrangement of blocks.\n\nThe letter is: C."
+  },
+  "v1_187": {
+    "answer": "The shaded parts form a continuous circle when the cube is folded. Option B represents the correct folding of the cube with the circle pattern intact.\n\nB"
+  },
+  "v1_188": {
+    "answer": "The 3D shape on the left is a triangular pyramid with triangular faces. Casting light on one of these faces can produce a triangular shadow, like shadow B.\n\nC) Both"
+  },
+  "v1_189": {
+    "answer": "The corners with dots in option C match the corners with dots in the model for both objects.\n\nThe answer is: C"
+  },
+  "v1_190": {
+    "answer": "To solve the puzzle, match the sides labeled A, B, C, D, and E to their corresponding counterparts on the adjacent piece. When assembled correctly, the pieces form option 2.\n\nThe correct answer is: 2."
+  },
+  "v1_191": {
+    "answer": "The cube in option B is shown from a different perspective. The shading pattern and the circle's position do not match the orientation of the cube in the original image.\n\nB"
+  },
+  "v1_192": {
+    "answer": "The sequence shows a pattern where the hexagon moves counterclockwise through the quadrants of the circle. The next position after the last image should have the hexagon in the top right quadrant. Thus, the next box is B.\n\nB"
+  },
+  "v1_193": {
+    "answer": "The sequence adds one black square in each step while the circle remains in the same position. Following this pattern, the next box should have five squares. Therefore, the answer is (B) B."
+  },
+  "v1_194": {
+    "answer": "The sequence alternates between a diamond shape and a triangle within a square. Following this pattern, the next figure should be a diamond. Thus, the answer is (B) B.\n\nB"
+  },
+  "v1_195": {
+    "answer": "The sequence alternates between white outline and black filled shapes, and the shape type changes each time (arrow, pentagon, arch). The next shape should be a black filled arch to continue the pattern.\n\nThe answer is (A) A."
+  },
+  "v1_196": {
+    "answer": "Each box in the sequence alternates between having a black corner and an additional square around the black square. The next box should have a black corner without the additional square.\n\nThe answer is: B"
+  },
+  "v1_197": {
+    "answer": "The sequence alternates between rotations, swapping positions of black and white squares. Following this pattern, the next box should look like option D.\n\nD"
+  },
+  "v1_198": {
+    "answer": "The pattern alternates between black and white hexagons and the small circle shifts counterclockwise around the hexagon. The next box has a black hexagon with the circle shifting to the bottom left corner.\n\nThe answer is: **A**"
+  },
+  "v1_199": {
+    "answer": "The sequence alternates between boxes with shapes on the top and on the bottom. It starts with a triangle pointing up, then the pattern shifts with the addition of a square and a curved line, altering positions alternately. The correct next box should continue this alternating pattern.\n\nThe answer is: **C**."
+  },
+  "v1_200": {
+    "answer": "The sequence involves a repeated pattern where the circle moves among the corners in a clockwise direction, and the triangle and diamond also swap positions systematically. The correct next box based on this rotation and swap pattern is Box C.\n\nC"
+  },
+  "v1_201": {
+    "answer": "The sequence repeats the pattern of placing the square on a divided line, rotating through horizontal, diagonal, and inverse diagonal splits. After the inverse diagonal, a horizontal split should follow. Thus, the next box is C.\n\nC"
+  },
+  "v1_202": {
+    "answer": "In 2019, 20,000 Grade A headphones and 40,000 Grade C headphones were produced. The value of Grade A is \\( \\frac{20,000}{50} \\times 500 = 200,000 \\), and for Grade C is \\( \\frac{40,000}{50} \\times 150 = 120,000 \\). The total value is \\( 200,000 + 120,000 = 320,000 \\).\n\nNone of the"
+  },
+  "v1_203": {
+    "answer": "In 2022, the production of Grade B headphones was 30,000 units. A 26% increase in 2023 would result in 37,800 units (30,000 * 1.26). The selling price is $300 per 50 headphones, making the value $226,800 for 2023.\n\nD"
+  },
+  "v1_204": {
+    "answer": "In 2018, Grade A produced 20,000 units, and Grade C produced 80,000 units. The values are calculated as $500 * (20,000/50) and $150 * (80,000/50) respectively. This results in a ratio of 0.83:1.\n\nA"
+  },
+  "v1_205": {
+    "answer": "In 2020, 75,000 Grade C headphones were produced, valued at $150 per 50, totaling $225,000. In 2022, 30,000 Grade B headphones were produced, valued at $300 per 50, totaling $180,000. Combined, the value is $405,000, but since that option isn't available, the correct pairing closest to offered choices is  390,000.\n\nThe correct choice is (D) 390,000"
+  },
+  "v1_206": {
+    "answer": "To find the difference, calculate the average precipitation for Tirana and Algiers from January to May, then subtract Algiers' average from Tirana's. Tirana's average is higher than Algiers' by approximately 68 mm.\n\n(C) 68"
+  },
+  "v1_207": {
+    "answer": "In April, the precipitation for Tirana is approximately 130. In May, it increases to around 135. The percentage increase is calculated as \\(\\frac{(135-130)}{130} \\times 100 \\approx 3.85\\%\\), which matches none of the options closely, but is closest to B, 4.35%.\n\nB"
+  },
+  "v1_208": {
+    "answer": "From the graph, Stockholm's precipitation in February appears to be 20. With a 15% reduction, the correct value is \\(20 / 1.15 \\approx 17.39\\). March's value looks like 25. The percentage change is \\(((25 - 17.39) / 17.39) \\times 100 \\approx 43.78\\%\\).\n\nThe answer is: C"
+  },
+  "v1_209": {
+    "answer": "In April, the precipitation level for Algiers is approximately 60, and for Stockholm, it is approximately 20. The ratio of Algiers to Stockholm is therefore 60:20, which simplifies to 3:1.\n\nB"
+  },
+  "v1_210": {
+    "answer": "In 2021, Antlyn plc's share is $145k (10% of $1.45m), and in 2022, it's $230k (11.5% of $2m). Combined, this is $375k ($145k + $230k). However, this isn't matching the options, so let's reevaluate the calculation. The mistake might be visually assessing the percentage; it looks closer to a different option based on the images. But based on the calculation"
+  },
+  "v1_211": {
+    "answer": "In 2021, Graff Inc.'s share is approximately 30% of $1.45m, equaling $435k. In 2022, its share is approximately 25% of $2m, equaling $500k. The change in value is $500k - $435k = $65k, which is not listed. If we assume there's a mistake in the options, the closest reasonable value that reflects a calculation issue might be $45k.\n\nA"
+  },
+  "v1_212": {
+    "answer": "In the 2022 chart, Balcom plc's share is half of the circle, which is $1m (50% of $2m). Trade Ltd's share is one-sixth, which is around $333k. Combined, they total approximately $1.333m. However, since the given options do not match, the focus seems to be on sections where they add up correctly: Balcom plc is about 26%, and Trade Ltd is about 11%. Combined, they"
+  },
+  "v1_213": {
+    "answer": "To find the percentage increase, calculate Royer inc's sales for each year and then find the percentage change. In 2021, Royer inc's sales were $0.435m (30% of $1.45m). In 2022, sales were $0.6m (30% of $2m). The increase is $0.165m, so the percentage increase is approximately \\( \\frac{0.165}{0.435} \\times 100 \\"
+  },
+  "v1_214": {
+    "answer": "Val Thorens' snowfall in January is about 3 cm, out of a total of 30 cm for November, 25 cm for December, and 1 cm for February, totaling 59 cm. The proportion is approximately 3/59, which is about 5%.\n\n(A) 5%"
+  },
+  "v1_215": {
+    "answer": "In November, Whistler's snowfall is 15 cm, and in December, it is 24 cm. The increase is 9 cm, which is a 60% increase from November to December. \n\n(D) 60%"
+  },
+  "v1_216": {
+    "answer": "To find the total snowfall for January, first calculate the December snowfall: Val Thorens is 35 cm, Whistler is 15 cm, Tignes is 25 cm, and Les Arcs is 20 cm. For January, increase Val Thorens and Whistler by 20% and decrease Tignes and Les Arcs by 15%. The calculation is \\(35 \\times 1.2 + 15 \\times 1.2 + 25 \\times 0.85"
+  },
+  "v1_217": {
+    "answer": "In January, Whistler had 15cm and Les Arcs had 10cm. In February, Whistler had 10cm and Les Arcs had 25cm. Together this totals 60cm.\n\nC"
+  },
+  "v1_218": {
+    "answer": "Given that no scholars are musicians, and all musicians are music enthusiasts, it follows that some music enthusiasts (those who are musicians) cannot be scholars. Thus, the logical conclusion is (C) some music enthusiasts are not scholars.\n\nC"
+  },
+  "v1_219": {
+    "answer": "The given statements establish that all sweet dogs have long hair, and some pitbulls do not. There is no contradiction between these statements and none of the conclusions directly follow from them. Therefore, the logical conclusion is D.\n\nD"
+  },
+  "v1_220": {
+    "answer": "From the second statement, all phenomena are included in phenomenae. The first statement tells us some phenomeni are part of the phenomena group. Thus, those phenomeni are also part of the phenomenae group. Therefore, some phenomenae are phenomeni.\n\nD) Some phenomenae are phenomeni"
+  },
+  "v1_221": {
+    "answer": "From the statements, \"All taxes are expenses\" and \"No taxes are incomes,\" we can conclude that there are expenses which are not incomes, as taxes represent a subset of expenses that cannot be incomes. Thus, the correct answer is (C) Some expenses are not incomes.\n\nC"
+  },
+  "v1_222": {
+    "answer": "Based on the statements, we know that people from LA cannot be arrogant ***holes, and some hip people are from LA. Since the hip people from LA cannot be arrogant ***holes, it follows that some hip people are not arrogant ***holes. \n\nB"
+  },
+  "v1_223": {
+    "answer": "Since all cakes are pies, and no pastries are pies, it follows that no pastries can be cakes. Therefore, none of the given options can be logically concluded from the statements. \n\nB"
+  },
+  "v1_224": {
+    "answer": "Given that all animals are sheep and all sheep are furry animals, it follows that all animals are furry animals. Thus, the correct answer is (D).\n\nD"
+  },
+  "v1_225": {
+    "answer": "Given that all kalowites are also koliwites but no kalowites are kilowites, it follows that there must be some koliwites that are not kilowites.\n\nB"
+  },
+  "v1_226": {
+    "answer": "From the statements \"All trees are leaves\" and \"All leaves are shrubs,\" we can conclude that all trees, being leaves, are also shrubs. Therefore, some shrubs are trees.\n\nD"
+  },
+  "v1_227": {
+    "answer": "From the statements, some diseases are malicious, and no diseases are viruses. Therefore, some malicious entities, which are diseases, cannot be viruses. \n\nD"
+  },
+  "v1_228": {
+    "answer": "The first statement indicates that all prooky praks are contained within the set of prakky prooks. The second statement says no proky proaks are within the set of prakky prooks. Therefore, proky proaks cannot be prooky praks as prooky praks are part of prakky prooks, which proky proaks are not.\n\nD"
+  },
+  "v1_229": {
+    "answer": "Since no animals are people and all rational beings are people, it follows that no rational beings can be animals.\n\nD"
+  },
+  "v1_230": {
+    "answer": "The statements create a logical contradiction; all people who can handle criticism can't be both exclusively men and include some women. The confusion resolves with option (D) where \"Some women are men,\" indicating a flawed assumption resolution.\n\nD"
+  },
+  "v1_231": {
+    "answer": "From the given statements, \"No dolphins are whales\" and \"Some whales are sperm whales,\" it follows that since dolphins are not whales, they cannot be sperm whales. Thus, some sperm whales are not dolphins.\n\nC"
+  },
+  "v1_232": {
+    "answer": "All dolphins are whales, but no whales are sperm whales, which means dolphins cannot be sperm whales. Therefore, none of the other options are logically supported by the statements.\n\nC"
+  },
+  "v1_233": {
+    "answer": "From the statements, we know that all pot viewers are curious monkeys and no voyagers are pot viewers. Therefore, some curious monkeys (those who are pot viewers) are not voyagers.\n\nD"
+  },
+  "v1_234": {
+    "answer": "From the given statements, all plastic bags are classified as hand bags, while no Gucci bags fit into the category of hand bags. Therefore, no Gucci bags can be plastic bags, leading to the conclusion:\n\n**B**"
+  },
+  "v1_235": {
+    "answer": "Based on the statements, if all happy people are New Yorkers and no annoying people are New Yorkers, then happy people cannot be annoying. Therefore, the conclusion is: B) No happy people are annoying people.\n\nB"
+  },
+  "v1_236": {
+    "answer": "Since all burglars are thieves and no robbers are burglars, this implies that some thieves are not robbers because there exist burglars (who are thieves) that cannot be robbers.\n\nA"
+  },
+  "v1_237": {
+    "answer": "From the given statements, \"No sharks are fishes\" and \"All fishes are investors,\" it follows that no sharks can be investors since all fishes are investors and sharks are not fishes. Therefore, the correct conclusion is:\n\n(D) No sharks are investors."
+  },
+  "v1_238": {
+    "answer": "Since all meters are inches and some meters are yards, it follows that the yards that are meters must also be inches. Therefore, the logical conclusion is that some inches are yards.\n\n(D) Some inches are yards"
+  },
+  "v1_239": {
+    "answer": "Based on the statements, if all birds are crows and no ravens are crows, then no ravens can be birds. Therefore, the conclusion is (C) No ravens are birds. \n\nC"
+  },
+  "v1_240": {
+    "answer": "Given that some annoying riddles are happy tunes and all happy tunes are beautiful sounds, it follows that some annoying riddles are beautiful sounds. There is no information indicating that some annoying riddles are not happy tunes. \n\nThus, the correct answer is D) None of the other answers is correct."
+  },
+  "v1_241": {
+    "answer": "Since all lawyers are bankers and no bankers are brokers, it logically follows that no lawyers can be brokers.\n\nD) No brokers are lawyers"
+  },
+  "v1_242": {
+    "answer": "Since all musicians are scholars and all music enthusiasts are musicians, it logically follows that all music enthusiasts are scholars.\n\n(D) All music enthusiasts are scholars"
+  },
+  "v1_243": {
+    "answer": "From the given statements, we know that all croptonites are croptonates and some croptonites are craptonates. This implies that some croptonates (specifically the croptonites that are also craptonates) are also craptonates.\n\nA) Some craptonates are croptonates."
+  },
+  "v1_244": {
+    "answer": "Mark is the most likely to have taken the lemon cake because he has a history of taking cakes from the staff room, and more cakes have gone missing since he started.\n\nC"
+  },
+  "v1_245": {
+    "answer": "(A) You probably will not be able to afford any of the paintings\n\nThis statement is an example of an inductive argument because it uses specific observations of the high prices at the art fair to make a general conclusion about the likelihood of not being able to afford a painting.\n\nA"
+  },
+  "v1_246": {
+    "answer": "Inductive arguments make generalizations based on observations. Statement (C) makes a general claim about all classrooms based on their names being colors, fitting inductive reasoning.\n\nC"
+  },
+  "v1_247": {
+    "answer": "In February, Gatwick had 10 cancellations out of a total of 52 (Heathrow: 12, Gatwick: 10, Stansted: 30). This gives a proportion of approximately 19%.\n\nB"
+  },
+  "v1_248": {
+    "answer": "In November and December, Stansted had 10 and 8 cancellations respectively, totaling 18. In January and February, cancellations were 18 and 40, totaling 58. The increase is \\( \\frac{58 - 18}{18} \\times 100\\% = 222.2\\% \\). The closest answer is (B) 220%.\n\nB"
+  },
+  "v1_249": {
+    "answer": "In November, Gatwick had 20 cancellations, and the total for all three airports was 65 (30 + 20 + 15). The ratio of Gatwick cancellations to the total is 20:65, which simplifies approximately to 1:3.25.\n\nA"
+  },
+  "v1_250": {
+    "answer": "In January, Heathrow had approximately 25 cancelled flights. Reducing this by 80% would mean having about 5 cancelled flights in March. The graph shows around 9 cancelled flights in March, which indicates they have 4 more cancelled flights than the target.\n\nAnswer: A"
+  },
+  "v1_251": {
+    "answer": "The quickest coach journey that serves breakfast is the one departing at 06:30 and arriving at 9:45, with a return ticket price of £109.99. For two return tickets, the total cost is £219.98, which rounds to 220.\n\nC"
+  },
+  "v1_252": {
+    "answer": "The agent needs to arrive in time for a 13:00 meeting. Considering the taxi ride durations, the 09:20 train (arriving 11:50) will get her there on time with a 25-minute taxi ride from the train station, totaling 12:15. It is also the cheapest train option within the time constraint at £59.50.\n\nA"
+  },
+  "v1_253": {
+    "answer": "The 07:50 train takes 2 hours 15 minutes (2.25 hours) and the 10:30 train takes 2 hours 25 minutes (2.42 hours). The average speed for the 07:50 train is 164 miles / 2.25 hours ≈ 73 mph, and for the 10:30 train is 164 miles / 2.42 hours ≈ 68 mph. The difference is approximately 5 mph.\n\nB"
+  },
+  "v1_254": {
+    "answer": "The shortest travel option that arrives before 13:00 with wireless service is the train departing at 07:50 and arriving at 10:05, priced at 65.00.\n\n(A)"
+  },
+  "v1_255": {
+    "answer": "The reported revenue for Binders in the quarter October to December is 35,000. If this is an overestimate by 15%, the actual revenue is calculated as \\(35,000 \\div 1.15 \\approx 30,435\\).\n\n**A**"
+  },
+  "v1_256": {
+    "answer": "Graff's revenue increased from 15 thousand in Q1 to 30 thousand in Q4. The percentage change is \\(\\frac{30 - 15}{15} \\times 100 = 100\\%\\). \n\nThe answer is: A"
+  },
+  "v1_257": {
+    "answer": "From January to June, Moen's revenue was consistently 25,000 each quarter, totaling 50,000 for six months. Dividing 50,000 by 6 gives an average monthly revenue of 8,333.\n\nThe correct answer is A."
+  },
+  "v1_258": {
+    "answer": "Graff's revenue increased from 20 (thousand) in Q2 to 30 (thousand) in Q4. The percentage increase is calculated as ((30 - 20) / 20) * 100 = 50%.\n\nThe answer is: D."
+  },
+  "v1_259": {
+    "answer": "For the Royal Plan, the cost is £59.49 annually with no extra charges since all minutes are covered. For the Gem Plan, the cost is £54.99 annually with no extra charges since all minutes are covered. The annual saving is £59.49 - £54.99 = £4.50. Therefore, the total saving is £4.50 * 12 = 54p annually.\n\nB"
+  },
+  "v1_260": {
+    "answer": "The customer is on the Gem Plan from March to July (5 months) and the Royal Plan from August to November (4 months). \n\n- Gem Plan: \\(5 \\times 250 = 1,250\\) minutes and \\(5 \\times 200 = 1,000\\) texts.\n- Royal Plan: \\(4 \\times 300 = 1,200\\) minutes and \\(4 \\times 150 = 600\\) texts.\n\nTotal: 2,450"
+  },
+  "v1_261": {
+    "answer": "For the Royal Plan, calculate the initial costs: 35 same network minutes at 26p = 910p, 45 other network minutes at 32p = 1440p, and 62 texts at 11p = 682p. The total is 3032p. With a 20% increase, the total cost becomes 3032p * 1.2 = 3638.4p, which is £36.38.\n\nA"
+  },
+  "v1_262": {
+    "answer": "Under the Royal Plan, 300 free minutes are provided, so 2,820 minutes are charged at the correct rate of 24p per minute. This results in a charge of £677.60. The incorrect charge was £936 (3,120 minutes at 30p per minute). The refund due is £936 - £677.60 = £258.40. Over three months, the total refund is £258.40 x 3 = £775.20.\n\nNone of"
+  },
+  "v1_263": {
+    "answer": "In February, the production was 15,000 barrels, and the average barrel price was $78. The value of oil produced is therefore 15,000 barrels × $78/barrel = $1,170,000.\n\nA"
+  },
+  "v1_264": {
+    "answer": "To find the July production, calculate 22% less than June's figure. June's production is 18,000 barrels. A 22% decrease is 18,000 * 0.22 = 3,960, so July's production is 18,000 - 3,960 = 14,040 barrels. With the price at $82 per barrel, the value in July is 14,040 * $82 = $1,151,280.\n\n(D)"
+  },
+  "v1_265": {
+    "answer": "To find the percentage change in value, calculate the total value for April and May using the formula (Production * Average Price) and then use the percentage change formula: \\((\\text{Value}_{\\text{May}} - \\text{Value}_{\\text{April}}) / \\text{Value}_{\\text{April}} \\times 100\\%\\). For April: \\(16{,}000 \\times 76 = 1{,}216{,}000\\"
+  },
+  "v1_266": {
+    "answer": "The average oil price for March, June, and July is calculated as follows: \\((82 + 77 + 82) / 3 = 80.33\\).\n\nAnswer: B"
+  },
+  "v1_267": {
+    "answer": "The sequence alternates positions between the circle and the rectangle within each quadrants of the oval. The circle moves counterclockwise, and the rectangle moves clockwise. The next box should have the circle in the bottom left and the rectangle in the top right.\n\nThe answer is **E**."
+  },
+  "v1_268": {
+    "answer": "The sequence shows a pattern where each box has circles decreasing by one each time, starting from five down to two. Each box after the third also has the triangle in the opposite corner. Following this pattern, the next box should have two circles with the triangle in the opposite corner.\n\nThe answer is (C) C."
+  },
+  "v1_269": {
+    "answer": "The sequence alternates between three configurations: a black circle, a white shape on a circle, and a black shape on white background. Based on this pattern, after the black circle we expect a black shape on white background. The next configuration matching this pattern is (E).\n\nE"
+  },
+  "v1_270": {
+    "answer": "The sequence alternates between an outlined shape and a filled shape, following the order: oval, circle, square, rectangle, triangle. The next shape should be a filled oval. Therefore, the answer is E.\n\nE"
+  },
+  "v1_271": {
+    "answer": "The sequence alternates between a large outlined triangle and a small solid triangle, with the first having a thin outline and the second a thick one. The pattern repeats this sequence. Therefore, the next image should be a large triangle with a thin outline, similar to option A.\n\nA"
+  },
+  "v1_272": {
+    "answer": "The sequence alternates between a box with one black corner and one with two black corners, while the positions of the dots rotate clockwise. The next logical box is one with one black corner and dots in positions like option C.\n\nC"
+  },
+  "v1_273": {
+    "answer": "The sequence alternates between a circle and square inside a black border and a solid black square inside a black border, with each shape swapping positions. The next box should continue this pattern. Thus, it should match option E, where these rotations continue.\n\nE"
+  },
+  "v1_274": {
+    "answer": "The pattern alternates between a vertical rectangular bar and a horizontal rectangular bar on top of a black base. Following this sequence, the next shape should be a horizontal bar above a black base.\n\nThe answer is B."
+  },
+  "v1_275": {
+    "answer": "The sequence alternates between an arrow and a square that changes orientation or position. Following this pattern, after the upward arrow, the next figure should align with option B, which has the correct orientation and placement.\n\nB"
+  },
+  "v1_276": {
+    "answer": "The sequence alternates between a diagonal line with the black dot moving along it, and a vertical line with the dot in the center. The pattern should continue with a diagonal line. Thus, the next box should be (A).\n\nA"
+  },
+  "v1_277": {
+    "answer": "The sequence shows a pattern where a solid moves diagonally from the top right to the bottom left while the shape changes following a distinct cycle. The next shape after the hexagon is a triangle, and the circle moves to the top left.\n\nThe answer is **B**."
+  },
+  "v1_278": {
+    "answer": "The sequence alternates between black and white filled squares in the large center box and shifts the small black and white square counterclockwise around the corners. The shape itself also alternates between a square and a triangle. Following this pattern, the next box should contain a white triangle with the small square in the bottom left corner.\n\nAnswer: E"
+  },
+  "v1_279": {
+    "answer": "The sequence shows a hexagon with an arrow and a black circle. The black circle moves clockwise around the hexagon, and the arrow alternates between pointing up and down with each step. The next step has the circle at the bottom-left, and the arrow pointing up.\n\nThe answer is (A) A."
+  },
+  "v1_280": {
+    "answer": "The sequence follows a pattern where each box alternates between adding vertical lines and black rectangles from left to right. The next in line after the top row's pattern would resemble the bottom row's patterns. Therefore, the next box should be C.\n\nC"
+  },
+  "v1_281": {
+    "answer": "Each shape alternates between a diamond and a square, rotating through black bars and black triangles. Following this pattern, the next box should have a diamond and a black bar like Box D.\n\nD"
+  },
+  "v1_282": {
+    "answer": "The sequence involves rotating and moving shapes to the next position in a clockwise direction. Following this pattern, the shapes in the final box should be in the positions shown in option A. \n\nA"
+  },
+  "v1_283": {
+    "answer": "The sequence alternates between shapes and increases the number of dots by two each time. The shapes rotate through triangle, square, pentagon. The last shape was a square, so the next should be a pentagon with 8 dots. \n\nThe answer is (D) D."
+  },
+  "v1_284": {
+    "answer": "The sequence alternates between a diamond, triangle, and pentagon, with each shape rotation being clockwise. Option E follows this pattern as the next shape is a diamond.\n\nE"
+  },
+  "v1_285": {
+    "answer": "The sequence alternates between a white circle and a black circle. The number of shapes on each side follows a pattern of increasing then decreasing amounts. Based on the pattern, the next box should have a black circle with one triangle on the left and four squares on the right.\n\nAnswer: C"
+  },
+  "v1_286": {
+    "answer": "The sequence alternates between two shapes in the bottom right corner: a square and a hexagon. The sequence should continue with the hexagon after the square, which matches option E.\n\nE"
+  },
+  "v1_287": {
+    "answer": "First, since BarBoxes are twice as expensive as 3 FruitBars, we can determine that BarBox = 2 × (3 FruitBars). A BarBox contains 2 FruitBars and 2 OatBars and costs £0.50 less than buying separately. Calculate: \n\n- Cost of 2 OatBars = 2 × £1.75 = £3.50.\n- Let the price of one FruitBar = x.\n\nEquations:\n1. \\(2x +"
+  },
+  "v1_288": {
+    "answer": "To determine if a BarBox costs less than 5 FruitBars, let's calculate. Let \\( F \\) represent the cost of a FruitBar. A BarBox costs as much as 6 FruitBars because it's twice the cost of 3 FruitBars. So, a BarBox costs more than 5 FruitBars. \n\nB"
+  },
+  "v1_289": {
+    "answer": "To determine whether BarBoxes have sold less than OatBars, we need to know the actual sales numbers of both products. The information given does not provide explicit sales figures, only constraints on pricing and quantities. Therefore, we cannot conclude which has sold more.\n\nC) Insufficient Information"
+  },
+  "v1_290": {
+    "answer": "The information provided doesn't specify the specific sales ratio between FruitBars and BarBoxes, only their price and composition relationships. Therefore, it's not possible to determine if FruitBars are sold five times as often as BarBoxes.\n\nC) Insufficient Information"
+  },
+  "v1_291": {
+    "answer": "The \"Owl\" plan is best suited because it covers up to 6 devices, which is necessary since Charles's children each have at least two devices, and it's one of the cheaper 12-month contracts available at $26.50 per month.\n\nE"
+  },
+  "v1_292": {
+    "answer": "Plan B, Owl, allows for 6 devices, accommodating all employees at the lowest monthly fee of $26.50.\n\nB"
+  },
+  "v1_293": {
+    "answer": "Frederick agrees with the first journal and disagrees with the third, while Roger agrees with all journals, including his own. There's no indication of conflict between Frederick and Roger specifically, only Frederick's disagreement with the third journal, not mentioned as Roger's.\n\nC"
+  },
+  "v1_294": {
+    "answer": "Simone did not write the last three journals, as stated. Therefore, Simone could not have written the seventh journal.\n\nB"
+  },
+  "v1_295": {
+    "answer": "There is no information given about the number of journals Simone or Frederick wrote, only that Frederick agreed with specific journals and Simone did not agree with certain ones. Therefore, we cannot determine if Simone wrote the same number of journals as Frederick.\n\nC"
+  },
+  "v1_296": {
+    "answer": "Simone did not agree with the last three journals, which includes the fifth. There is no information indicating Frederick disagreed with the fifth journal, so the statement cannot be determined to be true or false.\n\nC) Insufficient Information."
+  },
+  "v1_297": {
+    "answer": "From the information given, Britain's national debt is linked specifically to a deal with William III, not William II. Thus, the involvement of William II in Britain's national debt must be demonstrably false.\n\nA"
+  },
+  "v1_298": {
+    "answer": "The argument states that the syndicate was formed by City traders and merchants to finance William's war against France. This directly supports statement E without making assumptions beyond the provided text.\n\nE"
+  },
+  "v1_299": {
+    "answer": "To calculate the cost of 5m² of Wood:\n\n- Wood costs £90 per 1m².\n- 5m² of Wood costs \\(5 \\times £90 = £450\\).\n\nThe overall cost using 5m² of Wood is £450. Thus, the statement claiming £1,350 is the cost is false.\n\n**B**"
+  },
+  "v1_300": {
+    "answer": "For every 1m² of Glass used, 2m² of Brick is required. Therefore, 10m² of Glass will require 20m² of Brick. However, Metal is used based on Wood usage, not Glass. Since there’s no specified relation between Metal and Glass, the information is insufficient for Metal.\n\nC"
+  },
+  "v1_301": {
+    "answer": "The information provided does not specify the cost or requirement of brick when a certain amount is spent on wood. Therefore, it is not possible to determine the necessity of spending a further £600 on brick based solely on spending £450 on wood.\n\nC"
+  },
+  "v1_302": {
+    "answer": "To determine if the house will cost less than £11,000, calculate the costs based on the given prices and relationships. \n\n1. **Glass Price:** Glass is six times more expensive than Metal. \n2. **Metal Price:** Denote Metal cost as \\( m \\), then Wood cost \\( = \\frac{1}{4}m \\).\n   Given Wood costs £90, \\( \\frac{1}{4}m = 90 \\) implies Metal cost \\( m ="
+  },
+  "v1_303": {
+    "answer": "Lucy can be earning twice as much as David if they both have contracts of equal length, and Lucy's salary is twice that of David. The contract lengths and salaries that allow this are Charlie and Delta since Delta’s salary (£60,000) is twice Charlie’s (£35,000) over the same 12-month period.\n\nD"
+  },
+  "v1_304": {
+    "answer": "Debra earns £200,000 from her Foxtrot contract (100,000 x 2 years), and Lucas earns £10,000 from his Beta contract (20,000 x 0.5 years). The difference is £190,000.\n\n(D) 190,000"
+  },
+  "v1_305": {
+    "answer": "Given the premise that \"Things-in-themselves\" exist without a projection from the Self, it follows that objects, which exist as Things-in-themselves, also exist without such projection. Therefore, the statement is true.\n\nA"
+  },
+  "v1_306": {
+    "answer": "The statement suggests that Things-in-themselves exist without projection from the Self, while mirrors (as Objects) are projected upon. Therefore, Things-in-themselves are not projected onto mirrors. \n\nB"
+  },
+  "v1_307": {
+    "answer": "The statement appears to suggest that mirrors exist only when the Self is projected onto them, in line with the assertion that the Self projects onto Objects and only Things-in-themselves exist without such projections. Thus, it's consistent to say the mirror exists when the Self projects onto it. \n\nC"
+  },
+  "v1_308": {
+    "answer": "Based on the given information, \"The Self projects onto Objects\" and \"The mirror is an Object,\" it follows that \"The Self projects onto the mirror.\"\n\n**A**"
+  },
+  "v1_309": {
+    "answer": "Andrea's opportunity cost is £20 per hour due to her accounting job, while Sophie’s opportunity cost in secretarial work is £8. Therefore, Andrea's opportunity cost is higher.\n\n(A) True"
+  },
+  "v1_310": {
+    "answer": "Andrea, as an accountant, produces £20 per hour. If she does secretarial work instead, her opportunity cost is the money she would lose not doing accounting, which is £20 - £10 (since she produces £2 more than Sophie, whose rate is £8) = £10 per hour. Over 40 hours, this is 40 * £10 = £400, not £80.\n\nB"
+  },
+  "v1_311": {
+    "answer": "Andrea, as an accountant, produces £20 per hour. Sophie produces £8 per hour, and Andrea produces £2 more than Sophie per hour in secretarial work, which is £10 per hour. In a 46-hour week, Andrea produces £920 as an accountant, which is £552 more than Sophie’s £368 as a secretary.\n\nB"
+  },
+  "v1_312": {
+    "answer": "The statement is false. Andrea, an accountant, produces £20 per hour, but in her secretarial work, she produces £10 per hour (£2 more than Sophie’s £8), which is not half of accountant's production.\n\nB"
+  },
+  "v1_313": {
+    "answer": "For the Lancaster canal, miles per lock is \\( \\frac{42}{6} = 7 \\). For the Severn canal, miles per lock is \\( \\frac{42}{6} = 7 \\). The Severn has 1 bridge, so subtracting 1 from 7 for both we get 6 more miles per lock than bridges. \n\nThe answer is (C) 6."
+  },
+  "v1_314": {
+    "answer": "Gloriana crossed 2 canals and went under 4 bridges in total. The Thames (1 bridge) and the Trent (2 bridges) add up to 3 bridges, while the Kennet & Avon (1 bridge) completes the requirement to make the 4 bridges needed. Therefore, Gloriana traversed the Thames and Kennet & Avon canals.\n\nC"
+  },
+  "v1_315": {
+    "answer": "The statement in the image implies that Slavic countries have red, blue, and white flags, similar to the United Kingdom's flag. However, the United Kingdom is not listed as a Slavic or Nordic country, which implies that it is not classified as a Slavic country. Therefore, the answer is (B) False.\n\nB"
+  },
+  "v1_316": {
+    "answer": "The Norwegian flag shares the same colors as the United Kingdom flag, which are red, blue, and white. The flags of Slavic countries also always bear red, blue, and white colors. Therefore, the colors are not different.\n\n(B) False"
+  },
+  "v1_317": {
+    "answer": "From the information, Iceland shares the same red, blue, and white colors as the Slavic countries, and the UK also bears these colors. Therefore, there are two non-Slavic countries with these colors, not just one.\n\nB"
+  },
+  "v1_318": {
+    "answer": "Iceland and Norway have flags that share the same colors as the Slavic countries (red, blue, and white). Thus, only these two Nordic countries match the Slavic colors. \n\nA"
+  },
+  "v1_319": {
+    "answer": "(A) Using copyrighted work for criticism is illegal.\n\nAccording to the text, fair use allows for legally unlicensed use for criticism, making the statement demonstrably false.\n\nA"
+  },
+  "v1_320": {
+    "answer": "The argument states that \"Fair use allows for a legally unlicensed use provided the work is used for criticism, parody, research or reporting the news,\" indicating that parody is indeed a recognized limitation to copyright. Therefore, statement (E) cannot be true as it contradicts this.\n\nE"
+  },
+  "v1_321": {
+    "answer": "The dining table is twice the size of the sofa, and the sofa is twice the size of a chair. Thus, the dining table is four times the size of a chair.\n\nB (False)"
+  },
+  "v1_322": {
+    "answer": "The statement \"Only yellow furniture is next to the sofa\" implies that the chair, which is the same color as the furniture next to the sofa, is yellow. Therefore, the chair is yellow.\n\nA"
+  },
+  "v1_323": {
+    "answer": "There is no direct information given about the size of the stool compared to the chair. \n\nC"
+  },
+  "v1_324": {
+    "answer": "The information states that only yellow furniture is next to the sofa, and there is no indication that the desk is yellow. Therefore, the desk cannot be next to the sofa.\n\nB) False"
+  },
+  "v1_325": {
+    "answer": "Job III suits Julia Horncastle's needs as it matches her logical skills requirement, fits within her available hours, meets her maximum daily office hours, and exceeds her minimum salary requirement.\n\n(C) III"
+  },
+  "v1_326": {
+    "answer": "Julia could take Job III with a salary of £800, as it requires her logical skills. The lowest-paid job she could take is Job IV with a salary of £580. The difference is £800 - £580 = £220.\n\nE"
+  },
+  "v1_327": {
+    "answer": "The statement suggests that production is determined by the free market, which includes the influence of people but doesn’t explicitly say they solely determine production. Therefore, there is a connection but not a direct determination, making the information insufficient.\n\nC"
+  },
+  "v1_328": {
+    "answer": "The statement does not explicitly mention that currencies determine the free market. It suggests that production, influenced by people and the free market, plays a significant role. \n\nC"
+  },
+  "v1_329": {
+    "answer": "The text states that production is determined by the free-market, not directly by the government, suggesting that the government does not determine production. The information given supports this conclusion. \n\nB"
+  },
+  "v1_330": {
+    "answer": "The provided statements don't directly support that \"production is made up of the people\"; instead, they relate production to the free market. Therefore, the statement is false based on the given information.\n\nB"
+  },
+  "v1_331": {
+    "answer": "The combined revenue from Slot machines and Roulette from 2006-2009 was (1.3 + 4.4) + (1.4 + 4.2) + (1.8 + 4.5) + (1.5 + 4.8) = 18.9 £100,000 or £1.89 million. The revenue from Other table games for the same period was (0.8 + 0.6 + 0.6"
+  },
+  "v1_332": {
+    "answer": "In 2007, revenue from slot machines was £1.4 million. With an attendance of 1,520,000 people (15.2 in hundred thousands), the average amount gambled per person is £1.4 million divided by 1.52 million people, which equals approximately £0.92.\n\nThe closest option is (C) 0.9. \n\nC"
+  },
+  "v1_333": {
+    "answer": "To calculate the entrance fee revenue, multiply the annual attendance by £15. In 2006, the revenue is £14.6 million × 15 = £219 million. In 2007, it is £15.2 million × 15 = £228 million. Both are greater than £23 million, so the answer is (E) none of these.\n\nE"
+  },
+  "v1_334": {
+    "answer": "The annual attendance changes from 14.6 (2006) to 16.5 (2010), which is an increase of 1.9 over 4 years. The average annual change is \\(1.9/4 = 0.475\\) or 47,500 increase.\n\n(D) 47,500 increase"
+  },
+  "v1_335": {
+    "answer": "The projected revenue for 2010 is £6.3 million (£100,000s * 63). The takeover bid is 7 times this, which equals £44.1 million. Adding 10% value through cost-cutting increases the valuation to £48.51 million.\n\n**A**"
+  },
+  "v1_336": {
+    "answer": "To calculate the average annual percentage change, add the percentage changes for each year from 2006 to 2010 and divide by 5. The changes are approximately: 2006 (+2%), 2007 (+1%), 2008 (-2%), 2009 (-1%), 2010 (+1%). Sum = 1%. Divide by 5 to get an average change of 0.2%.\n\nNone of the options match 0.2%, which suggests an error in the"
+  },
+  "v1_337": {
+    "answer": "To find the 2010 projected R&D spend, first determine the 2009 spend by adding up the R&D projects (425.9 + 672.8 + 215.5 + 1056.0 + 113.2 = 2483.4 thousand pounds or 2.4834 million). With a predicted increase of approximately 1% for 2010, the 2010 spend is about 2.5 million.\n\nA"
+  },
+  "v1_338": {
+    "answer": "The graph shows a 1% decrease in R&D spend from 2007 to 2008. To find the 2008 spend, use the 2009 data: the total R&D spend in 2009 was \\(425.9 + 672.8 + 215.5 + 1,056.0 + 113.2 = 2,483.4\\). Since there was another decrease to 2009, calculation from 2007 using the 1"
+  },
+  "v1_339": {
+    "answer": "In 2009, the total R&D spend was £2,483,400. Overheads were 12% of this, which equals £298,008. The projected increase in R&D spend for 2010 is 1%, making total spend £2,508,234. The overhead rate increases by 1.1% to 13.1%, resulting in £328,577.75 in overheads. Subtracting this from the 2010 spend gives approximately £"
+  },
+  "v1_340": {
+    "answer": "The two most expensive projects are \"New product development\" (£1,056,000) and \"Process improvement systems\" (£672,800). A 2.5% increase in their costs results in additional costs of £26,400 and £16,820 respectively. The total new R&D spend is £2,499,220. To the nearest 1,000, this is £2,499,000, which is not listed. Thus, the answer is (E) none"
+  },
+  "v1_341": {
+    "answer": "To find the number of shares not held by Directors, first calculate the total shares held by Directors at 30 April 2009: \\(1,050 + 950 + 820 + 1,100 + 960 = 4,880\\). The Directors hold 16% of the shares, so the total number of shares is \\( \\frac{4,880}{0.16} = 30,500 \\). The shares not held by Directors are \\( 30,500"
+  },
+  "v1_342": {
+    "answer": "Calculate the difference in shares from April 1 to May 31: \n\n- Geoffrey Yates: 1,100 to 910 (190 shares sold)\n- Tobey Gilham: 1,050 to 820 (230 shares sold)\n- Susan Preddy: 950 to 250 (700 shares sold)\n- Samantha Hoxton: 990 to 550 (440 shares sold)\n- Trudy Stupples: 1,200 to 2,400 (1,200"
+  },
+  "v1_343": {
+    "answer": "Tobey Gilham holds 820 shares at 31 May 2009. Selling half means selling 410 shares. At 45 per share, the trade is worth 18,450.\n\nC"
+  },
+  "v1_344": {
+    "answer": "(A) is true. Directors own 16% of the shares, and current employees own 21%, totaling 37%, which is close to 40% on 30 April 2009.\n\nA"
+  },
+  "v1_345": {
+    "answer": "The directors hold 16% of the shares, meaning 100% of the shares total \\( \\frac{1,050 + 950 + 820 + 1,100 + 960}{0.16} = 30,500 \\) shares. At $52 per share, the valuation is \\( 30,500 \\times 52 = 1,586,000 \\). \n\nD"
+  },
+  "v1_346": {
+    "answer": "In 2009, the total number of £400,000 houses sold was 230 + 270 = 500, which is 80% of the annual sales target. Therefore, the annual target is 500 / 0.8 = 625. Dividing this target equally among 5 salerooms gives 625 / 5 = 125.\n\n(C) 125"
+  },
+  "v1_347": {
+    "answer": "To calculate the stamp duty, we consider only sales over £250,000. The sales are 460 + 490 for £300,000 houses, 230 + 270 for £400,000, and 150 + 175 for £500,000. The total sales over £250,000 are 1775 sales. The total value for stamp duty is £250,000,000 for these sales (as £50,000 per sale for those originally £300,000,"
+  },
+  "v1_348": {
+    "answer": "To find the total value, multiply the number of sales by the house price for each category, then sum the amounts: \n\n- £200,000: (310 + 340) × £200,000 = £130 million\n- £300,000: (460 + 490) × £300,000 = £285 million\n- £400,000: (230 + 270) × £400,000 = £200 million\n- £500,000: (150 +"
+  },
+  "v1_349": {
+    "answer": "In 2009, total sales from January to June were \\(291\\) million. In 2009, July to December sales were \\(313.5\\) million, which increased by a fifth (\\(313.5 \\times 1.2 = 376.2\\) million) in 2010. The difference: \\(376.2 - 291 = 85.2\\) million.\n\nSince this doesn't match any option directly, I might have miscalculated."
+  },
+  "v1_350": {
+    "answer": "To find the increase needed, calculate the total sales for both periods and determine the difference. Jan-June: \\(310 \\times 200,000 + 460 \\times 300,000 + 230 \\times 400,000 + 150 \\times 500,000 = 371,000,000\\). July-Dec: \\(340 \\times 200,000 + 490 \\times 300,000 + 270 \\times 400,000 + 175 \\times"
+  },
+  "v1_351": {
+    "answer": "The Western region has increased sales from 255 in the previous year to 280 in the current year, and it is projected to have 270 next year, maintaining sales levels each year.\n\nAnswer: D"
+  },
+  "v1_352": {
+    "answer": "The highest performing region in the current year is Northern (£310 million) and the lowest is Central (£90 million). The absolute difference is £310 million - £90 million = £220 million.\n\nThe answer is: E"
+  },
+  "v1_353": {
+    "answer": "To adjust the projections: for Northern, \\(320 - (1/4 \\times 320) = 240\\); for Western, \\(270 - (1/4 \\times 270) = 202.5\\); for Southern, \\(165 - (1/5 \\times 165) = 132\\); for Eastern, \\(275 - (1/5 \\times 275) = 220\\). Add the adjusted values along with Central: \\(240 + 202"
+  },
+  "v1_354": {
+    "answer": "For the previous year, the ratio for Central to Eastern sales is \\(110:290\\), which simplifies to \\(11:29\\). For the current year, the ratio is \\(90:300\\), which simplifies to \\(3:10\\). \n\nThe correct answer is (D) 11:29 (Previous Year); 3:10 (Current Year)."
+  },
+  "v1_355": {
+    "answer": "To find the order, we add the current year and next year's projections for each region:\n\n- Central: 90 + 125 = 215\n- Southern: 160 + 165 = 325\n- Western: 280 + 270 = 550\n- Eastern: 300 + 275 = 575\n- Northern: 310 + 320 = 630\n\nOrdering these from least to greatest gives us: Central, Southern, Western, Eastern, Northern.\n\nThe correct answer"
+  },
+  "v1_356": {
+    "answer": "In 2005, the difference in GDP per person between France (£23,500) and the UK (£22,000) was £1,500, which is more than 3.3% of their GDPs per person that year. In 2009, France had £24,500 and the UK had £24,000, so the difference was £500, which is also more than 3.3% of their GDPs per person that year. Thus, the correct"
+  },
+  "v1_357": {
+    "answer": "The false statement is (D). The average GDP for the five countries is calculated by adding the GDPs (2.4 + 3.1 + 1.95 + 1.4 + 2.05) to get 10.9 billion, and then dividing by 5, which is 2.18 billion. Thus, (D) is true, making (C) false because the range of UK GDP per person from 2005 to 2009 is"
+  },
+  "v1_358": {
+    "answer": "In 2009, Italy had a GDP per person of £23.6 thousand and the UK had £24 thousand, resulting in a difference of £0.4 thousand. This difference is the smallest among the options provided.\n\nAnswer: A"
+  },
+  "v1_359": {
+    "answer": "Between 2005-2006, the GDP per person in both France and the UK increased (France: 23,250 > 23,500, UK: 22,000 > 23,000).\n\nD"
+  },
+  "v1_360": {
+    "answer": "To find the average, add the GDP per person for each year and divide by 5. For France: (23,500 + 23,250 + 23,750 + 24,000 + 24,500) / 5 = 23,800. For the UK: (22,000 + 23,000 + 23,000 + 23,000 + 24,000) / 5 = 23,000. Therefore, the closest match is"
+  },
+  "v1_361": {
+    "answer": "The cumulative sales of Bernd cars in April were 10,000 and remained the same in May, indicating no additional sales. So, Bernd sold 0 cars in May. Therefore, the answer is inferred to be (A) 10, assuming the options are increments from the month prior (likely options for new sales).\n\nA"
+  },
+  "v1_362": {
+    "answer": "The sales for Tymko are 16,000 at the end of April and 22,000 at the end of July. The difference is 6,000, which represents the total sales for May, June, and July.\n\nAnswer: D."
+  },
+  "v1_363": {
+    "answer": "In June, 10,000 Bernd cars were sold cumulatively, and in July, the cumulative total increased to 11,000, which means 1,000 cars were sold in July. If the sales in July were equal to June, they would also be 10,000, so 9,000 more would have been sold in July. Since only option (A) 1000 accounts for the additional amount sold, the excess sale in July is zero, and the question"
+  },
+  "v1_364": {
+    "answer": "Liverpool had 13.4 live births and 12.4 deaths per 1000 population. The net effect is a 1.0 increase per 1000. With a population of 500,000, this results in a 500 increase. \n\nAnswer: C"
+  },
+  "v1_365": {
+    "answer": "To find the total live births in Birmingham and Glasgow, calculate each city's births: \n\n- Birmingham: \\( 995 \\times 13.6 = 13,532 \\)\n- Glasgow: \\( 600 \\times 13.8 = 8,280 \\)\n\nSum them: \\( 13,532 + 8,280 = 21,812 \\).\n\nAnswer: A"
+  },
+  "v1_366": {
+    "answer": "Glasgow had 21% of its population under the age of 15 at the start of the year 2000, which is the same percentage as Birmingham, but Birmingham had a larger total population. Therefore, Glasgow had the lowest number of people under 15.\n\nB"
+  },
+  "v1_367": {
+    "answer": "To find the largest percentage increase, calculate the percentage change for each country:\n\n- UK: \\((38-35)/35 \\times 100\\% = 8.57\\%\\)\n- US: \\((136-128)/128 \\times 100\\% = 6.25\\%\\)\n- Germany: \\((46-44)/44 \\times 100\\% = 4.55\\%\\)\n\nThe UK has the largest percentage increase.\n\n(A) UK"
+  },
+  "v1_368": {
+    "answer": "To find the public transport spend per capita, divide the money spent on public transport by the population for each country in 2008. The calculations are as follows:\n\n- UK: £38 billion / 60,100,000 = approximately £631.06\n- US: £136 billion / 302,500,000 = approximately £449.58\n- Germany: £46 billion / 84,300,000 = approximately £545.66\n- Italy: £28 billion /"
+  },
+  "v1_369": {
+    "answer": "Italy's target for 2007 was to spend 8% more than they did in 2006. In 2006, they spent £25 billion, so the target was £25 billion + 8% of £25 billion = £27 billion. They spent £26 billion in 2007, £1 billion short of the target.\n\nB"
+  },
+  "v1_370": {
+    "answer": "To determine which website's visitors were most likely to make a purchase, we calculate the purchase conversion rate for each. Website Z has the highest conversion rate, with \\( \\frac{204}{12630} \\approx 0.0161 \\) or 1.61%.\n\n(D) Website Z"
+  },
+  "v1_371": {
+    "answer": "The profit from Website X is \\(284 \\times 12 = 3,408\\), and from Website Y is \\(183 \\times 12 = 2,196\\). The difference is \\(3,408 - 2,196 = 1,212\\).\n\n(A) 1,212"
+  },
+  "v1_372": {
+    "answer": "To find the percentage of visitors from Website Y, divide the number of visitors from Website Y (82,520) by the total number of visitors from all websites (437,380), and multiply by 100. The calculation is approximately \\( \\frac{82,520}{437,380} \\times 100 \\approx 18.9\\% \\).\n\nB"
+  },
+  "v1_373": {
+    "answer": "The net is for a cube, and when folded, the patterns match those of option C.\n\nC"
+  },
+  "v1_374": {
+    "answer": "Figure C can be made from the given shapes without resizing, as it uses all four shapes—circle, hexagon, diamond, and rectangle—in positions that match their sizes.\n\nC"
+  },
+  "v1_375": {
+    "answer": "The shapes from the top can be arranged to form figure C without resizing. The hexagon and rectangle fit together to create one end of the configuration shown in figure C.\n\nC"
+  },
+  "v1_376": {
+    "answer": "Figure D is not a rotation of the object because the dark square is on the wrong side compared to the original object. \n\nD"
+  },
+  "v1_377": {
+    "answer": "The correct figure is D. It is a rotation of the original object since the positions of the shapes (square and circles) relative to each other match exactly after a 180-degree rotation.\n\nD"
+  },
+  "v1_378": {
+    "answer": "Figure A is a 180-degree rotation of the first figure. The positions of the filled and crossed squares align when rotated.\n\nA"
+  },
+  "v1_379": {
+    "answer": "Figure C is a rotation of the first figure, as each square aligns perfectly when the whole grid is rotated 180 degrees.\n\nC"
+  },
+  "v1_380": {
+    "answer": "Figure B is a 180-degree rotation of the first image, as the positions and orientations of the shapes are consistent after such a rotation.\n\nB"
+  },
+  "v1_381": {
+    "answer": "Figure D is a rotation of the object. The orientation and relative positions of the blocks with the darkened faces match the original object in Figure D. \n\nD"
+  },
+  "v1_382": {
+    "answer": "The original shape has a notch on the top right front edge. Option C matches this configuration.\n\nC"
+  },
+  "v1_383": {
+    "answer": "The 2D net represents a cube where opposite faces match the design and coloration shown in option B. The positions of the colored squares and circles align when folded properly.\n\nB"
+  },
+  "v1_384": {
+    "answer": "The 2D net consists of six squares arranged to form a cube and two triangular faces, creating a triangular prism on one face. When folded, this forms shape A.\n\nA"
+  },
+  "v1_385": {
+    "answer": "The given shapes can be arranged to form a figure by placing the triangle on top of the rectangle, and attaching the other shapes appropriately to replicate the collection of sides and angles in option B.\n\nB"
+  },
+  "v1_386": {
+    "answer": "The shapes can be arranged to form figure B without resizing.\n\nB"
+  },
+  "v1_387": {
+    "answer": "The shapes can be rearranged without resizing to form figure A. The two triangles fit on top of the rectangle to create a similar configuration.\n\nA"
+  },
+  "v1_388": {
+    "answer": "This net is a flat layout of a cube with alternating dark and light faces. When folded, the dark and light squares will form a pattern matching the cube in option C.\n\nC"
+  },
+  "v1_389": {
+    "answer": "Figure C is a rotation of the first because the positions of the square and the two circles on the hexagon match when rotated. \n\nC"
+  },
+  "v1_390": {
+    "answer": "Figure D is a rotation of the object because the positions and orientations of the shapes and shaded area match the original when rotated. \n\nD"
+  },
+  "v1_391": {
+    "answer": "The 2D net folds into a cube with specific triangular arrangements. By examining the placement of the triangles relative to each square face, the net matches the pattern of shape B.\n\nB"
+  },
+  "v1_392": {
+    "answer": "Figure D is a rotation of the first figure. The arrangement of the shapes and colors corresponds exactly to a 180-degree rotation.\n\nD"
+  },
+  "v1_393": {
+    "answer": "Figure C is a 180-degree rotation of the first figure. The arrangement of the diagonal lines and crossed squares matches when rotated. \n\nC"
+  },
+  "v1_394": {
+    "answer": "The correct figure is B. The arrangement of shapes around the axes in figure B is consistent with a rotation of the initial figure.\n\nB"
+  },
+  "v1_395": {
+    "answer": "Figure D is a rotation of the object because it has the same 3D arrangement and relative positioning of blocks as the original shape.\n\nD"
+  },
+  "v1_396": {
+    "answer": "The given shape consists of three cubes stacked in an L-shape. From a top-down view, this would appear as a large square composed of two smaller squares with a gap in the lower left corner.\n\nB"
+  },
+  "v1_397": {
+    "answer": "The correct rotation maintains the relative positions and orientations of each element in the figure. Option B matches the placement of the shapes and their orientations as a rotation of the question figure.\n\nB"
+  },
+  "v1_398": {
+    "answer": "The correct 2D shape is the net that matches the patterns and layout of the cube when unfolded. \n\nD"
+  },
+  "v1_399": {
+    "answer": "The given 2D shape is a net of a cube. The pattern of markings and positions matches the configuration in option C.\n\nC"
+  },
+  "v1_400": {
+    "answer": "The original object is rotated 90 degrees clockwise. In figure C, the arrangement of symbols reflects this rotation perfectly.\n\nC"
+  },
+  "v1_401": {
+    "answer": "Figure D is a rotation of the object. The pattern of lines in each quadrant of figure D matches the original object when it is rotated 90 degrees clockwise. \n\nD"
+  },
+  "v1_402": {
+    "answer": "The reflection of the object should have its elements mirrored horizontally. Figure D matches the mirrored pattern of the original object.\n\nD"
+  },
+  "v1_403": {
+    "answer": "The reflection of the object should have the horizontal arrow pointing left instead of right, with the vertical arrows remaining in the same order. Figure D is the correct reflection.\n\nD"
+  },
+  "v1_404": {
+    "answer": "The figure is divided into six sections with distinct symbols. The correct rotation maintains the order of these symbols and matches figure C.\n\nC"
+  },
+  "v1_405": {
+    "answer": "The object in the top picture has an \"L\" shape extending upwards with a block missing on one side at the bottom. Figure B is a rotation of the object as it maintains these features.\n\nB"
+  },
+  "v1_406": {
+    "answer": "The reflection of the object will have the same shape but with a reversed orientation. Among the options, Figure C is the correct reflection as it maintains the same shape and orientation when flipped.\n\nC"
+  },
+  "v1_407": {
+    "answer": "The correct figure is C. When combined with the given shape, it fills in the missing spaces to form a complete cube.\n\nC"
+  },
+  "v1_408": {
+    "answer": "The correct figure is a rotation of the object when the arrangement of patterns on the faces matches. By comparing the patterns, Figure D is the correct rotation.\n\nD"
+  },
+  "v1_409": {
+    "answer": "The correct figure is C. Figure C is a rotation of the object because the relative positions and orientations of the blocks and lines match the original object's structure and markings.\n\nC"
+  },
+  "v1_410": {
+    "answer": "The pieces can be rotated to form figure C. The arrangement in C matches the shape and orientation possible by rotating the given pieces.\n\nC"
+  },
+  "v1_411": {
+    "answer": "Set C is necessary because it contains the correct combination of pieces that can fill the square shape exactly with no gaps or overlaps.\n\nC"
+  },
+  "v1_412": {
+    "answer": "The given pieces can form figure B, as each fits together without overlapping and completely uses the available shapes.\n\nB"
+  },
+  "v1_413": {
+    "answer": "The given figure is a mirrored L-shape with an additional block at the top-right corner. The piece in option C matches this shape precisely.\n\nC"
+  },
+  "v1_414": {
+    "answer": "The piece that fits is \"B\" because it has the complementary shape and orientation needed to match and complete the missing segment of the circle.\n\nB"
+  },
+  "v1_415": {
+    "answer": "The solid is an L-shaped structure, and the corresponding piece needs to match this cross-section. Upon examining the options, piece B is a proper layout that, when folded, forms the given solid shape.\n\nB"
+  },
+  "v1_416": {
+    "answer": "The solid consists of two towers of different heights with a shared base. Piece D matches the configuration, allowing it to form the depicted 3D structure.\n\nD"
+  },
+  "v1_417": {
+    "answer": "The input pulley A, with a diameter of 100, turns clockwise at 100 RPM. Pulley B, with a diameter of 200, connected by a belt, will turn anticlockwise at half the speed (50 RPM), due to its larger size. Pulley C, also 200 in diameter, is connected to B and will turn at the same speed as B (50 RPM), maintaining the anticlockwise direction due to the belt configuration.\n\nB turns anticlockwise at"
+  },
+  "v1_418": {
+    "answer": "In figure A, the single fixed pulley does not offer any mechanical advantage, so the force required is equal to the weight (1 kg). In figures B and C, the orientations of the pulleys suggest that they do not function effectively. Therefore, A requires the least force to work.\n\nA"
+  },
+  "v1_419": {
+    "answer": "The system in A is a simple pulley with no mechanical advantage, so lifting the weight by 10 mm requires pulling 10 mm of rope. In B, a mechanical advantage is involved, meaning less rope is needed for the same lift. C is not functional as a pulley system, as indicated by the incorrect rope path. Thus, A requires pulling the rope further.\n\nA"
+  },
+  "v1_420": {
+    "answer": "To balance the beam, the torque on both sides must be equal. Since B is twice the distance from the fulcrum compared to A, B must be half the weight of A to balance the beam. Therefore, B must be lighter than A.\n\nB"
+  },
+  "v1_421": {
+    "answer": "Using a long spanner and holding it at B provides the greatest leverage, making it easier to loosen the nut. \n\n(E)"
+  },
+  "v1_422": {
+    "answer": "To raise B by 12 cm, each lever arm half of the previous lever arm will move up by half the distance. Therefore, A needs to move up twice the distance, resulting in A moving 12 cm.\n\n(E) 12cm."
+  },
+  "v1_423": {
+    "answer": "When one gear rotates, it causes the adjacent gear to rotate in the opposite direction. Gear A rotates clockwise, so gear B will rotate anticlockwise, gear C will rotate clockwise, gear D will rotate anticlockwise, gear E will rotate clockwise, and gear F will rotate anticlockwise.\n\n(D) B, D and F are turning anticlockwise."
+  },
+  "v1_424": {
+    "answer": "The speed of gear C can be found using gear ratios. Gear A drives gear B at a speed of 120 RPM because it has half the number of teeth (20 teeth on A, 10 on B). Gear B, driving gear C, results in gear C turning at a speed of 30 RPM because it has four times more teeth (10 on B, 40 on C).\n\nThe answer is (B) 30 RPM."
+  },
+  "v1_425": {
+    "answer": "To find the speed of the shaft, we use the formula for planetary gears: \\((R \\times \\omega_R) = (S \\times \\omega_S) + (P \\times \\omega_P)\\), where \\(R\\), \\(S\\), and \\(P\\) are the teeth counts of the ring, sun, and planet gear respectively, and \\(\\omega\\) represents angular velocity. Given \\(\\omega_R = 5\\) RPM, substituting values gives a"
+  },
+  "v1_426": {
+    "answer": "Gear A is three times as large as Gear B, so for one full rotation of Gear A, Gear B will make three full rotations in the opposite direction (anticlockwise). With the indication of 10 mm on pointer A's tip, pointer B (twice the length) will travel 60 mm anticlockwise.\n\n**D**"
+  },
+  "v1_427": {
+    "answer": "When Point C is moved downwards, the left side of the lever goes down causing end A to go lower than B due to the lever pivoting around the point near the wall. Thus, (B) A ends up lower than B.\n\nB"
+  },
+  "v1_428": {
+    "answer": "Steel has high thermal conductivity and water is a better conductor than air, so the steel hammer in water will cool the fastest.\n\n(D) Steel in water"
+  },
+  "v1_429": {
+    "answer": "The most stable configuration is (A) because it has a wider base of attachment that distributes force more evenly, reducing the tendency to sway or rotate. \n\nA"
+  },
+  "v1_430": {
+    "answer": "The RPM of a cog is inversely proportional to its size. Since D is the smallest cog, it will have the highest RPM.\n\nD"
+  },
+  "v1_431": {
+    "answer": "In pipe B, the narrowing section increases the velocity of the water due to the conservation of mass in fluid dynamics (continuity equation). This higher velocity would allow the water to reach the furthest.\n\nB"
+  },
+  "v1_432": {
+    "answer": "Streamlined shapes with smooth curves generally reduce drag the most. So, object D is likely the most aerodynamic of the group.\n\nD"
+  },
+  "v1_433": {
+    "answer": "To fly forward, a helicopter tilts in the direction of flight, which is achieved by tilting the rotor blades forward, causing the helicopter to tilt forward (clockwise in the image).\n\n**B**"
+  },
+  "v1_434": {
+    "answer": "Atmospheric pressure decreases with altitude. The balloon on the left is at a higher altitude than the one on the right, experiencing less pressure.\n\nA"
+  },
+  "v1_435": {
+    "answer": "When the bottom left cog spins anticlockwise, the top left cog spins clockwise, driving the next one anticlockwise, and so on. Alternating direction, the bottom right cog spins anticlockwise.\n\n**Answer: (B) 3**"
+  },
+  "v1_436": {
+    "answer": "Larger stop signs are likely to have a larger impact due to their greater mass; therefore, (C) is likely to have the largest impact as it has the largest sign face.\n\nC"
+  },
+  "v1_437": {
+    "answer": "The most stable configuration is (C) because the object is closer to the drone, reducing the pendulum effect and making it less susceptible to oscillations.\n\nC"
+  },
+  "v1_438": {
+    "answer": "The sled with the narrowest runners will likely be the fastest as it minimizes surface area in contact with the ice, reducing friction. \n\nA"
+  },
+  "v1_439": {
+    "answer": "The wheel with the smallest diameter (and thus the fewest teeth) will have the highest RPM because it needs to rotate more times to match the linear speed set by the belt. \n\nC"
+  },
+  "v1_440": {
+    "answer": "Holding the spade vertically, as shown in A, centers its weight more directly over the arm, reducing the lever arm effect and requiring less effort to balance it.\n\nThe answer is: A."
+  },
+  "v1_441": {
+    "answer": "The force required to cut with scissors is less if the material is placed closer to the pivot. Thus, positions where the material is nearer to the pivot need less force. The images show varying distances to the pivot. Based on the given options, the order is from least to most force:\n\nPosition B (closest to the pivot), followed by Position C, then Position A, and finally Position D (farthest from the pivot).\n\nThe correct answer is (D) DBCA."
+  },
+  "v1_442": {
+    "answer": "When the string is pulled up, the corner wheels on either end spin anticlockwise, while the other corner wheels spin clockwise. Only 2 corner wheels (one on each end) spin anticlockwise.\n\n(D) 1"
+  },
+  "v1_443": {
+    "answer": "Spring B would be compressed the farthest because it has the fewest coils, which indicates it is less tightly wound and thus less stiff compared to the others.\n\nB"
+  },
+  "v1_444": {
+    "answer": "The grid with the least surface area in contact with the water will experience less buoyant force and is more likely to sink first. Grid A has the least bars and therefore the least surface area compared to the others.\n\nA"
+  },
+  "v1_445": {
+    "answer": "When the three objects are half submerged, they displace a volume of water equal to the submerged volume of the objects (3 objects * 1 cubic meter each = 3 cubic meters). So, the water level will rise by 3 cubic meters.\n\nE"
+  },
+  "v1_446": {
+    "answer": "C has a triangular shape with a lower center of gravity compared to the others, making it more stable in wind.\n\nC"
+  },
+  "v1_447": {
+    "answer": "All cogs have the same number of teeth, so they will all hit the arrow the same number of times in any given time period as they rotate.\n\nD"
+  },
+  "v1_448": {
+    "answer": "The pattern is based on the increasing number of layers and the alternating size of the gears. The series alternates between small and large gears. The next in sequence should be large, following the pattern after the small gear.\n\nThe letter is **E**."
+  }
+}
