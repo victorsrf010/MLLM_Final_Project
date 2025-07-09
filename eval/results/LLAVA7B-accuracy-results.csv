@@ -634,3 +634,4 @@ v1_444,mechanical,diagram,['a'],['zzzzz'],(A) A,0
 v1_445,mechanical,diagram,['e'],['zzzzz'],"Based on the image, the water level will lower by 1.5 cubic meters of water.",0
 v1_446,mechanical,diagram,['e'],['zzzzz'],(B) B,0
 v1_447,mechanical,diagram,['d'],['zzzzz'],"After 120 seconds of rotation, cog A will have hit the arrow the most number of times.",0
+v1_448,inductive,diagram,['e'],['zzzzz'],(E) E,0

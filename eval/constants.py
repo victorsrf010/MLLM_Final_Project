@@ -8,6 +8,7 @@ APIKEY = ""
 # LLAVA13B
 # otter9B
 # GPT4
+# gpt-4o
 # BLIP2
 # GIT
 # GIT-large
@@ -24,7 +25,7 @@ APIKEY = ""
 # instructBLIP-vicuna-13B
 # instructBLIP-flan-t5-xl
 # instructBLIP-flan-t5-xxl
-MODEL = "GPT4"
+MODEL = "gpt-4o"
 
 # file paths for where MLLM answers are stored and where accuracy result files are stored
 ANSWERS_PATH = "answers/" + MODEL + "-answers.json"

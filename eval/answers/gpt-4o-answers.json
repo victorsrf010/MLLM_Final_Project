@@ -1345,5 +1345,20 @@
   },
   "v1_448": {
     "answer": "The pattern is based on the increasing number of layers and the alternating size of the gears. The series alternates between small and large gears. The next in sequence should be large, following the pattern after the small gear.\n\nThe letter is **E**."
+  },
+  "v1_449": {
+    "answer": "A palavra \"gatos\" deve ser eliminada, pois todas as outras palavras são objetos inanimados, enquanto \"gatos\" refere-se a seres vivos.\n\nLetra: gatos."
+  },
+  "v1_450": {
+    "answer": "Para completar a série 1, 2, 9, a lógica parece ser multiplicar por números consecutivos: 1 (multiplicado por 1), 2 (multiplicado por 2), e depois 9 (multiplicado por 3), sugerindo que o próximo número é 36 (9 multiplicado por 4).\n\nD."
+  },
+  "v1_451": {
+    "answer": "A sequência alterna entre setas vermelhas horizontais e pretas verticais, enquanto o padrão das barras internas também alterna. O próximo na sequência deve ser uma seta preta com linhas pontilhadas.\n\nResposta: 4"
+  },
+  "v1_452": {
+    "answer": "Para completar o padrão, a coluna segue a lógica de alternar entre duas e três linhas preenchidas. A primeira coluna tem três partes brancas e duas pretas; a segunda tem três partes pretas; e a última deve seguir a sequência tendo três partes brancas. Portanto, a opção adequada é a mesma que a primeira coluna invertida horizontalmente.\n\nResposta: **b**"
+  },
+  "v1_453": {
+    "answer": "A série de palavras na opção **d** não segue uma ordem alfabética, pois \"DILUIÇÃO\" deveria vir após \"DILUIR\". \n\nd."
   }
 }

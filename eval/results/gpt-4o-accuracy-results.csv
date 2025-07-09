@@ -250,7 +250,7 @@ D",0
 82,v1_82,['inductive'],diagram,['a'],['b'],"The Figure belongs to Set B, as it shares the characteristic of having a black triangle with a white star inside, similar to one of the figures in Set B.
 
 (B) Set B",0
-83,v1_83,['inductive'],diagram,['b'],"['a', 'c']","The Figure belongs to Set A. Both the Figure and Set A contain circles and angular, interconnected lines.
+83,v1_83,['inductive'],diagram,['b'],['a'],"The Figure belongs to Set A. Both the Figure and Set A contain circles and angular, interconnected lines.
 
 C",0
 84,v1_84,['inductive'],diagram,['b'],['a'],"The Figure belongs to Set A. In Set A, each configuration contains the same number of shaded, unshaded, and cross-hatched circles (two of each type). The Figure also has two shaded, two unshaded, and two cross-hatched circles.
@@ -259,9 +259,9 @@ A",0
 85,v1_85,['inductive'],diagram,['c'],['b'],"The Figure includes elements like ""@"", ""+"", and ""□"", which are from both sets' symbols, but mainly align with Set B, which contains shapes and simple symbols. Set A contains more distinct special characters. 
 
 B",0
-86,v1_86,['inductive'],diagram,['b'],"['b', 'c']","The Figure belongs to Set B. Both the Figure and the patterns in Set B have more stars than circles in the center.
+86,v1_86,['inductive'],diagram,['b'],['b'],"The Figure belongs to Set B. Both the Figure and the patterns in Set B have more stars than circles in the center.
 
-(C)",0
+(C)",1
 87,v1_87,['inductive'],diagram,['a'],['b'],"The Figure belongs to Set B because it consists of triangles with internal lines or patterns similar to those in Set B.
 
 (B) Set B",0
@@ -292,9 +292,9 @@ A",1
 96,v1_96,['inductive'],diagram,['b'],['b'],"The figure belongs to Set B as it follows the pattern of alternating black and white petals starting with black on the left. 
 
 (B) Set B",1
-97,v1_97,['inductive'],diagram,['a'],['zzzzz'],"The figure belongs to Set A. Both the figure and Set A have a similar arrangement of shapes with stars inside the dashed circle and other shapes surrounding it.
+97,v1_97,['inductive'],diagram,['a'],['a'],"The figure belongs to Set A. Both the figure and Set A have a similar arrangement of shapes with stars inside the dashed circle and other shapes surrounding it.
 
-(B) Set A",0
+(B) Set A",1
 98,v1_98,['inductive'],diagram,['c'],['b'],"The figure belongs to Set B. In Set B, each figure has four circles in the corners, with three black and one white, which matches the pattern in the given figure.
 
 B",0
@@ -319,7 +319,7 @@ B",0
 105,v1_105,['inductive'],diagram,['a'],['a'],"The Figure belongs to Set A; both the Figure and Set A have a horizontal line above a vertical line. 
 
 Answer: A",1
-106,v1_106,['inductive'],diagram,['a'],"['b', 'c']","The figure belongs to Set B. It has 5 blocks, similar to the figures in Set B, while Set A figures all have 4 blocks.
+106,v1_106,['inductive'],diagram,['a'],['b'],"The figure belongs to Set B. It has 5 blocks, similar to the figures in Set B, while Set A figures all have 4 blocks.
 
 C) Neither set A nor set B",0
 107,v1_107,['inductive'],diagram,['a'],['a'],"The Figure belongs to Set A, where lines form angular and simple geometrical shapes without crossing. In Set B, lines mostly cross each other or form an addition-like sign.
@@ -1356,3 +1356,18 @@ D",1
 448,v1_448,['inductive'],diagram,['e'],['e'],"The pattern is based on the increasing number of layers and the alternating size of the gears. The series alternates between small and large gears. The next in sequence should be large, following the pattern after the small gear.
 
 The letter is **E**.",1
+449,v1_449,['verbal'],verbal reasoning,['vigor'],['zzzzz'],"A palavra ""gatos"" deve ser eliminada, pois todas as outras palavras são objetos inanimados, enquanto ""gatos"" refere-se a seres vivos.
+
+Letra: gatos.",0
+450,v1_450,['deductive'],numeric reasoning,['16'],['d'],"Para completar a série 1, 2, 9, a lógica parece ser multiplicar por números consecutivos: 1 (multiplicado por 1), 2 (multiplicado por 2), e depois 9 (multiplicado por 3), sugerindo que o próximo número é 36 (9 multiplicado por 4).
+
+D.",0
+451,v1_451,['inductive'],diagram,['5'],['4'],"A sequência alterna entre setas vermelhas horizontais e pretas verticais, enquanto o padrão das barras internas também alterna. O próximo na sequência deve ser uma seta preta com linhas pontilhadas.
+
+Resposta: 4",0
+452,v1_452,['inductive'],diagram,['e'],['b'],"Para completar o padrão, a coluna segue a lógica de alternar entre duas e três linhas preenchidas. A primeira coluna tem três partes brancas e duas pretas; a segunda tem três partes pretas; e a última deve seguir a sequência tendo três partes brancas. Portanto, a opção adequada é a mesma que a primeira coluna invertida horizontalmente.
+
+Resposta: **b**",0
+453,v1_453,['verbal'],verbal reasoning,['a'],['d'],"A série de palavras na opção **d** não segue uma ordem alfabética, pois ""DILUIÇÃO"" deveria vir após ""DILUIR"". 
+
+d.",0
