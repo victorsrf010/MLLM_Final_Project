@@ -1,24 +1,20 @@
 import os
 import json
-import base64
 import constants
 import google.generativeai as genai
 from tqdm import tqdm
 
+MODEL = "gemini"
 genai.configure(api_key=constants.APIKEY)
-
 model = genai.GenerativeModel("gemini-1.5-flash")
 print("Using model: gemini-1.5-flash")
 
-# Load dataset
 with open(constants.DATASET_PATH, "r", encoding="utf-8") as f:
     dataset = json.load(f)
 
-answers_dir = os.path.join(os.path.dirname(__file__), "answers")
-os.makedirs(answers_dir, exist_ok=True)
-out_path = os.path.join(answers_dir, "gemini-answers.json")
+out_path = constants.get_answers_path(MODEL)
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
-# Load existing
 if os.path.exists(out_path):
     with open(out_path, "r", encoding="utf-8") as f:
         answers = json.load(f)
@@ -32,7 +28,6 @@ print(f"Found {len(keys_to_run)} unanswered entries.")
 for key in tqdm(keys_to_run):
     item = dataset[key]
     image_file = os.path.join(constants.PROJECT_ROOT, "data", "images", item["imagename"])
-
     if not os.path.exists(image_file):
         print(f"Missing image for {key}")
         continue
@@ -49,7 +44,6 @@ for key in tqdm(keys_to_run):
         )
 
         answers[key] = {"answer": response.text.strip()}
-
     except Exception as e:
         print(f"Error with {key}: {e}")
         answers[key] = {"answer": ""}

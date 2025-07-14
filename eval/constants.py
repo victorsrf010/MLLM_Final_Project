@@ -19,6 +19,11 @@ else:
     APIKEY = ""
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-ANSWERS_PATH = os.path.join(PROJECT_ROOT, "eval", "answers", f"{MODEL}-answers.json")
-RESULTS_PATH = os.path.join(PROJECT_ROOT, "eval", "results", f"{MODEL}-accuracy-results.csv")
+
+def get_answers_path(model: str) -> str:
+    return os.path.join(PROJECT_ROOT, "eval", "answers", f"{model}-answers.json")
+
+def get_results_path(model: str) -> str:
+    return os.path.join(PROJECT_ROOT, "eval", "results", f"{model}-accuracy-results.csv")
+
 DATASET_PATH = os.path.join(PROJECT_ROOT, "data", "dataset.json")
