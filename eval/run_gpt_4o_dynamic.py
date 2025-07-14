@@ -1,6 +1,8 @@
 import argparse
 import base64
 from openai import OpenAI
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--img', required=True)
@@ -24,7 +26,7 @@ response = client.chat.completions.create(
             ],
         }
     ],
-    max_tokens=100,
+    max_tokens=300,
 )
 
 print(response.choices[0].message.content.strip())
