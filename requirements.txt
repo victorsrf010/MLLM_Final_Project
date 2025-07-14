@@ -3,3 +3,5 @@ langchain_community
 openai
 numpy
 tqdm
+google-generativeai
+langchain_google_genai

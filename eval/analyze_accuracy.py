@@ -1,120 +1,37 @@
 import pandas as pd
 import constants
-from colorama import Fore, Back, Style
-
-cat = ["diagram", "ocr", "patterns", "graphs", "tables", "3d shapes", "puzzles", "sequences", "physics"]
 
 df = pd.read_csv(constants.RESULTS_PATH)
-df_tot = df
 
+reasoning_skills = ["inductive", "deductive", "numerical", "spatial", "mechanical"]
+capabilities = ["diagram", "ocr", "patterns", "graphs", "tables", "3d shapes", "puzzles", "sequences", "physics"]
 
-df_inductive = df[df["reasoning skill"].str.contains("inductive")]
-df_deductive = df[df["reasoning skill"].str.contains("deductive")]
-df_numerical = df[df["reasoning skill"].str.contains("numerical")]
-df_spatial = df[df["reasoning skill"].str.contains("spatial")]
-df_mechanical = df[df["reasoning skill"].str.contains("mechanical")]
+def print_header(title):
+    print(f"\n{title:<20}")
+    print(f"{'Name':<15}{'Accuracy':>10}{'Score':>15}")
+    print("-" * 40)
 
-print(Fore.RED + "Model: " + constants.MODEL + Fore.WHITE)
-print(Fore.GREEN + "Reasoning Skill Acc:" + Fore.WHITE)
-tot_correct = df_tot["match?"].sum()
-tot_acc = (tot_correct / df_tot.shape[0]) * 100
-print(
-    "Total: "
-    + str(tot_acc)
-    + "%"
-    + "\t"
-    + "("
-    + str(tot_correct)
-    + "/"
-    + str(df_tot.shape[0])
-    + ")"
-)
+def print_line(name, correct, total):
+    if total == 0:
+        acc = "N/A"
+        score = "0/0"
+    else:
+        acc = f"{(correct / total) * 100:6.2f}%"
+        score = f"{correct}/{total}"
+    print(f"{name:<15}{acc:>10}{score:>15}")
 
-inductive_correct = df_inductive["match?"].sum()
-inductive_acc = (inductive_correct / df_inductive.shape[0]) * 100
-print(
-    "Inductive: "
-    + str(inductive_acc)
-    + "%"
-    + "\t"
-    + "("
-    + str(inductive_correct)
-    + "/"
-    + str(df_inductive.shape[0])
-    + ")"
-)
+print(f"Model: {constants.MODEL}")
 
-deductive_correct = df_deductive["match?"].sum()
-deductive_acc = (deductive_correct / df_deductive.shape[0]) * 100
-print(
-    "Deductive: "
-    + str(deductive_acc)
-    + "%"
-    + "\t"
-    + "("
-    + str(deductive_correct)
-    + "/"
-    + str(df_deductive.shape[0])
-    + ")"
-)
+# Reasoning Skill Accuracy
+print_header("Reasoning Skill Accuracy")
+total_correct = df["match?"].sum()
+print_line("Total", total_correct, df.shape[0])
+for skill in reasoning_skills:
+    subset = df[df["reasoning skill"].str.contains(skill, case=False, na=False)]
+    print_line(skill.capitalize(), subset["match?"].sum(), subset.shape[0])
 
-numerical_correct = df_numerical["match?"].sum()
-numerical_acc = (numerical_correct / df_numerical.shape[0]) * 100
-print(
-    "Numerical: "
-    + str(numerical_acc)
-    + "%"
-    + "\t"
-    + "("
-    + str(numerical_correct)
-    + "/"
-    + str(df_numerical.shape[0])
-    + ")"
-)
-
-spatial_correct = df_spatial["match?"].sum()
-spatial_acc = (spatial_correct / df_spatial.shape[0]) * 100
-print(
-    "Spatial: "
-    + str(spatial_acc)
-    + "%"
-    + "\t"
-    + "("
-    + str(spatial_correct)
-    + "/"
-    + str(df_spatial.shape[0])
-    + ")"
-)
-
-mechanical_correct = df_mechanical["match?"].sum()
-mechanical_acc = (mechanical_correct / df_mechanical.shape[0]) * 100
-print(
-    "Mechanical: "
-    + str(mechanical_acc)
-    + "%"
-    + "\t"
-    + "("
-    + str(mechanical_correct)
-    + "/"
-    + str(df_mechanical.shape[0])
-    + ")"
-)
-
-# capability
-
-print(Fore.GREEN + "Capability Acc:" + Fore.WHITE)
-for i in cat:
-    curr = df[df["capability"].astype(str) == i]
-    correct = curr["match?"].sum()
-    acc = (correct / curr.shape[0]) * 100 if curr.shape[0] > 0 else float('nan')
-    print(
-        f"{i}: "
-        + str(acc)
-        + "%"
-        + "\t"
-        + "("
-        + str(correct)
-        + "/"
-        + str(curr.shape[0])
-        + ")"
-    )
+# Capability Accuracy
+print_header("Capability Accuracy")
+for cap in capabilities:
+    subset = df[df["capability"].astype(str).str.contains(cap, case=False, na=False)]
+    print_line(cap, subset["match?"].sum(), subset.shape[0])

@@ -1,33 +1,24 @@
-#!/usr/bin/env python3
-# open AI key
-APIKEY = ""
+import os
+import json
 
-# ONLY CHANGE THE MODEL OPTION TO CHANGE EXTRACTION TYPES --> affects all files
-# Model Options (case sensitive):
-# LLAVA7B
-# LLAVA13B
-# otter9B
-# GPT4
-# gpt-4o
-# BLIP2
-# GIT
-# GIT-large
-# LLAVANEXT-7B-mistral
-# LLAVANEXT-7B-vicuna
-# LLAVANEXT-13B-vicuna
-# LLAVANEXT-34B-NH
-# deplot
-# matcha-base
-# miniGPTvicuna7B
-# miniGPTvicuna13B
-# pix2struct
-# instructBLIP-vicuna-7B
-# instructBLIP-vicuna-13B
-# instructBLIP-flan-t5-xl
-# instructBLIP-flan-t5-xxl
-MODEL = "gpt-4o"
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
 
-# file paths for where MLLM answers are stored and where accuracy result files are stored
-ANSWERS_PATH = "answers/" + MODEL + "-answers.json"
-RESULTS_PATH = "results/" + MODEL + "-accuracy-results.csv"
-DATASET_PATH = "C:/EI/IS/MLLM_Final_Project/LogicVista/data/"
+if not os.path.exists(CONFIG_PATH):
+    raise FileNotFoundError("Missing config.json. Save model and API key via interface.")
+
+with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+    cfg = json.load(f)
+
+MODEL = cfg.get("MODEL", "gpt-4o")
+
+if MODEL.startswith("gpt"):
+    APIKEY = cfg.get("OPENAI_APIKEY", "").strip()
+elif MODEL.startswith("gemini"):
+    APIKEY = cfg.get("GOOGLE_APIKEY", "").strip()
+else:
+    APIKEY = ""
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+ANSWERS_PATH = os.path.join(PROJECT_ROOT, "eval", "answers", f"{MODEL}-answers.json")
+RESULTS_PATH = os.path.join(PROJECT_ROOT, "eval", "results", f"{MODEL}-accuracy-results.csv")
+DATASET_PATH = os.path.join(PROJECT_ROOT, "data", "dataset.json")

@@ -1,172 +1,80 @@
 #!/usr/bin/env python3
-import json
-import sys
 import os
-import pandas as pd
-import constants
-from tqdm import tqdm
+import json
 import re
-# chatgpt has knowledge of world
-from langchain.llms import OpenAI
-from langchain.prompts import PromptTemplate
-from langchain_core.runnables import RunnablePassthrough
-from pydantic import BaseModel, Field, field_validator
-from langchain.output_parsers import PydanticOutputParser
-from langchain.output_parsers import OutputFixingParser
-from langchain.output_parsers import RetryWithErrorOutputParser
-from langchain.chat_models import ChatOpenAI
+import constants
+import pandas as pd
+from tqdm import tqdm
+from openai import OpenAI
+import google.generativeai as genai
 
-# ONLY CHANGE THE MODEL OPTION TO CHANGE EXTRACTION TYPES
-# Model Options (case sensitive):
-# LLAVA
+# Load dataset
+with open(constants.DATASET_PATH, "r", encoding="utf-8") as f:
+    ground_truth = json.load(f)
 
+with open(constants.ANSWERS_PATH, "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-class Answer(BaseModel):
-    choices: list[str] = Field(
-        description="multiple choice answer of a list of letters or numbers chosen by the given text"
-    )
+# Init model
+MODEL = constants.MODEL
+APIKEY = constants.APIKEY
 
-    @field_validator("choices")
-    def validate_choices(cls, value):
-        if not isinstance(value, list):
-            raise ValueError("Choices must be a list")
-        return value
+if MODEL.startswith("gpt"):
+    client = OpenAI(api_key=APIKEY)
+    def run_llm(prompt):
+        res = client.chat.completions.create(
+            model=MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=100
+        )
+        return res.choices[0].message.content.strip()
 
+elif MODEL.startswith("gemini"):
+    genai.configure(api_key=APIKEY)
+    model = genai.GenerativeModel(MODEL)
+    def run_llm(prompt):
+        res = model.generate_content(prompt)
+        return res.text.strip()
 
-# constants
-os.environ["OPENAI_API_KEY"] = constants.APIKEY
+else:
+    raise ValueError(f"Unsupported model: {MODEL}")
 
-temperature = 0.2
-# output structure
+# Extract letters from final answer line
+def extract_final_letters(raw):
+    # Split lines and extract last line
+    last_line = raw.strip().split("\n")[-1]
+    matches = re.findall(r"[A-Ea-e]", last_line)
+    return sorted(set([m.lower() for m in matches])) if matches else ["ZZZZZ"]
 
-# llm for
-llm = ChatOpenAI(model="gpt-4o", temperature=temperature)
-
-parser = PydanticOutputParser(pydantic_object=Answer)
-format_instructions = parser.get_format_instructions()
-
-# read the truth file
-ground_truth_file = open(constants.DATASET_PATH + "dataset.json", "r", encoding="utf-8")
-ground_truth = json.loads(ground_truth_file.read())
-# load json answers from a given mllm
-data_file = open(constants.ANSWERS_PATH, "r", encoding="utf-8")
-print("Ground Truth Length: " + str(len(ground_truth)))
-data = json.loads(data_file.read())
-print("Data Length: " + str(len(data)))
-
-
-# output dataframe
-df = pd.DataFrame(
-    columns=[
-        "id",
-        "reasoning skill",
-        "capability",
-        "true answer",
-        (constants.MODEL + " Answer"),
-        "match?",
-    ]
-)
+# Main loop
 df = pd.DataFrame()
+for id in tqdm(data):
+    if id not in ground_truth:
+        continue
 
-for i in tqdm(range(0, len(data))):
-    id = "v1_" + str(i)
+    raw = data[id]["answer"].strip()
+    q = ground_truth[id]["question"]
+    raw_answer = raw
 
-    # answer entry----------
-    entry = ""
-    if "ASSISTANT:" in data[id]["answer"]:
-        entry = data[id]["answer"].split("ASSISTANT:")[1]
-    else:
-        entry = data[id]["answer"]
-    question = ground_truth[id]["question"]
+    # Use local extraction for all answers
+    extracted = extract_final_letters(raw)
 
-    # only use GPT parse if already not one letter answers
-    #
-    MLLM_answers = [entry.strip()]
-    if len(entry.strip()) != 0:
-        # if length is 1 with only letters and isn't abcde
-        if (len(entry.strip()) == 1 and entry.strip().isalpha() and entry.strip().lower() not in 'abcde') or (len(entry.strip()) == 1 and not entry.strip().isalpha() and not entry.strip().isnumeric()):
-            MLLM_answers = ['ZZZZZ']
-        else:
-            template = """
-            You are a information extractor that extracts multiple choice letter answer choices
-                from a paragraph that contains the answer choice and sometimes and explaination of why that choice is correct to the following question: \"{question}\"\n
-                What letter did the following answer choose? If the answer did not select a letter answer choice, first try to infer the answer based off the given choices.
-                If it does not seem like the given answer corresponds to an answer choice OR if there is no selected answer, please just respond with the string ZZZZZ.
-                Make sure you answer with ONLY the letters chosen.\nHere is what I need you to extract from:\nThe answer is \"{entry}\"\n{format_instructions}
-            Helpful Answer:
-            """
-            prompt_template = PromptTemplate.from_template(template)
-            prompt_template = prompt_template.format(
-                question=question, entry=entry, format_instructions=format_instructions
-            )
-            output = llm.invoke(prompt_template).content
-            output_choices = ""
-            # ensure formatting correctly
-            success = False
-            for i in range(0, 100):
-                try:
-                    # try parse
-                    output_choices = parser.parse(output)
-                    output_choices.choices
-                    success = True
-                    break
-                except Exception:
-                    try:
-                        fixing_parser = OutputFixingParser.from_llm(
-                            parser=parser, llm=OpenAI(temperature=0.3)
-                        )
-                        misformatted = str(output)
-                        output_choices = fixing_parser.parse(misformatted)
-                    except Exception:
-                        continue
-            if (not success):
-                for i in range(0, 100):
-                    try:
-                        # try parse
-                        output_choices = parser.parse(output)
-                        output_choices.choices
-                        success = True
-                        break
-                    except Exception:
-                        try:
-                            retry_parser = RetryWithErrorOutputParser.from_llm(parser=parser, llm=OpenAI(temperature=0.7))
-                            prompt_value = PromptTemplate.from_template(template).format_prompt(
-                                question=question, entry=entry, format_instructions=format_instructions
-                            )
-                            output_choices = retry_parser.parse_with_prompt(output, prompt_value)
-                        except Exception:
-                            continue
-            if (success):
-                # answer choices array from MLLM
-                MLLM_answers = output_choices.choices
-            else:
-                MLLM_answers = ['ZZZZZ'] 
+    truth = [a.lower() for a in ground_truth[id]["answer"].split(", ")]
+    extracted.sort()
+    truth.sort()
+    match = int(extracted == truth)
 
-    # ground truth answers matching?
-    truth_answers = ground_truth[id]["answer"].split(", ")
-    match = 0
-    for j in range(0, len(MLLM_answers)):
-        MLLM_answers[j] = MLLM_answers[j].lower()
-    for j in range(0, len(truth_answers)):
-        truth_answers[j] = truth_answers[j].lower()
+    row = pd.DataFrame({
+        "id": [id],
+        "reasoning skill": [", ".join(ground_truth[id].get("skill", ["N/A"]))],
+        "capability": [", ".join(ground_truth[id].get("broad_capability", ["N/A"]))],
+        "true answer": [truth],
+        f"{MODEL} answer extracted": [extracted],
+        f"{MODEL} answer raw": [raw_answer],
+        "match?": [match],
+    })
 
-    # must hard equal to pass --> both should be in alphabetical order
-    MLLM_answers.sort()
-    truth_answers.sort()
-    if MLLM_answers == truth_answers:
-        match = 1
-
-    row = pd.DataFrame(
-        {
-            "id": [id],
-            "reasoning skill": [ground_truth[id]["skill"]],
-            "capability": [ground_truth[id].get("broad_capability", ["unknown"])[0]],
-            "true answer": [truth_answers],
-            (constants.MODEL + " answer extracted"): [MLLM_answers],
-            (constants.MODEL + " answer raw"): [entry],
-            "match?": [match],
-        }
-    )
     df = pd.concat([df, row], ignore_index=True)
 
-df.to_csv(constants.RESULTS_PATH)
+df.to_csv(constants.RESULTS_PATH, index=False)
+print(f"Saved to {constants.RESULTS_PATH}")

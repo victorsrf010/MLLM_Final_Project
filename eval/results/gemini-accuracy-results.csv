@@ -1,0 +1,1204 @@
+id,reasoning skill,capability,true answer,gemini answer extracted,gemini answer raw,match?
+v1_0,inductive,diagram,['c'],['a'],"The pattern shows the dot and square moving clockwise around the grid.  The next step in the sequence is A.
+
+A",0
+v1_1,inductive,diagram,"['a', 'c']",['a'],"The green circles are associated with the diamonds that have a number in the center and a letter in each corner.  A
+
+A",0
+v1_2,inductive,diagram,"['b', 'd']","['a', 'b']","The top diagram shows a pattern of shapes changing as they move along a path.  Following this pattern, B and A are the correct answers.
+
+B, A",0
+v1_3,inductive,diagram,['d'],['a'],"The pattern shows the circle moving clockwise around the hexagon, while the arrows rotate counterclockwise.  A
+
+A",0
+v1_4,inductive,diagram,['g'],['ZZZZZ'],"All the shapes are diamonds except for G, which is a square.
+
+G",0
+v1_5,inductive,diagram and ocr,"['b', 'd']",['b'],"The rule is that the order of the top row of symbols can be changed, but the bottom row of triangles must remain the same. Options B and D follow this rule.
+
+B",0
+v1_6,inductive,diagram,['b'],['a'],"The pattern alternates between a triangle and a square at the bottom, while the square at the top alternates between a larger and smaller size.
+
+A",0
+v1_7,inductive,diagram,['e'],['e'],"The bottom row shows that the arrows shift one position to the right in each subsequent box.  Therefore, the solution must show arrows shifted one position to the right from the arrows in the box to the left of the question mark.
+
+E",1
+v1_8,inductive,diagram,['a'],['a'],"The arrow rotates 90 degrees clockwise, and the number of dots increases by one each time.
+
+A",1
+v1_9,inductive,diagram,['c'],['a'],"The pattern alternates between a triangle and a play button, and the circle moves from the upper left to the upper right.  A
+
+A",0
+v1_10,inductive,diagram,['e'],['a'],"The black square rotates 90 degrees clockwise in each step of the sequence.  Therefore, the next box should have the square in the bottom-right corner.
+
+A",0
+v1_11,inductive,diagram,['e'],['a'],"The pattern alternates between a black and white triangle. The next one should be white.
+
+A",0
+v1_12,inductive,diagram,['b'],['a'],"The pattern alternates between a black circle in the upper left corner and no circle.  The triangles inside the larger triangle also change position in a pattern.
+
+A",0
+v1_13,inductive,diagram,['d'],['a'],"The pattern alternates between circles and squares. The next box should contain circles.
+
+A",0
+v1_14,inductive,diagram,['a'],['a'],"The pattern shows a clockwise rotation of the black circle segment and alternating positions of the square and arc.
+
+A",1
+v1_15,inductive,diagram,['b'],['a'],"The pattern shows that the shapes move one position clockwise in each step.  Therefore, the next box should be option A.
+
+A",0
+v1_16,inductive,diagram,['e'],['a'],"The black triangle rotates 90 degrees clockwise and the dot moves to the next corner in a clockwise direction.  A
+
+A",0
+v1_17,inductive,diagram,['a'],['a'],"The pattern shows the inner square alternating between black and white, and increasing/decreasing in size.  The next box should have a white inner square.
+
+A",1
+v1_18,inductive,diagram,['c'],['a'],"The black square moves one position clockwise around the box with each step.  The next box in the sequence is A.
+
+A",0
+v1_19,inductive,diagram,['c'],"['a', 'c', 'd', 'e']","The pattern shows an increase of 4 triangles per shape.  Following the pattern, the 6th shape will have 1 + (5 * 4) = 21 triangles.  There is no correct answer from the options provided.",0
+v1_20,deductive,ocr,['3'],['ZZZZZ'],"Since all famous sports players are footballers, and all footballers are fit and healthy, it logically follows that all famous sports players are fit and healthy.
+
+3",0
+v1_21,inductive,diagram,['f'],['a'],"Each row and column contains one of each symbol, and no symbol is repeated.  A
+
+A",0
+v1_22,inductive,diagram,['d'],['a'],"The sequence shows the shapes changing positions; Option A is the only one that maintains the same shapes and continues the pattern of changing positions.
+
+A",0
+v1_23,deductive,ocr,['c'],['c'],"Since the vast majority of swallows are blue, it is logical to conclude that at least one swallow is blue.
+
+C",1
+v1_24,deductive,ocr,['d'],['d'],"If all rabbits are dogs, and all dogs can swim, then it logically follows that all rabbits can swim.
+
+D",1
+v1_25,deductive,ocr,['c'],['c'],"If two sisters answered ""Annie,"" then Annie must be older than at least one of the other sisters.  Therefore, Annie cannot be the youngest sister.
+
+C",1
+v1_26,inductive,diagram,['b'],['a'],"The pattern alternates between a circle with four arms and a circle with no arms.  The last image shows a circle with no arms, so the next image should have four arms.
+
+A",0
+v1_27,inductive,diagram,['d'],['a'],"The pattern alternates between a black arrow and a gray arrow on the top, and this pattern repeats on the bottom.  The final image should therefore show a black arrow on the top.
+
+A",0
+v1_28,inductive,diagram,['e'],['a'],"The pattern shows the paddle moving clockwise around the square, with the dots also moving clockwise.
+
+A",0
+v1_29,inductive,diagram,['a'],['a'],"The pattern shows a cube unfolding in a sequence.  The next step in the sequence is option A.
+
+A",1
+v1_30,inductive,diagram,['c'],['a'],"The pattern shows a semicircle rotating 45 degrees clockwise in each step.  Therefore, the next image should show the semicircle rotated another 45 degrees.
+
+A",0
+v1_31,inductive,diagram,['e'],['e'],"The pattern shows a reduction in the number of sides of the polygon, from 5 to 4 to 3 to 2.  The next shape should be a single line.
+
+E",1
+v1_32,inductive,diagram,['e'],['a'],"The pattern shows the grey rectangle moving clockwise around the square and splitting into two parts when it reaches a corner.
+
+A",0
+v1_33,inductive,diagram,['e'],['a'],"The pattern shows a sequence where the striped circle moves down one position in each step.  Therefore, the striped circle should be at the bottom in the next image.
+
+A",0
+v1_34,inductive,diagram,['c'],['a'],"The pattern shows a sequence of shapes rotating 90 degrees clockwise, with the shapes changing in order (triangle, square, circle).
+
+A",0
+v1_35,inductive,diagram,['b'],['a'],"The pattern alternates between a white background and a dark background, with the shape rotating 90 degrees clockwise each step.
+
+A",0
+v1_36,inductive,diagram,['a'],['a'],"The pattern alternates between a square with diagonal lines and a square with a solid interior.  The interior shape alternates between being inside and outside of the square.
+
+A",1
+v1_37,inductive,diagram,['b'],['a'],"The pattern alternates between horizontal and diagonal lines.  The last image shows diagonal lines, so the next should have horizontal lines.
+
+A",0
+v1_38,inductive,diagram,['e'],['c'],"The pattern shows a rotation of the shaded area in a counter-clockwise direction.  Therefore, the next shape in the sequence should be entirely black.
+
+C",0
+v1_39,inductive,diagram,['e'],['e'],"The pattern shows a shape changing, and a dot moving between the top and bottom. The next logical step is a shape with a dot at the bottom.
+
+E",1
+v1_40,inductive,diagram,['c'],['e'],"The pattern shows a consistent clockwise rotation of the elements within each 3x2 grid.  Therefore, the next image in the sequence should be a clockwise rotation of the last image.
+
+E",0
+v1_41,deductive,ocr,['b'],['b'],"The Gold watch is 10 minutes slower than the Large Silver Watch (15:50 - 10 minutes = 15:40).  The Small Silver Watch shows the same time as the Gold Watch, so it shows 15:40.  Therefore, the statement is false.
+
+B",1
+v1_42,deductive,ocr,['a'],['a'],"The Large Silver Watch shows 15:50, and the Gold Watch is 10 minutes slower, so the Gold Watch shows 15:40.  Therefore, the statement is true.
+
+A",1
+v1_43,deductive,ocr,['c'],['b'],"The passage only states that the Bronze Watch is small; it makes no comparison to the Silver Watch's size.  Therefore, we don't know if they are the same size.
+
+B",0
+v1_44,deductive,ocr,['b'],['b'],"The Gold watch shows 15:40 (15:50-10 minutes). The small silver watch shows the same time as the Gold watch. The bronze watch is 5 minutes faster than the small silver watch, meaning it shows 15:45.  Therefore, the statement is false.
+
+B",1
+v1_45,deductive,ocr,['e'],['d'],"First, paintings are sorted by genre (Abstract, Classical, Modern). Then, within each genre, they are sorted alphabetically by title.  The fourth painting in this order would be Painting IV.
+
+D",0
+v1_46,deductive,ocr,['c'],['c'],"Kim Ramirez sold the painting ""Remix"" for £6,000 and bought ""Instant"" for £4,500.  Therefore, she has £1,500 remaining.
+
+C",1
+v1_47,deductive,ocr,['b'],['b'],"The provided text states that taking Medicine B halves the duration of Ailment C.  Halving the duration means reducing it by half, not twelve days. Therefore the statement is false.
+
+B",1
+v1_48,deductive,ocr,['b'],['b'],"Ailment B lasts 8 days, and is half the duration of ailment D. Therefore, ailment D lasts 16 days.  False.
+
+B",1
+v1_49,deductive,ocr,['a'],['a'],"Ailment B lasts 8 days and is half the duration of Ailment D, meaning Ailment D lasts 16 days.  Medicine C reduces Ailment D by 5 days, resulting in an 11-day duration.
+
+A",1
+v1_50,deductive,ocr,['a'],['a'],"Ailment B lasts 8 days, and is half the duration of Ailment D, making Ailment D 16 days. Ailment A also lasts 8 days. Therefore, Ailment D lasts longer than Ailment A.
+
+A",1
+v1_51,deductive,ocr,['c'],['c'],"The passage states that MDBs provide very long-term loans, contradicting the assertion that they are typically short-term.
+
+C",1
+v1_52,numerical,ocr,['c'],['c'],"The difference between the highest and lowest price over the last 12 months is calculated by subtracting the minimum price from the maximum price for each share. Fevs Plc has the largest difference (1955 - 1242 = 713).
+
+C",1
+v1_53,numerical,ocr,['e'],['e'],"If today's price represents a 40% increase on the price one month ago, then today's price is 140% of the price one month ago.  Therefore, the price one month ago was 18 / 1.4 = €12.86. E
+
+E",1
+v1_54,numerical,diagram and ocr,['b'],['b'],"The Xtam car gets 33 miles per gallon on the motorway.  4250 miles/month * 12 months/year = 51000 miles/year. 51000 miles/year / 33 miles/gallon = 1545.45 gallons/year.  The closest answer is 1500 gallons.
+
+B",1
+v1_55,numerical,diagram and ocr,['d'],['d'],"The total cost of one Taber and one Ursa is £27,750.  Dividing the total budget (£600,000) by this amount gives approximately 21.6.  Therefore, the largest number of each is 21.
+
+D",1
+v1_56,numerical,diagram and ocr,['e'],['d'],"From Year 4 to Year 5, spending increased by £10 million in each category.  Therefore, Year 6 spending will be £105 million.
+
+D",0
+v1_57,numerical,diagram and ocr,['d'],['d'],"IT consulting in Year 4 is £15million, and the projection for Year 5 is £20million.  This is a £5million increase, making A true.  Year 2 shows IT consulting at £20million, making B true. IT software in Year 5 is £25million and IT consulting is £20million, making C true. IT hardware decreases from £40million to £45million, making D false.
+
+D",1
+v1_58,numerical,ocr,['b'],"['a', 'b', 'c', 'd', 'e']","To achieve a 1.5% growth in gross profit from January's £36,521, the target gross profit for February is £36,521 * 1.015 = £37,038.  Since costs remain constant at £166,000 + £36,000 = £202,000, the required sales turnover is £202,000 +",0
+v1_59,numerical,ocr,['e'],['e'],"The average salary of a permanent employee is £166,000 / 80 = £2,075. Replacing 20 permanent employees with interim staff at £3,000 each increases labour costs by 20 * (£3,000-£2,075) = £18,500.
+
+E",1
+v1_60,numerical,diagram and ocr,['c'],['c'],"The profit for Pacific Rim Government contracts was £3.6 million, and the ratio of profit to turnover is 2:15.  This means the turnover is 7.5 times the profit (15/2=7.5). Therefore, the turnover is £3.6 million * 7.5 = £27 million.  Converted to £100,000s this is 270.
+
+C",1
+v1_61,numerical,diagram and ocr,['d'],['a'],"Total profits were £32.1 million. A quarter of this is £8.025 million. Leisure profits were £7.4 million, meaning they missed the target by £0.625 million.  However, the answers are given in whole million pounds.  Rounding to the nearest million, Leisure profits missed the target by £1 million.  This option isn't available.
+
+Let's recalculate:
+
+Total profits = 7.4 +",0
+v1_62,numerical,diagram and ocr,['b'],['b'],"The total telesales across all five teams is £88 million, while the total direct sales is £77 million.  The difference is £11 million.
+
+B",1
+v1_63,numerical,diagram and ocr,['d'],['e'],"The total sales for the Eastern Region are £62 million (17 + 16 + 16 + 17).  If this represents 26% of the total, then the total sales across all regions is approximately £238 million (£62 million / 0.26).  The closest answer is £240 million.  However, this answer is not in the options presented.  The closest option is E.
+
+E",0
+v1_64,numerical,ocr,['d'],['d'],"Company B's profit per employee is £3250. To reach £39,000 profit, they need 12 employees (£39,000 / £3250 = 12).  This means they need to recruit 4 more employees (12 - 8 = 4).
+
+D",1
+v1_65,numerical,diagram and ocr,['d'],['a'],"The Meeting Rooms experienced the smallest reduction in kWh used because it only decreased by 2% (12%-14% of the total energy use).
+
+A",0
+v1_66,numerical,ocr,['d'],['d'],"There are 95,000 unemployed people out of a total of 2,374,000 people sampled.  95,000 / 2,374,000 is approximately 0.04 or 4%.
+
+D",1
+v1_67,numerical,ocr,['b'],"['a', 'b', 'c', 'd', 'e']","The total cost of accidents in September was £(6*1900)+(18*3200)+(20*1050) = £82,800. The total number of vehicles on the road in September was 76,000 + 101,000 + 104,000 = 281,000.  Therefore, the average cost per vehicle is £82",0
+v1_68,numerical,diagram and ocr,['a'],['a'],"In 1996, coal output was 35% of 200 TWh, or 70 TWh.  Nuclear output in 2006 was double that, or 140 TWh.
+
+A",1
+v1_69,spatial,diagram,['b'],['a'],"A is a rotation of the original image because it maintains the same relative positions of the components, just rotated.
+
+A",0
+v1_70,spatial,diagram,['d'],['a'],"A rotation preserves the shape and size of the object.  Only option A maintains the same relative position of the dark square to the rest of the shape.
+
+A",0
+v1_71,spatial,diagram,['c'],['a'],"Figure A is a 180-degree rotation of the original figure.  A
+
+A",0
+v1_72,spatial,diagram,['c'],['c'],"Only option C shows the correct arrangement of the lines when the 3D cube is unfolded.
+
+C",1
+v1_73,spatial,diagram,['d'],['a'],"Only option A correctly represents the unfolded version of the given 3D solid, preserving the relative positions and connections of all the faces.
+
+A",0
+v1_74,spatial,diagram,['c'],['a'],"Folding the given shape along the dotted lines results in a 3D object with three stacked cubes forming a shape similar to the letter ""L.""
+
+A",0
+v1_75,spatial,diagram,['a'],['c'],"Only figure C can be made by rotating the individual pieces.  The others require translation or reflection in addition to rotation.
+
+C",0
+v1_76,spatial,diagram,['c'],['c'],"Figure C is formed by combining the rectangle with dimensions *a* and *b* and the triangle with sides *a*, *a*, and *2a*.  The dimensions match and the shapes fit together to create Figure C.
+
+C",1
+v1_77,spatial,diagram,['a'],['a'],"The top view shows a square with a smaller square inset into one corner and a circle connected to the main square by a line. Only option A matches this layout.
+
+A",1
+v1_78,spatial,diagram,['a'],['c'],"A vertical reflection across the x-axis flips the image upside down.  Only option C shows this.
+
+C",0
+v1_79,spatial,diagram,['d'],['c'],"By matching the positions of the lines and dots on the unfolded cube to the faces of the 3D cubes, only option C correctly represents the folded shape.
+
+C",0
+v1_80,spatial,diagram,['b'],['a'],"Looking from the top, the object shows two squares, one on top of the other, with a smaller square cut out from the bottom one.  A
+
+A",0
+v1_81,inductive,diagram,['b'],"['a', 'b', 'c', 'd', 'e']",The figure does not belong to either set A or set B because it does not match the pattern of black stars in either set.  C,0
+v1_82,inductive,diagram,['a'],"['a', 'b', 'c', 'd', 'e']","The figure contains a triangle with a star inside, and a white square with a black triangle inside; this combination of shapes and shading is present in Set B.  B",0
+v1_83,inductive,diagram,['b'],"['a', 'b', 'c', 'd', 'e']","The figure belongs to Set A because it contains two circles and a series of lines, similar to the other figures in Set A.  A",0
+v1_84,inductive,diagram,['b'],['c'],"The figure's pattern of black and white circles and plus signs does not match the patterns in Set A or Set B.  Therefore, it belongs to neither set.
+
+C",0
+v1_85,inductive,diagram,['c'],"['a', 'b', 'c', 'd', 'e']","The figure contains symbols from both sets A and B.  Therefore, it belongs to neither set. C",0
+v1_86,inductive,diagram,['b'],"['a', 'b', 'c', 'd', 'e']",The figure's arrangement of shapes and symbols is consistent with Set B.  Set A has a different distribution pattern. B,0
+v1_87,inductive,diagram,['a'],"['a', 'b', 'c', 'd', 'e']",The figure is similar to the shapes in Set B because they are all composed of triangles.  B,0
+v1_88,inductive,diagram,['a'],['c'],"The figure contains shapes and symbols that appear in both Set A and Set B.  Therefore, it belongs to neither set.
+
+C",0
+v1_89,inductive,diagram,['b'],['b'],"The figure belongs to Set B because it contains the same number and arrangement of windows as the houses in Set B.
+
+B",1
+v1_90,inductive,diagram,['c'],['c'],"The figure contains elements from both sets, but does not perfectly match either set.  Therefore, it belongs to neither.
+
+C",1
+v1_91,inductive,diagram,['b'],['a'],"The figure contains a square inside a circle.  Set A contains figures with shapes inside other shapes.
+
+A",0
+v1_92,inductive,diagram,['a'],"['a', 'b', 'c', 'd', 'e']",The figure does not fit the pattern of either Set A or Set B because the number of stars in the figure's sections does not match the patterns in either of the sets.  C,0
+v1_93,inductive,diagram,['c'],['c'],"The figure contains shapes and shading found in both Set A and Set B.  Therefore it belongs to neither.
+
+C",1
+v1_94,inductive,diagram,['a'],"['a', 'b', 'c', 'd', 'e']","The figure contains diagonal stripes and a diamond, which is a pattern not found in either Set A or Set B.  C",0
+v1_95,inductive,diagram,['a'],"['a', 'b', 'c', 'd', 'e']","The figure contains diamonds, and neither Set A nor Set B contains diamonds. (C)",0
+v1_96,inductive,diagram,['b'],['b'],"The figure belongs to Set B because it has the same pattern of black and white petals as the flowers in Set B.
+
+B",1
+v1_97,inductive,diagram,['a'],"['a', 'c', 'd', 'e']","The figure contains a circle, triangle, square, and star within a dashed circle. This matches the pattern in Set A. A",0
+v1_98,inductive,diagram,['c'],"['a', 'b', 'c', 'd', 'e']",The figure belongs to Set A because it contains the same internal 2x2 grid pattern of black and white squares as those in Set A.  A,0
+v1_99,inductive,diagram,['a'],"['a', 'b', 'c', 'd', 'e']",The figure does not belong to either set because the number of lines within the shapes differs from the number of lines in the shapes within both sets A and B. C,0
+v1_100,inductive,diagram,['a'],"['a', 'b', 'c', 'd', 'e']",The figure's pattern of black and white circles does not match the patterns in either Set A or Set B.  C,0
+v1_101,inductive,diagram,['b'],['c'],"The figure contains a smaller square within a larger square, a characteristic present in both Set A and Set B.  Therefore it belongs to neither set.
+
+C",0
+v1_102,inductive,diagram,['b'],"['a', 'b', 'c', 'd', 'e']","The figure contains the same elements as Set B, a black star, a crescent, and white stars.  B",0
+v1_103,inductive,diagram,['a'],"['a', 'b', 'c', 'd', 'e']","The figure contains a star, a circle, and a half-circle, all of which are present in Set A.  Set B lacks half-circles. A",0
+v1_104,inductive,diagram,['c'],"['a', 'b', 'c', 'd', 'e']","The figure does not belong to either set A or set B because it contains triangles, while sets A and B contain hexagons, squares, pentagons, and circles.  C",0
+v1_105,inductive,diagram,['a'],"['a', 'b', 'c', 'd', 'e']",The figure belongs to Set A because it contains a horizontal bar with a vertical bar extending from its center.  A,0
+v1_106,inductive,diagram,['a'],['c'],"The figure does not belong to either set because it has four cubes arranged in a plus sign, whereas the figures in sets A and B all have four cubes arranged differently.
+
+C",0
+v1_107,inductive,diagram,['a'],['b'],"The figure contains intersecting lines, which is a characteristic of Set B.  Therefore, it belongs to Set B.
+
+B",0
+v1_108,inductive,diagram,['a'],['c'],"The figure contains elements from both Set A and Set B.  Therefore, it belongs to neither set.
+
+C",0
+v1_109,inductive,diagram,['c'],['c'],"The figure contains two stars and a diamond, which are shapes present in both sets A and B.  However, the arrangement of shapes is unique to neither set.
+
+C",1
+v1_110,inductive,diagram,['c'],"['a', 'b', 'c', 'd', 'e']","The figure belongs to Set A because it shows the central shapes in the same arrangement as Set A, with black circles around the outside.  A",0
+v1_111,inductive,diagram and ocr,['b'],['a'],"Each symbol moves one position to the right.  Therefore, the correct answer is A.
+
+A",0
+v1_112,inductive,diagram and ocr,['c'],['d'],"The symbols shift one position to the left, and the middle symbol changes from filled to unfilled.  D
+
+D",0
+v1_113,inductive,diagram and ocr,['c'],['c'],"The solution involves changing the shading of the circle.  Therefore, the answer is C.
+
+C",1
+v1_114,inductive,diagram and ocr,['b'],['a'],"The question mark is replaced by option A because the operation rotates the second and third symbols 90 degrees clockwise.
+
+A",0
+v1_115,inductive,diagram and ocr,['d'],['a'],"The pattern shows that the shapes are rearranged and the squares become stars.  The final shape is obtained by switching the first and third symbols, then changing the shading of the first and third symbols.
+
+A",0
+v1_116,inductive,diagram and ocr,['c'],['d'],"The symbols are rotated 90 degrees clockwise, so the correct answer is D.
+
+D",0
+v1_117,inductive,diagram and ocr,['d'],['c'],"The pattern shows that squares are replaced with stars, and the shading of the circle changes from white to black.  Therefore, the correct answer is C.
+
+C",0
+v1_118,inductive,diagram and ocr,['a'],"['a', 'b', 'c', 'd', 'e']","The symbols are rotated 90 degrees clockwise. Therefore, the answer is **D**.",0
+v1_119,inductive,diagram and ocr,['b'],['a'],"Following the pattern, circles are replaced with triangles, and the shading of the first and third symbols is changed.  A
+
+A",0
+v1_120,inductive,diagram and ocr,['c'],['a'],"Each symbol moves one position to the left.  Therefore, the correct answer is A.
+
+A",0
+v1_121,inductive,diagram and ocr,['a'],['b'],"The question mark is replaced by a diagram that reflects all symbols in the x-axis.  Therefore, the only option that reflects all the shapes of the original image across the x-axis is B.
+
+B",0
+v1_122,inductive,diagram and ocr,['d'],"['a', 'b', 'c', 'd', 'e']","Following the pattern from the examples, the question mark is replaced by option C because the small circle becomes a large circle, and the small triangle becomes a large triangle.  C",0
+v1_123,inductive,diagram and ocr,['a'],['a'],"The pattern shows that the squares are replaced with stars. Therefore, the correct answer is A.
+
+A",1
+v1_124,inductive,diagram and ocr,['c'],"['a', 'b', 'c', 'd', 'e']","The green circle replaces the middle symbol, so the question mark should be replaced with option A because the middle symbol becomes a green circle. A",0
+v1_125,inductive,diagram and ocr,['b'],['a'],"The question mark is replaced by mirroring the first and second symbols in the Y axis.  Therefore, the correct answer is A.
+
+A",0
+v1_126,inductive,diagram and ocr,['b'],['a'],"The green arrows indicate that the symbols shift one position to the left. Therefore, the circle moves to the end of the sequence.
+
+A",0
+v1_127,inductive,diagram and ocr,['b'],['c'],"The pattern shows that the middle symbol changes from having vertical lines to horizontal lines. Therefore, the correct answer is C.
+
+C",0
+v1_128,inductive,diagram and ocr,['a'],['b'],"Following the pattern, the question mark should be replaced with three circles, with a star in the middle.  Therefore, the correct answer is B.
+
+B",0
+v1_129,inductive,diagram and ocr,['b'],['a'],"The two green symbols in the middle represent a transformation where the symbols are mirrored.  Therefore, the missing symbol must be a mirrored version of the final set of symbols.
+
+A",0
+v1_130,inductive,diagram and ocr,['d'],['a'],"The pattern shows that only the shapes with a round edge change shading; the square remains unchanged. Therefore, only the circle changes from white to black.
+
+A",0
+v1_131,mechanical,diagram,['d'],"['a', 'c', 'd', 'e']","As the air escapes, water replaces it, increasing the tank's overall mass and therefore its weight, causing it to sink further.  D",0
+v1_132,mechanical,diagram,['c'],['b'],"The greatest deflection will occur where the weight is concentrated.  Since the cars are positioned relatively far from the supports, the area directly below them will experience the most deflection.
+
+B",0
+v1_133,mechanical,diagram,['c'],['c'],"Convex mirrors provide a wider field of view, allowing the driver to see more of the surrounding area and reducing blind spots.  Therefore, a convex mirror is safer to use in a vehicle.
+
+C",1
+v1_134,mechanical,diagram,['a'],['a'],"Cold air is denser than warm air, so it will sink.  Therefore, the cold air will initially flow towards the floor before mixing with the warmer air.
+
+A",1
+v1_135,mechanical,diagram,['c'],['c'],"The speed of the water exiting the hole is determined by the water pressure, which is directly proportional to the height of the water column above the hole. As the water level decreases, the pressure decreases, resulting in a slower exit speed.
+
+C",1
+v1_136,mechanical,diagram,['a'],['a'],"The candle in the small sealed jar (A) will extinguish first because it will run out of oxygen the quickest.
+
+A",1
+v1_137,mechanical,diagram,['d'],['d'],"A thicker spring will have more stored energy and will exert a stronger force, causing the door to close faster.
+
+D",1
+v1_138,mechanical,diagram,['b'],['b'],"The long handles increase the lever arm, thus increasing the torque applied to the bolt, making it easier to cut through thick bolts.
+
+B",1
+v1_139,mechanical,diagram,['c'],['c'],"If the distance between the vehicles is not changing, then the car must be traveling at the same speed as the fire engine.
+
+C",1
+v1_140,mechanical,diagram,['d'],['d'],"The longer the halligan, the more leverage is applied to the door, requiring less force to open it. Therefore, the longest halligan (D) would require the least effort.
+
+D",1
+v1_141,mechanical,diagram,['b'],['a'],"Because the last gear rotates counterclockwise, the next gear will rotate in the opposite direction.  A
+
+A",0
+v1_142,mechanical,diagram,['b'],"['a', 'b', 'c', 'e']","The large blue gear rotates counterclockwise, causing the smaller blue gear to rotate clockwise, which in turn causes the orange gear to rotate counterclockwise.  B",0
+v1_143,mechanical,diagram,['a'],['b'],"The bottom left blue gear rotates counterclockwise, causing the belt to move to the right. This makes the large blue gear rotate clockwise, and therefore the orange gear rotates counterclockwise.
+
+B",0
+v1_144,mechanical,diagram,['b'],['b'],"Because the scale is balanced, the torques on each side must be equal.  Torque is weight times distance from the fulcrum, so (5 lb)(2 ft) = (x lb)(5 ft), which solves to x = 2 lb.
+
+B",1
+v1_145,mechanical,diagram,['c'],['b'],"The torques on each side of the fulcrum must be equal for the scale to be balanced.  Therefore, (20 lb * 6 ft) + (30 lb * 3 ft) = x lb * 6 ft, which solves to x = 30 lb.
+
+B",0
+v1_146,mechanical,ocr,['c'],['c'],"The ramp reduces the effort needed by the ratio of the height to the ramp length (15/45 = 1/3).  Therefore, the effort required is (1/3) * 180 lb = 60 lb.
+
+C",1
+v1_147,mechanical,diagram,['b'],['a'],"The weight is the same in both situations (25 lb), but in situation A, a greater portion of the weight is directed downward onto the pole because of the steeper angle.
+
+A",0
+v1_148,mechanical,diagram,['a'],['b'],"In situation B, the weight is supported by only one rope segment directly connected to the weight, while in situation A, the weight is supported by two rope segments.  Therefore, the orange pole in situation B experiences a greater downward force.
+
+B",0
+v1_149,mechanical,diagram,['c'],['c'],"Capacitors store electrical energy in an electric field between two conductive plates.  Inductors store energy in a magnetic field, resistors dissipate energy as heat, and diodes regulate current flow.
+
+C",1
+v1_150,mechanical,diagram,['b'],['b'],"Since the resistors are in series, the total resistance is the sum of the individual resistances.  Therefore, the total resistance is 4 ohms + 6 ohms = 10 ohms.
+
+B",1
+v1_151,mechanical,ocr,['c'],['a'],"In a two-stroke engine, the intake and exhaust processes happen at the same time as the piston moves.
+
+A",0
+v1_152,mechanical,ocr,['b'],['a'],"The processor is the central processing unit that executes instructions, including those that control sensors and actuators.  The I/O module facilitates communication but doesn't execute the logic.
+
+A",0
+v1_153,mechanical,diagram,['a'],"['a', 'c', 'd', 'e']","The pendulum is hanging straight down, indicating the wagon is not accelerating.  C",0
+v1_154,mechanical,diagram,['c'],['c'],"Assuming the balls are released at the same time and air resistance is negligible, both will hit the ground simultaneously because the mass of the object does not affect the acceleration due to gravity.
+
+C",1
+v1_155,mechanical,diagram,['a'],['a'],"Bird A is more streamlined and will encounter less air resistance than Bird B.
+
+A",1
+v1_156,mechanical,diagram,['c'],['c'],"Granary A has a volume of 4 (bins) * 10ft * 10ft * 10ft = 4000 cubic feet. Granary B has a volume of approximately 10ft * 10ft * 40ft = 4000 cubic feet.
+
+C",1
+v1_157,mechanical,diagram,['a'],['a'],"Since the partition is elastic, the water levels will equalize; therefore, the correct diagram shows the water levels the same in both containers.
+
+A",1
+v1_158,mechanical,diagram,['a'],['a'],"The fully inflated balloon (A) has more air pressure inside because the air molecules are more compressed in a smaller space.
+
+A",1
+v1_159,mechanical,diagram,['c'],['b'],"Person B uses a pulley system that provides a mechanical advantage, requiring less force to lift the same weight as person A.
+
+B",0
+v1_160,mechanical,diagram,['b'],['c'],"Because the belt crosses over, the direction of rotation will be opposite to the driving wheel.
+
+C",0
+v1_161,mechanical,diagram,['a'],['b'],"The orange gear rotates counterclockwise, causing the grey gear to rotate clockwise.  Therefore, the grey wheel turns in direction B.
+
+B",0
+v1_162,mechanical,diagram,['b'],['a'],"To balance the seesaw, the acrobat needs to move closer to the fulcrum (the triangle).  This will decrease the torque on his side of the seesaw.
+
+A",0
+v1_163,mechanical,diagram,['a'],['c'],"The period of a simple pendulum is independent of its mass; it only depends on the length of the string and the acceleration due to gravity.  Since both pendulums have the same length string, they will swing at the same rate.
+
+C",0
+v1_164,mechanical,diagram,['c'],['a'],"To create a fire, the magnifying glass needs to focus the sunlight into a smaller, more intense point.  Moving it closer will concentrate the light more, increasing the heat.
+
+A",0
+v1_165,mechanical,diagram,['c'],['c'],"The stone will continue moving in a straight line tangent to the circular path it was following.  This is due to inertia.
+
+C",1
+v1_166,mechanical,diagram,['d'],['d'],"To balance the lever, the moments on each side of the fulcrum must be equal.  The moment is calculated by multiplying the weight by its distance from the fulcrum.  Therefore, 4kg * x = 8kg * (15cm - x), where x is the distance from the left weight to the fulcrum. Solving for x gives x = 10 cm.
+
+D",1
+v1_167,mechanical,diagram,['a'],['a'],"The weight of the block is distributed between the two poles; however, because the center of mass is closer to Pole 1, it will bear a greater portion of the weight.
+
+A",1
+v1_168,mechanical,diagram,['a'],['b'],"The volume of the gas is halved when the piston moves from position A to position B.  Since the temperature and amount of gas remain constant, the pressure doubles according to Boyle's Law.
+
+B",0
+v1_169,mechanical,diagram,['d'],['d'],"The rack moves to the left, causing the top cogwheel to rotate clockwise and the bottom cogwheel to rotate counterclockwise.  Since the cogwheels have different sizes, their velocities will be different.
+
+D",1
+v1_170,mechanical,diagram,['c'],['a'],"The resistors are in series, so their resistances add up.  240 + 40 + 80 = 360 ohms.
+
+A",0
+v1_171,spatial,diagram,['d'],['a'],"The marked box touches 4 boxes directly.  Therefore, the answer is A.
+
+A",0
+v1_172,spatial,diagram,['a'],['a'],"Only option 1 correctly shows the shaded corners adjacent to each other as they appear in the unfolded cube.
+
+A",1
+v1_173,spatial,diagram,['d'],['c'],"Option C shows the same shapes rotated.  The star shape has been rotated approximately 90 degrees clockwise.
+
+C",0
+v1_174,mechanical,diagram,['b'],['b'],"Wheels turning counter-clockwise are those where the wire moves to the right over the top of the wheel.  This means that wheels A, B, D, and F are turning counter-clockwise.
+
+B",1
+v1_175,mechanical,diagram,['d'],['a'],"Here's how to solve this:  The spring stretches proportionally to the weight; a 1.5 times increase in weight (from 10 to 15 pounds) will cause a 1.5 times increase in stretch (0.5 inches * 1.5 = 0.75 inches).
+
+A",0
+v1_176,mechanical,diagram,['d'],['d'],"The image only shows the size of the balls, not their density or material.  Therefore, it is impossible to determine which is heaviest.
+
+(D)",1
+v1_177,deductive,ocr,['b'],['b'],"Scissors are denser than water and will sink.  Bananas, empty plastic bottles, and pencils are generally less dense than water.
+
+B",1
+v1_178,deductive,ocr,['d'],['d'],"Weight affects acceleration (Newton's second law), engine power determines how much force is available for acceleration, and drag reduces the net force available for acceleration.
+
+D",1
+v1_179,deductive,ocr,['b'],['b'],"Frost acts as an insulator, reducing the rate of heat transfer from the cooling coils to the surrounding air. This forces the compressor to work harder and longer to achieve the desired temperature, thus increasing power consumption.
+
+B",1
+v1_180,deductive,ocr,['c'],['c'],"LED stands for light emitting diode because it describes the function of the device—emitting light through a semiconductor diode.
+
+C",1
+v1_181,deductive,ocr,['c'],['c'],"A fuse is a safety device that protects electrical circuits from damage caused by excessive current.  It melts and breaks the circuit if the current exceeds a certain limit. C
+
+C",1
+v1_182,spatial,diagram,['b'],['a'],"Matching the sides marked X and Y, the three puzzle pieces fit together to form a rectangle.
+
+A",0
+v1_183,spatial,diagram,['c'],['b'],"Only option B correctly shows the arrangement of the gray and white sections when folded into a cube.
+
+B",0
+v1_184,spatial,diagram,['a'],"['a', 'b', 'd', 'e']","By matching the sides labeled X, Y, and Z, the three puzzle pieces combine to form the shape in option A.  A
+
+Final Answer: The final answer is $\boxed{A}$",0
+v1_185,spatial,diagram,['a'],['c'],"Matching the sides (A to A, B to B, C to C) of the three puzzle pieces results in the shape shown in number 3.
+
+C",0
+v1_186,spatial,diagram,['b'],"['a', 'b', 'c', 'd', 'e']",Option A shows the same object rotated.  A,0
+v1_187,spatial,diagram,['c'],['b'],"Only option B correctly shows the spatial arrangement of the shaded and unshaded sections when the net is folded into a cube.
+
+B",0
+v1_188,spatial,diagram,['b'],['b'],"Shadow B is a possible shadow if light is cast on the triangular side of the 3D shape.  Shadow A is not possible given the shape's geometry.
+
+B",1
+v1_189,spatial,diagram,['d'],['a'],"The correct answer is the one where the dot on the star-shaped object is in the same corner as the original image, and the dot on the curved object is in the same corner as the original image.
+
+A",0
+v1_190,spatial,diagram,['b'],['ZZZZZ'],"By matching the labeled sides (A, B, C, D, E) of the three puzzle pieces, only option 5 creates a cohesive and complete shape.
+
+5",0
+v1_191,spatial,diagram,['a'],['c'],"Option C shows the same cube from a different perspective; the black area and the circle maintain their relative positions.
+
+C",0
+v1_192,spatial,diagram,['d'],['a'],"The shapes rotate 90 degrees clockwise in each step.  Therefore, the next box should have the hexagon in the bottom right quadrant.
+
+A",0
+v1_193,spatial,diagram,['d'],['a'],"The pattern shows the number of black squares increasing by one in each step.  The circle moves to a different corner with each step.
+
+A",0
+v1_194,spatial,diagram,['c'],['b'],"The sequence alternates between a diamond and a triangle; the next shape should be a diamond.  Therefore, the answer is B.
+
+B",0
+v1_195,spatial,diagram,['a'],['a'],"The sequence alternates between filling in shapes and changing the shape itself.  The next shape should be filled in.
+
+A",1
+v1_196,spatial,diagram,['d'],['a'],"The pattern shows the black square rotating 90 degrees clockwise and the black corner moving clockwise around the box.  A
+
+A",0
+v1_197,spatial,diagram,['b'],['a'],"The pattern shows the black and white squares rotating 90 degrees clockwise and the circle moving to the next corner.
+
+A",0
+v1_198,spatial,diagram,['c'],['a'],"The pattern alternates between a filled and unfilled hexagon, with a small circle moving clockwise around the hexagon.  A
+
+A",0
+v1_199,spatial,diagram,['d'],['a'],"The pattern alternates between a square at the top and a curved line at the bottom, and vice-versa.  The next box should have a square at the top.
+
+A",0
+v1_200,spatial,diagram,['a'],['a'],"The sequence shows shapes moving from the left to the right, and then down to the next row, with each shape moving one space over in each step.  A
+
+A",1
+v1_201,spatial,diagram,['b'],['a'],"The pattern alternates between adding a horizontal line, then a diagonal line, and moving the square.  A
+
+A",0
+v1_202,numerical,diagram and ocr,['a'],['c'],"In 2019, 25,000 Grade A and 80,000 Grade C wireless headphones were produced.  The total value is (25,000 * $500) + (80,000 * $150) = $15,500,000, which is closest to 550,000 if we consider these values to be in thousands.
+
+C",0
+v1_203,numerical,diagram and ocr,['c'],['a'],"In 2022, 90,000 Grade B Wireless Headphones were produced. A 26% increase is 90,000 * 0.26 = 23,400.  Adding this to the original amount gives 113,400.
+
+A",0
+v1_204,numerical,diagram and ocr,['b'],['a'],"In 2018, 76,000 grade C headphones and 40,000 grade A headphones were produced.  The ratio is approximately 0.53:1.  However, this is not one of the options. The closest option is (A) 0.83:1, but it is not an accurate representation of the data.
+
+A",0
+v1_205,numerical,diagram and ocr,['c'],['a'],"In 2020, 70,000 Grade C Wireless Headphones were produced, and in 2022, 20,000 Grade B Wireless Headphones were produced.  Therefore, the combined value is 70,000 + 20,000 = 90,000. None of the options match, but 300,000 is the closest option.
+
+A",0
+v1_206,numerical,diagram and ocr,['c'],['b'],"The average precipitation in Tirana is approximately 118, and in Algiers it is approximately 70.  The difference is 48.  There is no answer choice for 48.  However, if the question is asking for the average precipitation of Algiers, the answer is 70 (approximately).
+
+B",0
+v1_207,numerical,diagram and ocr,['b'],['b'],"In April, Tirana had 115 units of precipitation, and in May it had 120 units. The increase is 5 units, which is (5/115) * 100% = 4.35%.
+
+B",1
+v1_208,numerical,diagram and ocr,['b'],"['a', 'b', 'c', 'd', 'e']","The February precipitation for Stockholm should be 40/1.15 = 34.78.  The percentage change from the corrected February to March is then ((30 - 34.78)/34.78) * 100% = -14.06%.  This is not one of the options.  However, if the question intended the percentage change from March to the corrected February, it would be ((34.7",0
+v1_209,numerical,diagram and ocr,['c'],['b'],"In April, Algiers had approximately 60 mm of precipitation, while Stockholm had approximately 30 mm.  The ratio is 60:30, which simplifies to 2:1.
+
+B",0
+v1_210,numerical,diagram and ocr,['b'],['b'],"Antlyn plc's share in 2021 is approximately 1/8 of $1.45 million, or $181,250, and in 2022, it's approximately 1/6 of $2 million, or $333,333.  Adding these together, we get approximately $514,583, which is closest to $534k.
+
+B",1
+v1_211,numerical,diagram and ocr,['a'],"['a', 'c', 'd', 'e']","In 2021, Graff inc. held approximately 30% of the $1.45 million total, or $435,000. In 2022, Graff inc. held approximately 25% of the $2 million total, or $500,000.  The change is $500,000 - $435,000 = $65,000.",0
+v1_212,numerical,diagram and ocr,['d'],"['a', 'b', 'c', 'd', 'e']","In 2022, Balcom plc and Trade Ltd. appear to have roughly equal shares of the market, each representing approximately 25% of the $2 million total.  Therefore, their combined value is approximately $1 million.  There is no value matching that in the possible answers. However, if we approximate Balcom plc's share as 30% and Trade Ltd.'s as 20%, their combined value would be $1 million (30%",0
+v1_213,numerical,diagram and ocr,['b'],['c'],"In 2021, Royer Inc. had approximately 27% of the $1.45m total, and in 2022, they had approximately 28% of the $2m total.  This represents an approximate 7.9% increase.
+
+C",0
+v1_214,numerical,diagram and ocr,['a'],['c'],"In January, Val Thorens received approximately 5cm of snowfall out of a total of approximately 50cm across the four months shown.  Therefore, the proportion is roughly 10%.
+
+C",0
+v1_215,numerical,diagram and ocr,['c'],['c'],"In November, Whistler had 20 cm of snowfall, and in December, it had 30 cm.  The increase is 10 cm, which is a 50% increase (10/20 = 0.5).
+
+C",1
+v1_216,numerical,diagram and ocr,['c'],['c'],"Here's how to solve this:
+First, find the December snowfall for Val Thorens (20cm) and Whistler (30cm) and Tignes (25cm) and Les Arcs (30cm). Increase Val Thorens and Whistler by 20% and decrease Tignes and Les Arcs by 15%, then sum the results.
+
+20cm + (20cm * 0.2) + 30cm + (3",1
+v1_217,numerical,diagram and ocr,['c'],"['a', 'b', 'c', 'd', 'e']","In January, Whistler had 10cm of snow and in February, Whistler had 20cm of snow.  Therefore, the combined snowfall was 30cm.  However, this is not one of the options.  Let's look at the total snowfall in Whistler and Les Arcs. In January, Whistler had 10cm and Les Arcs had 10cm, which equals 20cm. In February, Whistler had 20cm and Les",0
+v1_218,deductive,ocr,['c'],['c'],"Since no scholars are musicians, and all musicians are music enthusiasts, some music enthusiasts cannot be scholars.
+
+C",1
+v1_219,deductive,ocr,['d'],['d'],"Since some Pittbulls are not dogs with long hair, and all sweet dogs are dogs with long hair, then no sweet dogs can be Pittbulls.  Therefore, none of the options are correct.
+
+D",1
+v1_220,deductive,ocr,['d'],['d'],"Since all phenomena are phenomenae, and some phenomeni are phenomena, it follows that some phenomeni are phenomenae.
+
+D",1
+v1_221,deductive,ocr,['c'],['c'],"Since all taxes are expenses, and no taxes are incomes, it follows that at least some expenses are not incomes.
+
+C",1
+v1_222,deductive,ocr,['b'],['b'],"Since no people from LA are arrogant ***holes, and some hip people are people from LA, then some hip people cannot be arrogant ***holes.
+
+B",1
+v1_223,deductive,ocr,['b'],['b'],"Since all cakes are pies, and no pastries are pies, then no pastries are cakes.  Therefore, none of the other answers is correct.
+
+B",1
+v1_224,deductive,ocr,['d'],['d'],"Since all animals are sheep, and all sheep are furry animals, then all animals must be furry animals.
+
+D",1
+v1_225,deductive,ocr,['b'],['b'],"Since no kalowites are kilowites, and all kalowites are koliwites, then some koliwites must not be kilowites.
+
+B",1
+v1_226,deductive,ocr,['d'],['d'],"Since all trees are leaves, and all leaves are shrubs, it follows that all trees are shrubs.  This is consistent with option (D).
+
+D",1
+v1_227,deductive,ocr,['d'],['d'],"Since some diseases are malicious, and no diseases are viruses, it follows that some malicious things are not viruses.
+
+D",1
+v1_228,deductive,ocr,['d'],['d'],"Since no proky proaks are prakky prooks and all prooky praks are prakky prooks, then no proky proaks can be prooky praks.
+
+D",1
+v1_229,deductive,ocr,['d'],['d'],"Since no animals are people, and all rational beings are people, then no rational beings can be animals.
+
+D",1
+v1_230,deductive,ocr,['d'],['a'],"The first statement says all people who can handle criticism are men. The second statement says some people who can handle criticism are women.  These statements contradict each other, meaning some people who can handle criticism are not men.
+
+A",0
+v1_231,deductive,ocr,['c'],['c'],"Since some whales are sperm whales, and no dolphins are whales, it follows that some sperm whales are not dolphins.
+
+C",1
+v1_232,deductive,ocr,['c'],['b'],"Since all dolphins are whales, and no whales are sperm whales, then no dolphins are sperm whales.  This is consistent with the statement that no whales are sperm whales.
+
+B",0
+v1_233,deductive,ocr,['d'],['d'],"Since no voyagers are pot viewers, and all pot viewers are curious monkeys, then some curious monkeys cannot be voyagers.
+
+D",1
+v1_234,deductive,ocr,['b'],['b'],"Since all plastic bags are hand bags and no Gucci bags are hand bags, it follows that no Gucci bags are plastic bags.
+
+B",1
+v1_235,deductive,ocr,['b'],['b'],"Since no annoying people are New Yorkers, and all happy people are New Yorkers, then happy people and annoying people must be mutually exclusive groups.
+
+B",1
+v1_236,deductive,ocr,['a'],['a'],"Since no robbers are burglars, and all burglars are thieves, then some thieves (the burglars) are not robbers.
+
+A",1
+v1_237,deductive,ocr,['c'],['d'],"Since no sharks are fishes and all fishes are investors, it follows that no sharks are investors.
+
+D",0
+v1_238,deductive,ocr,['d'],['d'],"Since some meters are yards and all meters are inches, it follows that some inches are yards.
+
+D",1
+v1_239,deductive,ocr,['c'],['c'],"Since all birds are crows and no ravens are crows, then no ravens are birds.
+
+C",1
+v1_240,deductive,ocr,['d'],['d'],"Since some annoying riddles are happy tunes, and all happy tunes are beautiful sounds, it logically follows that some annoying riddles are beautiful sounds.  This is not explicitly stated as an option, but option (D) is incorrect as a result.
+
+D",1
+v1_241,deductive,ocr,['d'],['d'],"Since all lawyers are bankers, and no bankers are brokers, then no lawyers can be brokers.
+
+D",1
+v1_242,deductive,ocr,['d'],['d'],"Since all musicians are scholars, and all music enthusiasts are musicians, it follows that all music enthusiasts are scholars.
+
+D",1
+v1_243,deductive,ocr,['a'],['a'],"Since some croptonites are craptonates, and all croptonites are croptonates, it follows that some croptonates are craptonates.
+
+A",1
+v1_244,deductive,ocr,['c'],['c'],"Mark has a history of stealing cakes, and more cakes have gone missing since he started working there.  This makes him the most likely suspect.
+
+C",1
+v1_245,deductive,ocr,['a'],"['a', 'b', 'c', 'd', 'e']",An inductive argument draws a conclusion based on observations.  Option A is a conclusion drawn from the observed high prices of the paintings. A,0
+v1_246,deductive,ocr,['c'],['c'],"An inductive argument makes a generalization based on specific observations.  Option (C) infers a pattern from the given names to make a broader statement about all classrooms.
+
+C",1
+v1_247,numerical,diagram and ocr,['c'],['b'],"In February, approximately 20 Gatwick flights were cancelled out of a total of approximately 85 cancelled flights.  20/85 is approximately 23.5%, closest to 19%.
+
+B",0
+v1_248,numerical,diagram and ocr,['b'],['b'],"In November and December, a total of 15 + 10 = 25 flights were cancelled.  In January and February, 35 + 45 = 80 flights were cancelled. The percentage increase is [(80 - 25)/25] * 100% = 220%.
+
+B",1
+v1_249,numerical,diagram and ocr,['a'],['a'],"In November, Gatwick had 20 cancelled flights.  The total cancelled flights across all three airports that month was 20 + 30 + 15 = 65. The ratio is 20:65, which simplifies to 4:13, approximately 1:3.25.
+
+A",1
+v1_250,numerical,diagram and ocr,['a'],['a'],"In January, Heathrow had 30 cancelled flights.  An 80% reduction would be 6 (30 x 0.2 = 6). In March, Heathrow had 10 cancelled flights, meaning they failed to reach the target by 4 (10 - 6 = 4).
+
+A",1
+v1_251,numerical,ocr,['d'],['a'],"The quickest coach journey with breakfast is the 06:30 departure, costing £109.99 per ticket.  Two return tickets would cost £219.98, so the closest answer is (A).
+
+A",0
+v1_252,numerical,ocr,['a'],['a'],"To reach the meeting by 13:00, the agent needs to arrive in Manchester by 12:35 at the latest (allowing for a 25-minute taxi ride). The cheapest single ticket option that meets this requirement is the 09:10 coach departure.  A
+
+A",1
+v1_253,numerical,ocr,['b'],['b'],"The 07:50 train takes 2 hours and 15 minutes (135 minutes), averaging 73 mph.  The 10:30 train takes 2 hours and 25 minutes (145 minutes), averaging 68 mph. The difference is 5 mph.
+
+B",1
+v1_254,numerical,ocr,['a'],['b'],"The shortest travel option with wireless connection arriving before 13:00 is the 10:00 coach to Manchester arriving at 13:05, costing £55.00.
+
+B",0
+v1_255,numerical,diagram and ocr,['a'],['a'],"The reported revenue for Binders in October to December is 35,000.  Since this is an overestimate by 15%, the actual revenue is 35,000 / 1.15 = 30,435.
+
+A",1
+v1_256,numerical,diagram and ocr,['a'],['a'],"Graff's revenue increased from 15,000 to 30,000.  This is a 100% increase.
+
+A",1
+v1_257,numerical,diagram and ocr,['c'],['d'],"The average of Moen's revenue from January to June is calculated by averaging the values for Jan-Mar (30,000) and Apr-Jun (25,000): (30,000 + 25,000)/2 = 27,500.
+
+D",0
+v1_258,numerical,diagram and ocr,['d'],"['a', 'b', 'c', 'd', 'e']","Graff's revenue increased from 15 (thousand) in quarter 2 to 30 (thousand) in quarter 4, which is a 100% increase.  However, that is not one of the options.  Let's calculate a percentage increase based on the given options.  If we assume there's an error in the graph, and that the Q2 revenue is approximately 20,000 then the percentage increase is 50",0
+v1_259,numerical,ocr,['a'],"['a', 'b', 'c', 'd', 'e']",The annual cost difference between plans is £59.49-£54.99=£4.50.  The monthly cost difference is £6-£5.49=£0.51.  Over a year this is £0.51*12 = £6.12.  The total annual saving is £4.50 + £6.12 = £10.62.  None of the options are correct.,0
+v1_260,numerical,ocr,['a'],"['a', 'b', 'c', 'd', 'e']","The Gem plan is for 5 months (March-July), providing 5*250 = 1250 minutes and 5*200 = 1000 texts. The Royal plan is for 5 months (August-November), providing 5*300 = 1500 minutes and 5*150 = 750 texts.  In total, this is 2750 minutes and 175",0
+v1_261,numerical,ocr,['a'],"['a', 'c', 'd', 'e']",The original cost is (35 x 26p) + (45 x 32p) + (62 x 11p) = £34.12. A 20% increase is £34.12 x 0.2 = £6.824. The total cost is £34.12 + £6.824 = £40.944 which rounds to £40.9,0
+v1_262,numerical,ocr,['c'],['a'],"The correct cost per minute is 24p.  The overcharge is (30p - 24p) * 3120 minutes/month * 3 months = 5616p = £56.16.
+
+A",0
+v1_263,numerical,diagram and ocr,['a'],['a'],"In February, 15,000 barrels of oil were produced at a price of $78 per barrel.  Therefore, the total value was 15,000 * $78 = $1,170,000.
+
+A",1
+v1_264,numerical,diagram and ocr,['d'],['d'],"The graph shows June production was 18,000 barrels.  A 22% decrease is 18,000 \* 0.22 = 3960.  18000 - 3960 = 14040.  14040 * $82 = $1,151,280.
+
+D",1
+v1_265,numerical,diagram and ocr,['b'],['d'],"In April, oil production was 18,000 barrels, and in May it was 13,000 barrels.  The percentage change is (13000-18000)/18000 = -27.78%.
+
+D",0
+v1_266,numerical,diagram and ocr,['b'],['b'],"The average oil price for March, June, and July is (82 + 77 + 82) / 3 = 80.33.
+
+B",1
+v1_267,inductive,diagram,['b'],['a'],"The pattern shows the black circle and the white square moving clockwise around the circle.  A
+
+A",0
+v1_268,inductive,diagram,['a'],['a'],"The pattern shows the number of black circles decreasing by one each step.  Therefore, the box with two circles is next in the sequence.
+
+A",1
+v1_269,inductive,diagram,['a'],['a'],"The pattern alternates between a full circle and a quarter circle, with the black/white sections rotating.  A
+
+A",1
+v1_270,inductive,diagram,['c'],['a'],"The pattern alternates between shapes (circle, square, triangle) and their filled counterparts.  Therefore, the next shape should be a filled circle.
+
+A",0
+v1_271,inductive,diagram,['e'],['a'],"The pattern alternates between a triangle with a border and a filled-in triangle.  The next box should have a filled-in triangle.
+
+A",0
+v1_272,inductive,diagram,['c'],"['a', 'b', 'c', 'd', 'e']","The black square rotates 90 degrees clockwise, and the circles move one position clockwise.  A",0
+v1_273,inductive,diagram,['e'],['a'],"The pattern shows a cycle of the black square, white square, and circle moving clockwise around the box.  A
+
+A",0
+v1_274,inductive,diagram,['a'],['a'],"The pattern shows the black square moving one space clockwise around the three horizontal lines in each step.  A
+
+A",1
+v1_275,inductive,diagram,['b'],['a'],"The shapes move one space clockwise and one step down. A
+
+A",0
+v1_276,inductive,diagram,['e'],['a'],"The pattern alternates between a box with a diagonal line and a box with a vertical line.  The next box should have a diagonal line and a dot.
+
+A",0
+v1_277,inductive,diagram,['b'],['a'],"The sequence shows shapes rotating 90 degrees clockwise and then alternating between top and bottom positions.  The next shape is a pentagon at the bottom.
+
+A",0
+v1_278,inductive,diagram,['d'],['a'],"The pattern alternates between a square and a triangle, with the shaded area changing position.  The next shape should be a triangle with the shaded area in the bottom corner.
+
+A",0
+v1_279,inductive,diagram,['b'],['a'],"The pattern shows the black dot moving around the hexagon, alternating between upward and downward movements.  A is the next image in the sequence because it continues this pattern.
+
+A",0
+v1_280,inductive,diagram,['a'],['a'],"The pattern shows the black shapes moving one position to the right in each step.  A
+
+A",1
+v1_281,inductive,diagram,['b'],['a'],"The sequence alternates between a diamond and a square inside the circle, and the black bar rotates 90 degrees clockwise each time.  A
+
+A",0
+v1_282,inductive,diagram,['c'],['a'],"The pattern shows the shapes moving clockwise one space at a time. A is the next image in the sequence.
+
+A",0
+v1_283,inductive,diagram,['d'],['a'],"The sequence alternates between adding a dot and adding a shape; the next step is to add a shape.
+
+A",0
+v1_284,inductive,diagram,['c'],['a'],"The sequence shows a repeating pattern of shapes: square, triangle, pentagon, square, triangle.  The number of blocks increases by one each time.
+
+A",0
+v1_285,inductive,diagram,['b'],['a'],"The pattern alternates between a circle and a filled-in circle on top, and the number of blocks on the right increases by one each time.  A
+
+A",0
+v1_286,inductive,diagram,['d'],['a'],"The pattern repeats every four boxes; therefore, the next box should be the same as the first one.
+
+A",0
+v1_287,deductive,ocr,['a'],['c'],"Oatbars cost £1.75, and FruitBars are sold twice as often as OatBars.  Therefore, we cannot determine the price of two FruitBars without further information.
+
+C",0
+v1_288,deductive,ocr,['b'],['a'],"Oatbars cost £1.75, and Fruitbars are sold twice as often.  BarBoxes are twice as expensive as 3 Fruitbars, allowing us to determine the cost of a BarBox in relation to Fruitbars. Therefore, we can determine if a BarBox costs less than 5 Fruitbars.
+
+A",0
+v1_289,deductive,ocr,['a'],['a'],"We know that FruitBars are sold twice as often as OatBars, and half of OatBars sales are through BarBoxes. This means more FruitBars are sold than BarBoxes, since FruitBars are twice as common as OatBars, which have at least some sales separate from BarBoxes. Therefore, BarBoxes have sold less than OatBars.
+
+A",1
+v1_290,deductive,ocr,['b'],['c'],"The provided text gives the relative sales of FruitBars and OatBars, but not FruitBars and BarBoxes.  Therefore, there is insufficient information to determine if FruitBars sell five times as often as BarBoxes.
+
+C",0
+v1_291,deductive,ocr,['c'],['d'],"The Fox plan is the cheapest at $15 per month and is suitable for two devices.  
+
+D",0
+v1_292,deductive,ocr,['b'],['a'],"The Hare plan is the only one that can support 5 devices, and although it's not the cheapest monthly fee, it is the lowest cost plan that meets the requirement.
+
+A",0
+v1_293,deductive,ocr,['c'],['a'],"Roger agreed with all seven journals, and Frederick disagreed with at least one journal (the third).  Therefore, Frederick disagreed with Roger's journal.
+
+A",0
+v1_294,deductive,ocr,['b'],['b'],"Simone did not agree with the last three journals (journals 5, 6, and 7).  Therefore, she did not write the seventh journal.
+
+B",1
+v1_295,deductive,ocr,['a'],['c'],"The provided text gives information on which journals each person agreed with or wrote, but it does not state how many journals Simone wrote.  Therefore, we cannot determine if Simone wrote the same number as Frederick.
+
+C",0
+v1_296,deductive,ocr,['c'],['a'],"Simone disagreed with journals 5, 6, and 7.  Frederick disagreed with journal 3. Therefore, both disagreed with journal 5.
+
+A",0
+v1_297,deductive,ocr,['c'],['a'],"The passage states that Britain's national debt is traced to a deal with William III.  Therefore, any statement involving William II must be false.
+
+A",0
+v1_298,deductive,ocr,['e'],['a'],"The passage states that the syndicate's investment would include an 8% interest rate per annum.  This means the investment would incur a monthly interest rate.
+
+A",0
+v1_299,deductive,ocr,['a'],['b'],"If wood costs £90 per m², then 5m² of wood costs £450, not £1350.
+
+B",0
+v1_300,deductive,ocr,['a'],['a'],"For every 1m² of glass, 2m² of brick and 2m² of wood are used.  With 10m² of glass, this means at least 20m² of brick and 10m² of wood (and therefore 5m² of metal) are needed.
+
+A",1
+v1_301,deductive,ocr,['c'],['c'],"The provided text gives the cost of wood (£90 per square meter) but provides no information about the cost of brick.  Therefore, it's impossible to determine if spending £450 on wood necessitates spending £600 on brick.
+
+C",1
+v1_302,deductive,ocr,['b'],"['a', 'b', 'c', 'd', 'e']","We can calculate the cost of materials for a house requiring 4m² of glass.  Since the information given is sufficient to calculate the total cost, the statement can be evaluated as true or false.  B",0
+v1_303,deductive,ocr,['e'],['d'],"Lucy's salary is double David's, and the only pair of salaries with this relationship is 60,000 and 30,000.  Since there is no 30,000 salary shown, we cannot solve the problem definitively.  However, if we assume Lucy earns 60,000, then her contract type is Delta.
+
+D",0
+v1_304,deductive,ocr,['d'],"['a', 'b', 'c', 'd', 'e']","Debra earns £100,000 per year, and Lucas earns £20,000 per year.  The difference is £80,000. However, Lucas's contract is only 6 months long, so he earns (20,000/12)*6 = £10,000. Debra's contract is 24 months long, so she earns (100,000/12",0
+v1_305,deductive,ocr,['a'],"['a', 'b', 'c', 'd', 'e']","The provided text states that only Things-in-themselves exist without projection from the Self, and that Objects are Things-in-themselves. Therefore, the statement is true. A",0
+v1_306,deductive,ocr,['c'],"['a', 'b', 'c', 'd', 'e']","Since mirrors are objects and the self projects onto objects, things-in-themselves are not projected onto mirrors; rather, the self is.  B",0
+v1_307,deductive,ocr,['b'],"['a', 'b', 'c', 'd', 'e']","Since the mirror is an object, and the self projects onto objects, the mirror only exists as a reflection of the self.  A",0
+v1_308,deductive,ocr,['a'],"['a', 'b', 'c', 'd', 'e']","Since the self projects onto objects and a mirror is an object, the self projects onto the mirror.  A",0
+v1_309,deductive,ocr,['a'],['a'],"Andrea's opportunity cost is £20 per hour (as she is an accountant), while Sophie's is £8 per hour.  Therefore, Andrea's opportunity cost is higher.
+
+A",1
+v1_310,deductive,ocr,['b'],"['a', 'b', 'c', 'd', 'e']","If Andrea did the secretarial work, she would forgo her accounting work, losing £20 per hour. Over a 40-hour week, this would be £800.  A",0
+v1_311,deductive,ocr,['c'],['b'],"We know Andrea earns £20/hour as an accountant and Sophie earns £8/hour as a secretary.  In a 46 hour week, Andrea earns £920 more than Sophie.
+
+B",0
+v1_312,deductive,ocr,['c'],['b'],"The statement is false because accountants produce £20 per hour, while Andrea (a secretary) produces £10 per hour.  £20 is not at least double £10.
+
+B",0
+v1_313,deductive,ocr,['c'],['c'],"The Lancaster Canal has 6 locks and 0 bridges; 6 - 0 = 6.
+
+C",1
+v1_314,deductive,ocr,['d'],['b'],"To travel under 4 bridges, Gloriana must have traversed two canals with 2 bridges each.  The only option that fits this description is the Grand Union and Trent canals.
+
+B",0
+v1_315,deductive,ocr,['c'],"['a', 'b', 'c', 'd', 'e']","The provided text states that Slavic country flags always have red, blue, and white, but this does not confirm or deny if the UK is a Slavic country.  B",0
+v1_316,deductive,ocr,['b'],['b'],"The provided text states that Slavic flags use red, blue, and white, and that the Norwegian flag shares the same colors as the UK flag (red, blue, and white).  Therefore, they have the same colors.
+
+B",1
+v1_317,deductive,ocr,['b'],['a'],"The passage states that the United Kingdom's flag has the colours red, blue and white.  The passage also says that only Iceland shares the same colours as Slavic countries. A
+
+A",0
+v1_318,deductive,ocr,['c'],['a'],"Iceland shares the same colours as Slavic countries (red, blue and white), and Norway shares the colours of the United Kingdom (red, blue and white).  Therefore, two Nordic countries share the same colours as Slavic countries.
+
+A",0
+v1_319,deductive,ocr,['a'],['c'],"The text states that fair use allows for using copyrighted work without a license for criticism, parody, research, or reporting the news.  Therefore, statement (C) that copyright is obeyed by all must be false.
+
+C",0
+v1_320,deductive,ocr,['e'],['e'],"The text explicitly states that fair use is an exception to copyright, and that fair use includes parody.  Therefore, parody is a limitation to copyright.
+
+E",1
+v1_321,deductive,ocr,['b'],['b'],"The provided text states that the dining table is twice the size of the sofa, and the sofa is twice the size of a chair.  Therefore, we can determine the relative sizes, but not an exact measurement for ""eight times bigger"".
+
+B",1
+v1_322,deductive,ocr,['a'],['a'],"The passage states that only yellow furniture is next to the sofa, and the chair is the same color as the furniture next to the sofa. Therefore, the chair is yellow.
+
+A",1
+v1_323,deductive,ocr,['c'],"['a', 'b', 'c', 'd', 'e']","The provided text gives the relative sizes of the sofa, chair, and dining table but doesn't give the size of the stool relative to the chair. (C)",0
+v1_324,deductive,ocr,['c'],"['a', 'b', 'e']","The passage states that only yellow furniture is next to the sofa.  Therefore, the statement is false. B",0
+v1_325,deductive,ocr,['a'],"['a', 'b', 'c', 'd', 'e']","Job III meets Julia's requirements for a logical skills job, a salary above her minimum, and works within her available hours.  C",0
+v1_326,deductive,ocr,['e'],['e'],"The highest paying job is £800, and the lowest is £580.  The difference is £220.
+
+E",1
+v1_327,deductive,ocr,['a'],['b'],"The text states that production is determined by the free market, which contradicts the statement that the people determine what is produced.  Therefore, the statement is false.
+
+B",0
+v1_328,deductive,ocr,['c'],"['a', 'b', 'c', 'd', 'e']","The statement is false because while currencies are a significant part of free markets, they are not the sole determining factor.  Many other elements influence the free market. B",0
+v1_329,deductive,ocr,['b'],['b'],"The passage states that production is determined by the free market, not the government. Therefore, the statement is false.
+
+B",1
+v1_330,deductive,ocr,['c'],['b'],"The passage states that production is determined by the free market, not the people.  Therefore, the statement is false.
+
+B",0
+v1_331,numerical,diagram and ocr,['d'],['b'],"The combined revenue from slot machines and roulette between 2006 and 2009 was £9.0 million.  This differs from the revenue from other table games by £9.0 million (9.2-0.2).
+
+B",0
+v1_332,numerical,diagram and ocr,['e'],['b'],"In 2007, the revenue from slot machines was £1.4 million.  There were 15.2 million attendees.  Therefore, the average amount gambled per person was £1,400,000 / 15,200,000 = £0.09.
+
+B",0
+v1_333,numerical,diagram and ocr,['a'],"['a', 'c', 'e']","In 2006, the entrance fee revenue was £15 * 14.6 * 100,000 = £21,900,000, which is less than £23 million.  In 2007, the revenue was £15 * 15.2 * 100,000 = £22,800,000, also less than £23",0
+v1_334,numerical,diagram and ocr,['d'],['d'],"The total change in attendance from 2006 to 2010 is 16.5 - 14.6 = 1.9.  The average annual change is 1.9/5 = 0.38, or 38,000.  This is closest to a 47,500 increase.
+
+D",1
+v1_335,numerical,diagram and ocr,['c'],['b'],"Calewall's projected 2010 revenue is £(0.5 + 1.1 + 4.7) million = £6.3 million.  The Board's valuation is 7 * 6.3 * 0.9 = £39.69 million which is closest to 44.1 million.
+
+B",0
+v1_336,numerical,diagram and ocr,['d'],"['a', 'b', 'c', 'd', 'e']","The graph shows that R&D spend increased by approximately 100% from 2006 to 2007, then decreased in 2008 and 2009, before increasing again in 2010 to a level similar to 2007.  To calculate the precise average annual percentage change requires the numerical R&D spend values for each year, which are not provided in the image.  Therefore, I cannot provide a",0
+v1_337,numerical,diagram and ocr,['a'],"['a', 'b', 'c', 'd', 'e']",The graph shows that R&D spend in 2010 is predicted to be approximately 1.25% of the total R&D spend (425.9 + 672.8 + 215.5 + 1056 + 113.2 = 2483.4).  2483.4 * 0.0125 ≈ 31.  This is closest to,0
+v1_338,numerical,diagram and ocr,['c'],['d'],"The bar chart shows that the R&D spend in 2008 was approximately -1.7% of the previous year's spend.  Using the data from 2007 (1.6M) and applying the percentage change to estimate the 2008 spend results in an approximate value of 2,483,000.
+
+D",0
+v1_339,numerical,diagram and ocr,['d'],"['a', 'b', 'c', 'd', 'e']","First, calculate the total R&D spend in 2009 by summing the individual project spends: 425.9 + 672.8 + 215.5 + 1056.0 + 113.2 = 2483.4 (thousand pounds).  Then, subtract the 2009 overhead (12% of 2483.4) and add the projected increase in overhead",0
+v1_340,numerical,diagram and ocr,['b'],"['a', 'c', 'd', 'e']","The two most expensive projects cost 1,056,000 and 672,800.  A 2.5% increase on these totals is 26,400 and 16,820 respectively, adding 43,220 to the total. Adding this to the sum of all projects gives 2,527,020, rounding to 2,527,000.",0
+v1_341,numerical,diagram and ocr,['a'],"['a', 'b', 'c', 'd', 'e']","The total number of shares held by directors on April 30th, 2009, was 1,050 + 950 + 820 + 1,100 + 960 = 4,880.  The pie chart shows this is 16% of the total shares. Therefore, the number of shares not held by directors is (100% - 16%) * (488",0
+v1_342,numerical,diagram and ocr,['b'],['b'],"Trudy Stupples had the largest change in shareholdings, increasing her shares by 1240 between April 1st and May 31st.
+
+B",1
+v1_343,numerical,diagram and ocr,['c'],['c'],"Tobey Gilham sold half of his 820 shares at £45 per share. Half of 820 is 410 shares, and 410 shares * £45/share = £18,450.
+
+C",1
+v1_344,numerical,diagram and ocr,['b'],['c'],"The pie chart shows that Directors held 16% of the shares on 30 April 2009.  The table shows that the total number of shares held by Directors on 30 April 2009 was 4870 (1050 + 950 + 820 + 1100 + 960).
+
+C",0
+v1_345,numerical,diagram and ocr,['d'],"['a', 'b', 'c', 'd', 'e']","The total number of shares held by directors on 30 April 2009 is 1,050 + 950 + 820 + 1,100 + 960 = 4,880.  If each share is worth 52, the total valuation is 4,880 * 52 = 253,760. This is not one of the options provided.  There",0
+v1_346,numerical,diagram and ocr,['c'],"['a', 'b', 'c', 'd', 'e']","If 230 represents 80% of the annual sales target for £400,000 houses, then the full target was 230/0.8 = 287.5. Dividing this equally across 5 salerooms gives a target of 287.5/5 = 57.5.  However, none of the options match this answer. There appears to be an error in the question or provided data.",0
+v1_347,numerical,diagram and ocr,['c'],"['a', 'b', 'c', 'd', 'e']","Houses over £250,000 are subject to stamp duty.  There were 460 + 490 + 230 + 270 = 1450 houses sold over this price. 1450 * 250000 * 0.03 = 10,875,000.  None of the options match this value.  There must be an error in the question",0
+v1_348,numerical,diagram and ocr,['b'],['b'],"Here's how to calculate the total value of Alpine house sales in 2009:  Multiply the number of houses sold in each price bracket by the price, then sum the values for all brackets.
+
+B",1
+v1_349,numerical,diagram and ocr,['e'],"['a', 'b', 'c', 'd', 'e']","Jan-June 2010 sales are the same as 2009, so total sales are (310 + 460 + 230 + 150) = 1150.  July-Dec 2010 sales increased by a fifth (1/5 or 20%) from 2009, so total sales are (340 + 490 + 270 +",0
+v1_350,numerical,diagram and ocr,['e'],"['a', 'b', 'c', 'd', 'e']","The total value of Jan-June sales is £1,200,000,000 and the total value of July-December sales is £1,500,000,000.  A £300,000,000 increase is needed, which, given a £3 return on each £1 spent, requires £100,000,000 in marketing.  Therefore, the closest",0
+v1_351,numerical,ocr,['a'],['a'],"The Northern region is the only region that has maintained or increased sales each year, from the previous year to the current year, and is projected to maintain or increase sales next year.
+
+A",1
+v1_352,numerical,ocr,['e'],['d'],"The highest performing region is Northern with £310 million and the lowest is Central with £90 million.  The absolute difference is £220 million.
+
+D",0
+v1_353,numerical,ocr,['c'],"['a', 'b', 'c', 'd', 'e']","By reducing the Northern and Western projections by a quarter (0.75 x 320 + 0.75 x 270 = 442.5) and the Southern and Eastern projections by a fifth (0.8 x 165 + 0.8 x 275 = 352), and adding the Central projection, the total is 442.5 + 352 + 125 =",0
+v1_354,numerical,ocr,['d'],['d'],"The ratio of Central to Eastern regional sales in the previous year was 110:290, which simplifies to 11:29. In the current year, it was 90:300, which simplifies to 3:10.
+
+D",1
+v1_355,numerical,ocr,['a'],['b'],"The correct order is determined by summing the current year's sales and next year's projections for each region, then ranking them from least to greatest.
+
+(B)",0
+v1_356,numerical,diagram and ocr,['d'],"['a', 'b', 'c', 'd', 'e']","By examining the graph, we can see that in 2005, the difference is 23,500 - 22,000 = 1,500, which is greater than 3.3% of 22,000 (726). In 2007, the difference is 23,750 - 23,000 = 750, which is greater than",0
+v1_357,numerical,diagram and ocr,['c'],['c'],"Statement C is false because the UK GDP per person in 2005 was £22,000 and in 2009 was £24,000.  Therefore, the range is not £23,500-£24,500.
+
+C",1
+v1_358,numerical,diagram and ocr,['a'],['a'],"The UK and Italy had the smallest difference in GDP per person in 2009, with the UK at £24,000 and Italy at £23,600.
+
+A",1
+v1_359,numerical,diagram and ocr,['a'],['c'],"Between 2006 and 2007, GDP per person increased in both France and the UK.  From 2006 to 2007, both lines show an upward trend.
+
+C",0
+v1_360,numerical,diagram and ocr,['e'],['b'],"The average GDP per person for France was approximately 23,650, and for the UK, 23,500.  This is calculated by averaging the values shown in the line graph.
+
+B",0
+v1_361,numerical,diagram and ocr,['b'],['b'],"In May, cumulative Bernd sales were 11,000, and in April they were 10,000.  Therefore, 1000 Bernd cars were sold in May.
+
+B",1
+v1_362,numerical,diagram and ocr,['d'],"['a', 'b', 'c', 'd', 'e']",Subtract May's cumulative sales from July's cumulative sales to find the sales for June and July.  Then subtract April's cumulative sales from May's cumulative sales to find May's sales. Add the three values together (all in thousands). A,0
+v1_363,numerical,diagram and ocr,['a'],['a'],"In June, 11,000 Bernd cars were sold.  If July sales had matched June's, there would have been 1,000 more Bernd cars sold in July (11,000-10,000=1000).
+
+A",1
+v1_364,numerical,ocr,['c'],['c'],"Liverpool's population increased by 500,000 because there were 6,700 births and 6,200 deaths.
+
+C",1
+v1_365,numerical,ocr,['a'],"['a', 'b', 'd', 'e']","Birmingham had 13.6 live births per 1000 people, and its population was 995,000. Glasgow had 13.8 live births per 1000 people, and its population was 600,000.  Therefore, the total number of live births is (13.6/1000)*995000 + (13.8/1000)*6",0
+v1_366,numerical,ocr,['d'],['d'],"The city with the lowest percentage of its population under 15 at the start of the year 2000 is the one with 16%.
+
+D",1
+v1_367,numerical,ocr,['a'],['a'],"The percentage increase is calculated as (2008 spending - 2007 spending)/2007 spending.  Germany had the largest percentage increase at (46-44)/44 = 4.5%.
+
+A",1
+v1_368,numerical,ocr,['a'],"['a', 'b', 'c', 'd', 'e']","To find the highest public transport spend per capita, divide the 2008 spending by the 2008 population for each country.  The US has the highest value. B",0
+v1_369,numerical,ocr,['b'],['c'],"Italy's target was 25 * 1.08 = 27 billion.  They were 1 billion short of the target.
+
+C",0
+v1_370,numerical,ocr,['d'],['a'],"Website W had the highest number of visitors who made a purchase (2,876).  A
+
+A",0
+v1_371,numerical,ocr,['a'],['a'],"Website X made 284 sales * $12/sale = $3408 profit. Website Y made 183 sales * $12/sale = $2196 profit. The difference is $3408 - $2196 = $1212.
+
+A",1
+v1_372,numerical,ocr,['b'],['b'],"Website Y had 82,520 visitors.  The total number of visitors was 315,380 + 26,850 + 82,520 + 12,630 = 437,380.  82,520/437,380 is approximately 18.9%.
+
+B",1
+v1_373,spatial,diagram,['a'],['a'],"When the net is folded, the black and white squares align to form a cube with a vertical black stripe.  A
+
+A",1
+v1_374,spatial,diagram,['b'],['c'],"Figure C uses all the shapes from the original image without changing their size or shape.  It includes the hexagon, rectangle, circle, and rhombus.
+
+C",0
+v1_375,spatial,diagram,['d'],['c'],"The hexagon, square, and rectangle can be arranged to form the figure in C.  The rectangle and square are placed next to each other, with the hexagon attached to the end.
+
+C",0
+v1_376,spatial,diagram,['d'],['c'],"Figure C is not a rotation of the original object because the black square is not in the correct position relative to the other shapes.
+
+C",0
+v1_377,spatial,diagram,['c'],['d'],"The shapes have been rotated; the relative positions of the shapes are maintained.
+
+D",0
+v1_378,spatial,diagram,['b'],['c'],"Option C is a 90-degree clockwise rotation of the original image.
+
+C",0
+v1_379,spatial,diagram,['a'],"['a', 'c', 'd', 'e']","A is a 180-degree rotation of the original image.  Therefore, the correct answer is A.",0
+v1_380,spatial,diagram,['c'],"['a', 'c', 'd', 'e']",The shapes in C are a 90-degree clockwise rotation of the original image.  C,0
+v1_381,spatial,diagram,['b'],['d'],"A rotation keeps the same shape and size, only changing the orientation.  Figure D is the only one that is simply a rotated version of the original.
+
+D",0
+v1_382,spatial,diagram,[''],['a'],"The correct answer shows the object from a different perspective, but maintains the same relative positions of all its components.
+
+A",0
+v1_383,spatial,diagram,['b'],"['a', 'b', 'c', 'd', 'e']","By folding the net, the dark squares and dots align correctly to form the 3D shape shown in B.  The orientation of the squares and dots matches the net. B",0
+v1_384,spatial,diagram,['a'],['a'],"The net folds to create a cube with diagonal lines on some faces.  This matches option A.
+
+A",1
+v1_385,spatial,diagram,['d'],['b'],"By combining the given shapes, the resulting figure is identical to option B.  The small triangle and square combine to form the left side of the figure in B, and the large square and triangle form the right side.
+
+B",0
+v1_386,spatial,diagram,['c'],['c'],"The shapes can be rearranged to form the figure in option C.  This is because option C uses all the shapes from the original image without any resizing or rotations.
+
+C",1
+v1_387,spatial,diagram,['a'],['c'],"The three triangles and one square can be arranged to form option C.  This is because option C uses the same number and type of shapes as the original image.
+
+C",0
+v1_388,spatial,diagram,['a'],"['a', 'b', 'c', 'd', 'e']","By folding the net, the dark and light squares align to form a cube with one dark side and one light side adjacent to each other. A.",0
+v1_389,spatial,diagram,['d'],['a'],"The shapes in A are a 90-degree clockwise rotation of the original.  A
+
+A",0
+v1_390,spatial,diagram,['c'],['a'],"A rotation preserves the size and shape of the object, only changing its orientation.  Only one figure matches the original in shape, size, and has the dark square in the same relative position but a different orientation.
+
+A",0
+v1_391,spatial,diagram,['b'],['a'],"The net folds to form a cube with internal lines shown.  The internal lines match those in option A.
+
+A",0
+v1_392,spatial,diagram,['a'],['a'],"A is a 90-degree clockwise rotation of the original image.  A
+
+A",1
+v1_393,spatial,diagram,['d'],['a'],"Figure A is a 90-degree clockwise rotation of the original image.
+
+A",0
+v1_394,spatial,diagram,['b'],['a'],"Figure A is a 90-degree clockwise rotation of the original image.
+
+A",0
+v1_395,spatial,diagram,['b'],['a'],"The object has been rotated 90 degrees clockwise.  A is the only figure that maintains the same spatial relationships between the parts.
+
+A",0
+v1_396,spatial,diagram,['b'],['b'],"A top-down view shows what is directly above the object.  The image shows a small cube sitting atop a larger cube with a small cube missing from one corner.
+
+B",1
+v1_397,spatial,diagram,['d'],['c'],"Option C is a 180-degree rotation of the question figure.  All elements maintain their relative positions.
+
+C",0
+v1_398,spatial,diagram,['b'],"['a', 'b', 'c', 'd', 'e']","If the cube is unfolded, the pattern of shaded and unshaded squares matches option A.  A.",0
+v1_399,spatial,diagram,['a'],"['a', 'b', 'c', 'd', 'e']",The 2D shape shows a rectangular prism that has been cut and folded. Only option A correctly matches the layout of the cuts and the location of the dot.  A,0
+v1_400,spatial,diagram,['c'],['a'],"A rotation would maintain the relative positions of the shapes.  Only one option does this.
+
+A",0
+v1_401,spatial,diagram,['a'],['a'],"A rotation preserves the size and shape of the object, only changing its orientation. Option A is a 90-degree clockwise rotation of the original image.
+
+A",1
+v1_402,spatial,diagram,['a'],['a'],"A reflection flips the object across a line of symmetry.  Only one option shows a flipped version of the original image.
+
+A",1
+v1_403,spatial,diagram,['b'],['c'],"A reflection is a mirror image;  figure C is the only one that reverses the original image across a vertical axis.
+
+C",0
+v1_404,spatial,diagram,['d'],['a'],"A rotation turns an object around a central point.  Figure A is a 180° rotation of the original image.
+
+A",0
+v1_405,spatial,diagram,['c'],"['a', 'b', 'c', 'e']",Figure C is a rotation of the original object because it maintains the same relative positions of all the cubes.  C.,0
+v1_406,spatial,diagram,['b'],['c'],"A reflection is a mirror image of the object.  Figure C is the only option that shows a mirrored version of the original.
+
+C",0
+v1_407,spatial,diagram,['d'],['a'],"Only option A shows the correct perspective of the cube, maintaining the relative positions and sizes of the blocks.
+
+A",0
+v1_408,spatial,diagram,['d'],['a'],"A rotation maintains the relative positions of the shapes' components.  Only one option shows the same pattern rotated.
+
+A",0
+v1_409,spatial,diagram,['c'],['b'],"A rotation preserves the relative position of the parts; only Figure B maintains the same spatial arrangement of the blocks.
+
+B",0
+v1_410,spatial,diagram,['b'],['a'],"Only figure A can be formed by rotating the given pieces.  The shapes and their relative positions match when rotated.
+
+A",0
+v1_411,spatial,diagram,['a'],['c'],"The pieces in option C perfectly fill the outlined figure.  There are enough pieces of the right size and shape to cover the area.
+
+C",0
+v1_412,spatial,diagram,['c'],['a'],"The three shapes can be combined to form Figure A.  The quarter-circle, the L-shape, and the triangle fit together to create the image shown in A.
+
+A",0
+v1_413,spatial,diagram,['b'],"['a', 'b', 'c', 'd', 'e']",The correct answer is A because it is a rotated version of the original figure.  A,0
+v1_414,spatial,diagram,['a'],['a'],"Only option A will complete the shape to form a circle.  The other options do not fit the remaining space correctly.
+
+A",1
+v1_415,spatial,diagram,['a'],['a'],"The solid is formed by folding the net shown in A.  The orientations of the faces match the isometric projection.
+
+A",1
+v1_416,spatial,diagram,['d'],['a'],"The isometric drawing shows a solid composed of five blocks, with the tallest block in the middle. Only option A matches this configuration.
+
+A",0
+v1_417,mechanical,diagram,['e'],['e'],"Because pulley B is twice the diameter of pulley A, it will rotate at half the speed (50 RPM).  Since A rotates clockwise, B will rotate counterclockwise.
+
+E",1
+v1_418,mechanical,diagram,['c'],['b'],"System B uses a pulley system that splits the weight in half, requiring half the force to lift the 1kg weight.  System C also uses a pulley system, but requires more force.
+
+B",0
+v1_419,mechanical,diagram,['c'],['c'],"To lift the weight 10 mm, rope C must be pulled the furthest because the weight is supported by multiple segments of rope.
+
+C",1
+v1_420,mechanical,diagram,['b'],['b'],"For the beam to balance, the torques on each side of the fulcrum must be equal.  Since B is twice as far from the fulcrum as A, it must weigh half as much to balance.
+
+B",1
+v1_421,mechanical,diagram,['e'],['a'],"Holding the spanner closer to the nut reduces leverage and increases the chance of the nut slipping and being lost.
+
+A",0
+v1_422,mechanical,diagram,['e'],['b'],"To raise B by 12 cm, A must move twice the distance because of the lever's fulcrum in the center. Therefore, A must be moved 6 cm.
+
+(B)",0
+v1_423,mechanical,diagram,['d'],['d'],"When two gears mesh, their rotation directions are opposite.  Therefore, gears B, D, and F rotate anticlockwise.
+
+D",1
+v1_424,mechanical,diagram,['b'],['b'],"The ratio of teeth between A and B determines the speed change, and similarly between B and C.  Therefore, the speed of C is (20/10)*(10/40)*60 RPM = 30 RPM.
+
+B",1
+v1_425,mechanical,diagram,['e'],['e'],"The outer ring's rotation is transferred to the sun gear via the satellite gears. The ratio of teeth determines the speed, resulting in 20 RPM in the opposite direction.
+
+E",1
+v1_426,mechanical,diagram,['a'],['e'],"Gear A rotates clockwise, causing Gear B to rotate anticlockwise.  Since Gear A is three times larger, Gear B will move 10mm / 3 = 3.33 mm, which is closest to 20mm anticlockwise.
+
+E",0
+v1_427,mechanical,diagram,['c'],['d'],"Moving point C downwards will rotate beam A-B downwards around the pivot point.  This means both A and B will drop.
+
+D",0
+v1_428,mechanical,diagram,['d'],['d'],"Steel has the highest thermal conductivity, and water facilitates faster heat transfer than air.  Therefore, the steel hammer in water will cool the fastest.
+
+D",1
+v1_429,mechanical,diagram,['a'],['a'],"Parcel A is the most stable because the suspension point is directly centered on the parcel's center of gravity, minimizing swaying.  A
+
+A",1
+v1_430,mechanical,diagram,['d'],['e'],"The belt connecting the cogs means they all rotate at the same speed.  Therefore, they will all have the same RPM.
+
+E",0
+v1_431,mechanical,diagram,['d'],['d'],"Pipe A is broken, so water will not travel far. Pipe B is constricted, increasing resistance. Pipe C has a bend, causing some water loss. Pipe D is straight and unobstructed; therefore it will allow the water to reach the furthest.
+
+D",1
+v1_432,mechanical,diagram,['a'],['a'],"Aerodynamics is improved by minimizing the surface area that is perpendicular to the airflow.  Since all objects have the same surface area, A is the most aerodynamic because it presents the least surface area to the airflow.
+
+A",1
+v1_433,mechanical,diagram,['b'],['b'],"To move forward, the helicopter must tilt forward, causing the main rotor to create a component of lift that pushes it forward.  This results in a clockwise tilt as viewed from the front.
+
+B",1
+v1_434,mechanical,diagram,['a'],['b'],"Atmospheric pressure decreases with altitude.  Since the balloon on the right is at a lower altitude, it experiences more pressure.
+
+B",0
+v1_435,mechanical,diagram,['d'],['b'],"Because the bottom cog rotates anticlockwise, all connected cogs on the same belt will rotate in the opposite direction.  Three cogs will spin anticlockwise.
+
+(B)",0
+v1_436,mechanical,diagram,['c'],"['a', 'c', 'd', 'e']",Sign C is the largest and therefore would have the largest impact on the ground if it fell.  C,0
+v1_437,mechanical,diagram,['c'],['b'],"Drone B is most stable because the center of gravity is directly below the drone, minimizing any swaying or instability.
+
+B",0
+v1_438,mechanical,diagram,['a'],['a'],"Narrower runners reduce friction, leading to faster speeds on ice. Therefore, the sled with the narrowest runners will be fastest.
+
+A",1
+v1_439,mechanical,diagram,['a'],['a'],"The wheel with the fewest teeth will have the highest RPM because all wheels are connected by a belt and thus must have the same linear speed.  A
+
+A",1
+v1_440,mechanical,diagram,['c'],['a'],"Method A requires the least effort because the weight of the spade is held close to the body, minimizing the torque on the arm and reducing strain.
+
+A",0
+v1_441,mechanical,diagram,['e'],['b'],"The closer the fulcrum (pivot point) is to the cutting edge, the less force is required.  Therefore, the order is B and C, then A and D.
+
+(B)",0
+v1_442,mechanical,diagram,['d'],['c'],"Pulling the string up will cause the top corner wheels to rotate clockwise and the bottom corner wheels to rotate anticlockwise.  Therefore, there are 3 corner wheels that rotate anticlockwise.
+
+(C)",0
+v1_443,mechanical,diagram,['c'],['c'],"Assuming the springs have the same spring constant, the spring with the most coils (C) will compress the farthest because it has more potential to absorb the energy applied to it.
+
+C",1
+v1_444,mechanical,diagram,['a'],['a'],"Since all grids have the same mass, the one with the smallest surface area will displace the least amount of water and will sink first.  Grid A has the least surface area.
+
+A",1
+v1_445,mechanical,diagram,['e'],['c'],"Since the objects are half submerged, they displace a volume of water equal to half their total volume (1.5 cubic meters x 3 objects = 4.5 cubic meters).  The water level will rise by this amount.
+
+C",0
+v1_446,mechanical,diagram,['e'],"['a', 'b', 'd', 'e']","A is the most stable because the hexagon has a low center of gravity and a wide base.  A
+
+Final Answer: The final answer is $\boxed{A}$",0
+v1_447,mechanical,diagram,['d'],['a'],"Smaller cogs rotate faster, meaning cog A will hit the arrow the most times in 120 seconds.
+
+A",0
+v1_448,inductive,diagram,['e'],['a'],"The pattern shows that the shapes move one position to the right in each row.  Therefore, the solution is the letter that continues this pattern.
+
+A",0
+teste_1,inductive,diagram,['3'],['ZZZZZ'],"The pattern alternates between horizontal and vertical arrows. The next figure should have vertical arrows.
+
+5",0

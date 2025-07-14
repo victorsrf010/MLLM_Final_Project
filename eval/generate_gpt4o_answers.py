@@ -2,20 +2,47 @@ from openai import OpenAI
 import base64
 import os
 import json
-from tqdm import tqdm
 import constants
+import requests
+from tqdm import tqdm
 
 client = OpenAI(api_key=constants.APIKEY)
 
 # Load dataset
-with open(os.path.join(constants.DATASET_PATH, "dataset.json"), "r", encoding="utf-8") as f:
+with open(constants.DATASET_PATH, "r", encoding="utf-8") as f:
     dataset = json.load(f)
 
-answers = {}
+# Prepare output path
+answers_dir = os.path.join(os.path.dirname(__file__), "answers")
+os.makedirs(answers_dir, exist_ok=True)
+out_path = os.path.join(answers_dir, "gpt-4o-answers.json")
 
-for key in tqdm(dataset):
+# Load existing answers if available
+if os.path.exists(out_path):
+    with open(out_path, "r", encoding="utf-8") as f:
+        answers = json.load(f)
+else:
+    answers = {}
+
+# Preflight check
+try:
+    requests.get("https://api.openai.com/v1/models", headers={"Authorization": f"Bearer {constants.APIKEY}"})
+    print("API connection OK")
+except Exception as e:
+    print("Preflight OpenAI test failed:", e)
+    exit(1)
+
+# Determine missing entries
+keys_to_run = [
+    key for key in dataset
+    if key not in answers or not answers[key].get("answer")
+]
+
+print(f"Found {len(keys_to_run)} unanswered entries.")
+
+for key in tqdm(keys_to_run):
     item = dataset[key]
-    image_file = os.path.join(constants.DATASET_PATH, "images", item["imagename"])
+    image_file = os.path.join(constants.PROJECT_ROOT, "data", "images", item["imagename"])
 
     if not os.path.exists(image_file):
         print(f"Image missing for {key}, skipping.")
@@ -50,7 +77,8 @@ for key in tqdm(dataset):
         print(f"Error with {key}: {e}")
         answers[key] = {"answer": ""}
 
-# Save output
-os.makedirs("answers", exist_ok=True)
-with open("answers/gpt-4o-answers.json", "w", encoding="utf-8") as f:
+# Save updated answers
+with open(out_path, "w", encoding="utf-8") as f:
     json.dump(answers, f, indent=2, ensure_ascii=False)
+
+print("Done.")
