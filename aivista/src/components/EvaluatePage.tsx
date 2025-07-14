@@ -6,6 +6,7 @@ export default function EvaluatePage() {
   const [model, setModel] = useState('gpt-4o')
   const [loading, setLoading] = useState(false)
 
+  // Load model from config
   useEffect(() => {
     fetch('/api/config')
       .then((res) => res.json())
@@ -14,6 +15,20 @@ export default function EvaluatePage() {
       })
       .catch(() => setModel('gpt-4o'))
   }, [])
+
+  // Save model and preserve API keys
+  useEffect(() => {
+    if (!model) return
+
+    const openai = localStorage.getItem('openai') || ''
+    const google = localStorage.getItem('google') || ''
+
+    fetch('/api/config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ model, openai, google }),
+    })
+  }, [model])
 
   const runStep = async (step: 'generate' | 'extract' | 'analyze') => {
     setLoading(true)
@@ -36,13 +51,12 @@ export default function EvaluatePage() {
 
         <select
           value={model}
-          onChange={(e) => setModel(e.target.value)} // previously disabled
+          onChange={(e) => setModel(e.target.value)}
           className="w-full border border-gray-300 rounded-md px-3 py-1.5 text-sm bg-white text-gray-700"
         >
           <option value="gpt-4o">GPT-4o</option>
           <option value="gemini">Gemini</option>
         </select>
-
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
           <button
@@ -77,6 +91,5 @@ export default function EvaluatePage() {
         </pre>
       </div>
     </div>
-
   )
 }
