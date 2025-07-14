@@ -8080,41 +8080,5 @@
     "imagesource": "reddit",
     "sourcelink": "https://www.reddit.com/r/whatisit/comments/1ic9qpe/what_is_the_answer_to_this_question_on_my_iq_test/",
     "liscenced": "false"
-  },
-  "teste_1": {
-    "imagename": "teste_1.png",
-    "question": "Qual é a figura seguinte?",
-    "answer": "2",
-    "reasoning": "Acrescenta-se uma ponta de seta por vez, alternando entre linha contínua e linha tracejada. A figura correta deve ter três pontas no total: duas tracejadas e uma contínua, seguindo a sequência.",
-    "skill": [
-      "inductive"
-    ],
-    "broad_capability": [
-      "patterns"
-    ],
-    "specific_capability": [
-      "completion"
-    ],
-    "imagesource": "textbook",
-    "sourcelink": "",
-    "liscenced": "false"
-  },
-  "teste_2": {
-    "imagename": "teste_2.png",
-    "question": "Que número completa a série: 1 2 9 ...?",
-    "answer": "730",
-    "reasoning": "A sequência pode estar seguindo uma regra complexa não aritmética ou geométrica simples. Com base na imagem e resposta do livro, o próximo número aceito é 730. A lógica exata não é evidente, podendo envolver transformação ou codificação não explícita.",
-    "skill": [
-      "deductive"
-    ],
-    "broad_capability": [
-      "patterns"
-    ],
-    "specific_capability": [
-      "pattern"
-    ],
-    "imagesource": "textbook",
-    "sourcelink": "",
-    "liscenced": "false"
   }
 }
