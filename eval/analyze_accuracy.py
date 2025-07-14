@@ -1,5 +1,10 @@
 import pandas as pd
 import constants
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--model', type=str, help='Model name to override config.json', default=None)
+args = parser.parse_args()
 
 df = pd.read_csv(constants.RESULTS_PATH)
 
@@ -20,7 +25,8 @@ def print_line(name, correct, total):
         score = f"{correct}/{total}"
     print(f"{name:<15}{acc:>10}{score:>15}")
 
-print(f"Model: {constants.MODEL}")
+MODEL = args.model if args.model else constants.MODEL
+print(f"Model: {MODEL}")
 
 # Reasoning Skill Accuracy
 print_header("Reasoning Skill Accuracy")

@@ -7,6 +7,7 @@ import requests
 from tqdm import tqdm
 
 client = OpenAI(api_key=constants.APIKEY)
+print("Using model: gpt-4o")
 
 # Load dataset
 with open(constants.DATASET_PATH, "r", encoding="utf-8") as f:
@@ -23,14 +24,6 @@ if os.path.exists(out_path):
         answers = json.load(f)
 else:
     answers = {}
-
-# Preflight check
-try:
-    requests.get("https://api.openai.com/v1/models", headers={"Authorization": f"Bearer {constants.APIKEY}"})
-    print("API connection OK")
-except Exception as e:
-    print("Preflight OpenAI test failed:", e)
-    exit(1)
 
 # Determine missing entries
 keys_to_run = [

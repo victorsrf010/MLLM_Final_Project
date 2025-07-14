@@ -7,6 +7,11 @@ import pandas as pd
 from tqdm import tqdm
 from openai import OpenAI
 import google.generativeai as genai
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--model', type=str, help='Model name to override config.json', default=None)
+args = parser.parse_args()
 
 # Load dataset
 with open(constants.DATASET_PATH, "r", encoding="utf-8") as f:
@@ -16,8 +21,20 @@ with open(constants.ANSWERS_PATH, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Init model
-MODEL = constants.MODEL
-APIKEY = constants.APIKEY
+MODEL = args.model if args.model else constants.MODEL
+
+# Load config.json manually
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
+with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+    config = json.load(f)
+
+if MODEL.startswith("gpt"):
+    APIKEY = config.get("OPENAI_APIKEY", "")
+elif MODEL.startswith("gemini"):
+    APIKEY = config.get("GOOGLE_APIKEY", "")
+else:
+    raise ValueError(f"Unsupported model: {MODEL}")
+
 
 if MODEL.startswith("gpt"):
     client = OpenAI(api_key=APIKEY)

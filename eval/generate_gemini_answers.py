@@ -8,6 +8,7 @@ from tqdm import tqdm
 genai.configure(api_key=constants.APIKEY)
 
 model = genai.GenerativeModel("gemini-1.5-flash")
+print("Using model: gemini-1.5-flash")
 
 # Load dataset
 with open(constants.DATASET_PATH, "r", encoding="utf-8") as f:

@@ -120,7 +120,7 @@ export default function InterfacePage() {
                 className="w-full border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:ring focus:ring-blue-300"
                 rows={3}
               />
-              
+
               <select
                 value={model}
                 onChange={(e) => setModel(e.target.value)}
@@ -169,13 +169,6 @@ export default function InterfacePage() {
 
           <div className="flex gap-2">
             <button
-              type="submit"
-              disabled={loading}
-              className="w-full bg-black text-white py-1.5 rounded-md text-sm hover:bg-gray-900 transition"
-            >
-              {loading ? 'Submitting...' : 'Submit'}
-            </button>
-            <button
               type="button"
               onClick={handleSaveSettings}
               className="w-full bg-gray-800 text-white py-1.5 rounded-md text-sm hover:bg-gray-900 transition"
@@ -189,12 +182,18 @@ export default function InterfacePage() {
             >
               Clear
             </button>
+            <button
+              type="submit"
+              disabled={loading}
+              className="w-full bg-black text-white py-1.5 rounded-md text-sm hover:bg-gray-900 transition">
+              {loading ? 'Submitting...' : 'Submit'}
+            </button>
           </div>
         </form>
-
         <div className="border border-gray-300 bg-gray-100 rounded-md p-3 max-h-64 overflow-auto whitespace-pre-wrap text-xs font-mono text-gray-700">
           {response || 'No response yet.'}
         </div>
+        
       </div>
     </div>
   )
