@@ -1356,6 +1356,3 @@ D",1
 v1_448,inductive,diagram,['e'],['e'],"The pattern is based on the increasing number of layers and the alternating size of the gears. The series alternates between small and large gears. The next in sequence should be large, following the pattern after the small gear.
 
 The letter is **E**.",1
-teste_1,inductive,diagram,['3'],"['a', 'e']","A sequência intercala a direção das setas: uma horizontal azul sólida e uma vertical preta tracejada. A figura seguinte deve ser uma seta horizontal azul apontando para a esquerda.
-
-Resposta: 5",0

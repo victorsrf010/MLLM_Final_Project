@@ -1199,6 +1199,3 @@ A",0
 v1_448,inductive,diagram,['e'],['a'],"The pattern shows that the shapes move one position to the right in each row.  Therefore, the solution is the letter that continues this pattern.
 
 A",0
-teste_1,inductive,diagram,['3'],['ZZZZZ'],"The pattern alternates between horizontal and vertical arrows. The next figure should have vertical arrows.
-
-5",0

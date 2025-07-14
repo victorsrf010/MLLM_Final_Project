@@ -1360,11 +1360,5 @@
   },
   "v1_453": {
     "answer": "A série de palavras na opção **d** não segue uma ordem alfabética, pois \"DILUIÇÃO\" deveria vir após \"DILUIR\". \n\nd."
-  },
-  "teste_1": {
-    "answer": "A sequência intercala a direção das setas: uma horizontal azul sólida e uma vertical preta tracejada. A figura seguinte deve ser uma seta horizontal azul apontando para a esquerda.\n\nResposta: 5"
-  },
-  "teste_2": {
-    "answer": "Cada número parece ser o quadrado do número anterior mais um (1^2+1=2, 2^2+1=5, 5^2+1=26).\n\nC"
   }
 }

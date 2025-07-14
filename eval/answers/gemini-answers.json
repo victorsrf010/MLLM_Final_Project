@@ -1345,8 +1345,5 @@
   },
   "v1_448": {
     "answer": "The pattern shows that the shapes move one position to the right in each row.  Therefore, the solution is the letter that continues this pattern.\n\nA"
-  },
-  "teste_1": {
-    "answer": "The pattern alternates between horizontal and vertical arrows. The next figure should have vertical arrows.\n\n5"
   }
 }

@@ -8084,19 +8084,19 @@
   "teste_1": {
     "imagename": "teste_1.png",
     "question": "Qual é a figura seguinte?",
-    "answer": "3",
-    "reasoning": "A figura segue uma alternância entre setas horizontais azuis e verticais pretas. A cada novo passo, há uma inversão de direção em ambos os eixos e uma troca da seta tracejada. A próxima figura deve repetir o padrão com seta azul para a direita e preta tracejada para cima e para baixo.",
+    "answer": "2",
+    "reasoning": "Acrescenta-se uma ponta de seta por vez, alternando entre linha contínua e linha tracejada. A figura correta deve ter três pontas no total: duas tracejadas e uma contínua, seguindo a sequência.",
     "skill": [
       "inductive"
     ],
     "broad_capability": [
-      "diagram"
+      "patterns"
     ],
     "specific_capability": [
-      "pattern"
+      "completion"
     ],
-    "imagesource": "manual",
-    "sourcelink": "livro",
+    "imagesource": "textbook",
+    "sourcelink": "",
     "liscenced": "false"
   },
   "teste_2": {
