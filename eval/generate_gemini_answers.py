@@ -4,8 +4,16 @@ import constants
 import google.generativeai as genai
 from tqdm import tqdm
 
-MODEL = "gemini"
-genai.configure(api_key=constants.APIKEY)
+# Allow override
+env_model = os.getenv("MODEL_OVERRIDE", "").strip().lower()
+if env_model == "gemini":
+    MODEL = "gemini"
+    APIKEY = os.getenv("GOOGLE_APIKEY", "").strip()
+else:
+    MODEL = constants.MODEL
+    APIKEY = constants.APIKEY
+
+genai.configure(api_key=APIKEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 print("Using model: gemini-1.5-flash")
 

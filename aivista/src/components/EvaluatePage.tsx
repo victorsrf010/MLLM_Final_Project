@@ -216,9 +216,15 @@ export default function EvaluatePage() {
           </>
         ) : (
           <pre className="border border-gray-300 bg-gray-100 rounded-md p-3 text-xs font-mono text-gray-700">
-            {typeof logs[model]?.analyze === 'string'
-              ? logs[model].analyze
-              : JSON.stringify(logs[model]?.analyze, null, 2) || 'No output yet.'}
+            {Object.entries(logs[model] || {}).map(([step, out]) => (
+              <div key={step}>
+                <strong>[{step.toUpperCase()}]:</strong>
+                <br />
+                {typeof out === 'string' ? out : JSON.stringify(out, null, 2)}
+                <br />
+                <br />
+              </div>
+            )) || 'No output yet.'}
           </pre>
         )}
 

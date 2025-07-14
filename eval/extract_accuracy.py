@@ -13,15 +13,16 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--model', type=str, help='Model name to override config.json', default=None)
 args = parser.parse_args()
 
+# Determine model
+MODEL = args.model if args.model else constants.MODEL
+
 # Load dataset
 with open(constants.DATASET_PATH, "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
 
-with open(constants.ANSWERS_PATH, "r", encoding="utf-8") as f:
+ANSWERS_PATH = constants.get_answers_path(MODEL)
+with open(ANSWERS_PATH, "r", encoding="utf-8") as f:
     data = json.load(f)
-
-# Init model
-MODEL = args.model if args.model else constants.MODEL
 
 # Load config.json manually
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
@@ -35,7 +36,7 @@ elif MODEL.startswith("gemini"):
 else:
     raise ValueError(f"Unsupported model: {MODEL}")
 
-
+# Init model
 if MODEL.startswith("gpt"):
     client = OpenAI(api_key=APIKEY)
     def run_llm(prompt):
@@ -53,12 +54,8 @@ elif MODEL.startswith("gemini"):
         res = model.generate_content(prompt)
         return res.text.strip()
 
-else:
-    raise ValueError(f"Unsupported model: {MODEL}")
-
 # Extract letters from final answer line
 def extract_final_letters(raw):
-    # Split lines and extract last line
     last_line = raw.strip().split("\n")[-1]
     matches = re.findall(r"[A-Ea-e]", last_line)
     return sorted(set([m.lower() for m in matches])) if matches else ["ZZZZZ"]
@@ -72,8 +69,6 @@ for id in tqdm(data):
     raw = data[id]["answer"].strip()
     q = ground_truth[id]["question"]
     raw_answer = raw
-
-    # Use local extraction for all answers
     extracted = extract_final_letters(raw)
 
     truth = [a.lower() for a in ground_truth[id]["answer"].split(", ")]
@@ -93,5 +88,6 @@ for id in tqdm(data):
 
     df = pd.concat([df, row], ignore_index=True)
 
-df.to_csv(constants.RESULTS_PATH, index=False)
-print(f"Saved to {constants.RESULTS_PATH}")
+RESULTS_PATH = constants.get_results_path(MODEL)
+df.to_csv(RESULTS_PATH, index=False)
+print(f"Saved to {RESULTS_PATH}")
